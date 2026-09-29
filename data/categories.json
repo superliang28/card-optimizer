@@ -1,0 +1,785 @@
+{
+  "_comment": "Canonical spending categories. `keywords` drive free-text search; `protections` lists which protections matter for purchases in this category; `parents` lets a specific category also match broader earning rules.",
+  "categories": {
+    "dining": {
+      "label": "Restaurants & dining",
+      "icon": "🍽️",
+      "keywords": [
+        "restaurant",
+        "restaurants",
+        "dining",
+        "dinner",
+        "lunch",
+        "brunch",
+        "breakfast",
+        "cafe",
+        "coffee",
+        "bar",
+        "pub",
+        "takeout",
+        "take-out",
+        "fast food",
+        "food delivery",
+        "delivery",
+        "pizza",
+        "sushi",
+        "burger",
+        "eat out",
+        "eating out",
+        "bakery",
+        "boba",
+        "tea",
+        "ice cream",
+        "dessert"
+      ],
+      "protections": []
+    },
+    "groceries": {
+      "label": "Groceries / supermarkets",
+      "icon": "🛒",
+      "keywords": [
+        "grocery",
+        "groceries",
+        "supermarket",
+        "market",
+        "food shopping",
+        "produce"
+      ],
+      "protections": []
+    },
+    "gas": {
+      "label": "Gas stations",
+      "icon": "⛽",
+      "keywords": [
+        "gas",
+        "gasoline",
+        "fuel",
+        "petrol",
+        "gas station",
+        "fill up"
+      ],
+      "protections": []
+    },
+    "ev-charging": {
+      "label": "EV charging",
+      "icon": "🔌",
+      "keywords": [
+        "ev charging",
+        "charger",
+        "charging station",
+        "supercharger",
+        "electrify"
+      ],
+      "protections": []
+    },
+    "transit": {
+      "label": "Transit, parking, tolls",
+      "icon": "🚇",
+      "keywords": [
+        "transit",
+        "subway",
+        "metro",
+        "bus",
+        "train",
+        "commute",
+        "commuting",
+        "parking",
+        "toll",
+        "tolls",
+        "taxi",
+        "cab",
+        "ferry",
+        "bart",
+        "muni",
+        "caltrain",
+        "amtrak",
+        "fastrak",
+        "ezpass",
+        "e-zpass"
+      ],
+      "protections": []
+    },
+    "rideshare": {
+      "label": "Rideshare (Uber / Lyft)",
+      "icon": "🚗",
+      "keywords": [
+        "rideshare",
+        "ride share",
+        "ride"
+      ],
+      "parents": [
+        "transit"
+      ],
+      "protections": []
+    },
+    "flights": {
+      "label": "Flights (booked with airline)",
+      "icon": "✈️",
+      "keywords": [
+        "flight",
+        "flights",
+        "airfare",
+        "airline",
+        "plane ticket",
+        "fly",
+        "flying",
+        "air ticket"
+      ],
+      "parents": [
+        "travel"
+      ],
+      "protections": [
+        "tripDelay",
+        "tripCancellation",
+        "baggageDelay",
+        "lostLuggage",
+        "travelAccident"
+      ]
+    },
+    "hotels": {
+      "label": "Hotels (booked direct)",
+      "icon": "🏨",
+      "keywords": [
+        "hotel",
+        "hotels",
+        "resort",
+        "lodging",
+        "motel",
+        "inn",
+        "stay",
+        "airbnb",
+        "vrbo"
+      ],
+      "parents": [
+        "travel"
+      ],
+      "protections": [
+        "tripCancellation",
+        "tripDelay"
+      ]
+    },
+    "marriott": {
+      "label": "Marriott Bonvoy hotels",
+      "icon": "🏨",
+      "keywords": [
+        "marriott",
+        "bonvoy",
+        "westin",
+        "sheraton",
+        "ritz",
+        "ritz-carlton",
+        "st regis",
+        "w hotel",
+        "courtyard",
+        "residence inn",
+        "fairfield",
+        "springhill",
+        "aloft",
+        "moxy",
+        "jw marriott",
+        "le meridien",
+        "renaissance",
+        "autograph collection",
+        "edition",
+        "four points",
+        "element",
+        "towneplace",
+        "delta hotels",
+        "gaylord",
+        "luxury collection",
+        "tribute portfolio",
+        "ac hotel"
+      ],
+      "parents": [
+        "hotels",
+        "travel"
+      ],
+      "protections": [
+        "tripCancellation",
+        "tripDelay"
+      ]
+    },
+    "car-rental": {
+      "label": "Car rental",
+      "icon": "🚙",
+      "keywords": [
+        "car rental",
+        "rental car",
+        "rent a car",
+        "hertz",
+        "avis",
+        "national",
+        "enterprise",
+        "budget",
+        "sixt",
+        "alamo",
+        "thrifty",
+        "dollar",
+        "turo",
+        "zipcar"
+      ],
+      "parents": [
+        "travel"
+      ],
+      "protections": [
+        "rentalCar"
+      ]
+    },
+    "travel": {
+      "label": "Other travel (cruises, agencies, tours)",
+      "icon": "🧳",
+      "keywords": [
+        "travel",
+        "cruise",
+        "vacation",
+        "trip",
+        "tour",
+        "expedia",
+        "booking.com",
+        "kayak",
+        "priceline",
+        "travel agency",
+        "campground",
+        "timeshare"
+      ],
+      "protections": [
+        "tripCancellation",
+        "tripDelay",
+        "baggageDelay",
+        "lostLuggage"
+      ]
+    },
+    "portal-travel": {
+      "label": "Card's own travel portal",
+      "icon": "🖥️",
+      "keywords": [
+        "chase travel",
+        "amex travel",
+        "bilt travel",
+        "travel portal",
+        "portal"
+      ],
+      "parents": [
+        "travel"
+      ],
+      "protections": [
+        "tripCancellation",
+        "tripDelay"
+      ]
+    },
+    "streaming": {
+      "label": "Streaming services",
+      "icon": "📺",
+      "keywords": [
+        "streaming",
+        "subscription",
+        "netflix",
+        "hulu",
+        "disney+",
+        "disney plus",
+        "hbo",
+        "max",
+        "spotify",
+        "apple music",
+        "youtube",
+        "peacock",
+        "paramount",
+        "apple tv",
+        "sling",
+        "audible",
+        "sirius",
+        "pandora",
+        "tidal",
+        "crunchyroll",
+        "espn+"
+      ],
+      "protections": []
+    },
+    "phone-plan": {
+      "label": "Cell phone plan",
+      "icon": "📱",
+      "keywords": [
+        "phone bill",
+        "cell phone",
+        "cellphone",
+        "wireless bill",
+        "phone plan",
+        "mobile plan",
+        "verizon",
+        "at&t",
+        "att",
+        "t-mobile",
+        "tmobile",
+        "mint mobile",
+        "visible",
+        "google fi",
+        "cricket",
+        "boost",
+        "us cellular",
+        "xfinity mobile"
+      ],
+      "protections": [
+        "cellPhone"
+      ]
+    },
+    "drugstores": {
+      "label": "Drugstores / pharmacies",
+      "icon": "💊",
+      "keywords": [
+        "drugstore",
+        "pharmacy",
+        "prescription",
+        "cvs",
+        "walgreens",
+        "rite aid",
+        "duane reade",
+        "medicine"
+      ],
+      "protections": []
+    },
+    "amazon": {
+      "label": "Amazon.com",
+      "icon": "📦",
+      "keywords": [
+        "amazon",
+        "amazon.com",
+        "amazon fresh",
+        "prime"
+      ],
+      "parents": [
+        "online-shopping"
+      ],
+      "protections": [
+        "purchaseProtection",
+        "extendedWarranty",
+        "returnProtection"
+      ]
+    },
+    "whole-foods": {
+      "label": "Whole Foods Market",
+      "icon": "🥬",
+      "keywords": [
+        "whole foods",
+        "wholefoods"
+      ],
+      "parents": [
+        "groceries"
+      ],
+      "protections": []
+    },
+    "warehouse-clubs": {
+      "label": "Warehouse clubs (Costco, Sam's, BJ's)",
+      "icon": "🏬",
+      "keywords": [
+        "warehouse",
+        "wholesale club",
+        "bulk"
+      ],
+      "protections": [
+        "purchaseProtection",
+        "extendedWarranty"
+      ]
+    },
+    "department-stores": {
+      "label": "Department stores",
+      "icon": "🏢",
+      "keywords": [
+        "department store",
+        "macy's",
+        "macys",
+        "nordstrom",
+        "kohl's",
+        "kohls",
+        "jcpenney",
+        "bloomingdale's",
+        "saks",
+        "neiman"
+      ],
+      "parents": [
+        "shopping"
+      ],
+      "protections": [
+        "purchaseProtection",
+        "returnProtection",
+        "extendedWarranty"
+      ]
+    },
+    "home-improvement": {
+      "label": "Home improvement",
+      "icon": "🔨",
+      "keywords": [
+        "home improvement",
+        "hardware",
+        "home depot",
+        "lowe's",
+        "lowes",
+        "ace hardware",
+        "menards",
+        "lumber",
+        "tools",
+        "appliance",
+        "appliances"
+      ],
+      "parents": [
+        "shopping"
+      ],
+      "protections": [
+        "purchaseProtection",
+        "extendedWarranty"
+      ]
+    },
+    "online-shopping": {
+      "label": "Online shopping",
+      "icon": "🛍️",
+      "keywords": [
+        "online",
+        "ecommerce",
+        "e-commerce",
+        "website",
+        "order online"
+      ],
+      "parents": [
+        "shopping"
+      ],
+      "protections": [
+        "purchaseProtection",
+        "returnProtection",
+        "extendedWarranty"
+      ]
+    },
+    "shopping": {
+      "label": "General retail / shopping",
+      "icon": "🛍️",
+      "keywords": [
+        "shopping",
+        "store",
+        "retail",
+        "mall",
+        "clothes",
+        "clothing",
+        "shoes",
+        "apparel",
+        "furniture",
+        "electronics",
+        "gift",
+        "gifts",
+        "toys"
+      ],
+      "protections": [
+        "purchaseProtection",
+        "returnProtection",
+        "extendedWarranty"
+      ]
+    },
+    "entertainment": {
+      "label": "Entertainment & events",
+      "icon": "🎟️",
+      "keywords": [
+        "entertainment",
+        "movie",
+        "movies",
+        "cinema",
+        "theater",
+        "theatre",
+        "concert",
+        "tickets",
+        "ticketmaster",
+        "stubhub",
+        "museum",
+        "zoo",
+        "amusement",
+        "theme park",
+        "disneyland",
+        "sports game",
+        "bowling",
+        "golf"
+      ],
+      "protections": []
+    },
+    "fitness": {
+      "label": "Gyms & fitness",
+      "icon": "🏋️",
+      "keywords": [
+        "gym",
+        "fitness",
+        "yoga",
+        "pilates",
+        "peloton",
+        "equinox",
+        "soulcycle",
+        "orangetheory",
+        "planet fitness",
+        "24 hour fitness",
+        "crossfit",
+        "barry's"
+      ],
+      "protections": []
+    },
+    "utilities": {
+      "label": "Utilities & internet",
+      "icon": "💡",
+      "keywords": [
+        "utility",
+        "utilities",
+        "electric",
+        "electricity",
+        "water bill",
+        "internet",
+        "wifi",
+        "cable",
+        "pg&e",
+        "pge",
+        "comcast",
+        "xfinity",
+        "spectrum",
+        "trash"
+      ],
+      "protections": []
+    },
+    "insurance": {
+      "label": "Insurance premiums",
+      "icon": "🛡️",
+      "keywords": [
+        "insurance",
+        "premium",
+        "geico",
+        "progressive",
+        "state farm",
+        "allstate"
+      ],
+      "protections": []
+    },
+    "rent": {
+      "label": "Rent / housing",
+      "icon": "🏠",
+      "keywords": [
+        "rent",
+        "housing",
+        "mortgage",
+        "landlord",
+        "apartment",
+        "lease"
+      ],
+      "protections": [],
+      "exclusiveCards": [
+        "bilt-palladium"
+      ],
+      "exclusiveReason": "Rent portals charge ~3% for other cards, which wipes out any rewards; Bilt is the only fee-free way to pay rent by card"
+    },
+    "apple": {
+      "label": "Apple products & services",
+      "icon": "🍎",
+      "keywords": [
+        "apple store",
+        "apple.com",
+        "iphone",
+        "ipad",
+        "macbook",
+        "mac",
+        "airpods",
+        "apple watch",
+        "icloud",
+        "app store",
+        "apple one",
+        "apple care",
+        "applecare"
+      ],
+      "parents": [
+        "shopping"
+      ],
+      "protections": [
+        "purchaseProtection",
+        "extendedWarranty",
+        "returnProtection"
+      ]
+    },
+    "medical": {
+      "label": "Medical, dental, vet",
+      "icon": "🩺",
+      "keywords": [
+        "doctor",
+        "dentist",
+        "dental",
+        "hospital",
+        "clinic",
+        "vet",
+        "veterinary",
+        "medical",
+        "copay",
+        "therapy",
+        "optometrist",
+        "glasses"
+      ],
+      "protections": []
+    },
+    "education": {
+      "label": "Education & childcare",
+      "icon": "🎓",
+      "keywords": [
+        "tuition",
+        "school",
+        "daycare",
+        "childcare",
+        "college",
+        "course",
+        "class",
+        "lessons"
+      ],
+      "protections": []
+    },
+    "taxes-government": {
+      "label": "Taxes & government fees",
+      "icon": "🏛️",
+      "keywords": [
+        "tax",
+        "taxes",
+        "irs",
+        "dmv",
+        "passport",
+        "government",
+        "court",
+        "fee"
+      ],
+      "protections": []
+    },
+    "charity": {
+      "label": "Charity & donations",
+      "icon": "💝",
+      "keywords": [
+        "donation",
+        "donate",
+        "charity",
+        "nonprofit",
+        "gofundme"
+      ],
+      "protections": []
+    },
+    "everything": {
+      "label": "Everything else",
+      "icon": "💳",
+      "keywords": [
+        "other",
+        "misc",
+        "general",
+        "anything",
+        "everything"
+      ],
+      "protections": [
+        "purchaseProtection",
+        "extendedWarranty"
+      ]
+    },
+    "rotating": {
+      "label": "Rotating 5% category (Discover)",
+      "icon": "🔄",
+      "keywords": [],
+      "protections": []
+    }
+  },
+  "purchaseTags": {
+    "_comment": "Extra tags detected from the query text that change which protections matter or which conditions apply.",
+    "big-ticket": {
+      "keywords": [
+        "laptop",
+        "computer",
+        "tv",
+        "television",
+        "camera",
+        "phone",
+        "iphone",
+        "ipad",
+        "macbook",
+        "tablet",
+        "headphones",
+        "watch",
+        "jewelry",
+        "ring",
+        "furniture",
+        "couch",
+        "sofa",
+        "mattress",
+        "bike",
+        "bicycle",
+        "e-bike",
+        "appliance",
+        "fridge",
+        "refrigerator",
+        "washer",
+        "dryer",
+        "dishwasher",
+        "oven",
+        "grill",
+        "drone",
+        "console",
+        "playstation",
+        "xbox",
+        "nintendo",
+        "expensive",
+        "big purchase",
+        "big-ticket"
+      ],
+      "protections": [
+        "purchaseProtection",
+        "extendedWarranty",
+        "returnProtection"
+      ],
+      "label": "Big-ticket item: purchase protection and extended warranty matter"
+    },
+    "abroad": {
+      "keywords": [
+        "abroad",
+        "overseas",
+        "international",
+        "foreign",
+        "europe",
+        "japan",
+        "mexico",
+        "canada",
+        "uk",
+        "london",
+        "paris",
+        "tokyo",
+        "korea",
+        "china",
+        "taiwan",
+        "italy",
+        "spain",
+        "france",
+        "germany",
+        "thailand",
+        "vietnam",
+        "australia",
+        "in another country",
+        "outside the us",
+        "outside us"
+      ],
+      "protections": [
+        "rentalCar",
+        "tripDelay"
+      ],
+      "label": "Outside the US: foreign transaction fees and network acceptance apply"
+    },
+    "apple-pay": {
+      "keywords": [
+        "apple pay",
+        "applepay",
+        "tap to pay",
+        "contactless",
+        "wallet"
+      ],
+      "protections": [],
+      "label": "Paying with Apple Pay"
+    },
+    "recurring": {
+      "keywords": [
+        "monthly",
+        "recurring",
+        "subscription",
+        "autopay",
+        "bill"
+      ],
+      "protections": [],
+      "label": "Recurring charge"
+    }
+  }
+}

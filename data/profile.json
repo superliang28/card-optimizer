@@ -1,0 +1,22 @@
+{
+  "_comment": "Cardholder preferences that the app uses as defaults on every device. Edit here (and push) to change the defaults everywhere; per-device overrides live in the browser's local storage. Valuations are cents per point (1.0 for cash back). Bilt Cash default 0.5: converting Bilt Cash to rent points costs $3 per 100 points, so at 1.5¢/point each $1 of Bilt Cash is worth ~$0.50; raise toward 1.0 if you reliably spend it dollar-for-dollar on Bilt credits (Lyft/Walgreens/Grubhub $10/mo, Bilt Travel hotels, dining, fitness).",
+  "valuations": {
+    "amex-mr": 1.6,
+    "chase-ur": 1.0,
+    "wf-rewards": 1.0,
+    "bilt-points": 1.5,
+    "bilt-cash": 0.5,
+    "marriott-bonvoy": 0.8,
+    "cash": 1.0,
+    "apple-daily-cash": 1.0,
+    "discover-cashback": 1.0,
+    "amex-reward-dollars": 1.0
+  },
+  "primeMember": true,
+  "discoverActivates": true,
+  "platinumAirline": "United",
+  "biltHousingOption": "flexible-bilt-cash",
+  "biltRentMonthly": 5000,
+  "householdSapphirePreferred": true,
+  "cardAnniversaries": {}
+}

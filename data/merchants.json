@@ -1,0 +1,2638 @@
+{
+  "_comment": "Merchant directory. n=name, a=aliases (lowercase), c=canonical category ids (primary first), ap=Apple Pay accepted (true/false/'unknown'), no=networks NOT accepted, note=fine print shown to the user, online=true if this entry is a website/app rather than a physical store. Card-specific merchant rates and credits are matched by name/alias against cards.json. only=list of card ids that can be used at this merchant (issuer portals).",
+  "merchants": [
+    {
+      "n": "Costco (in-store)",
+      "a": [
+        "costco",
+        "costco warehouse",
+        "costco wholesale"
+      ],
+      "c": [
+        "warehouse-clubs"
+      ],
+      "ap": true,
+      "no": [
+        "amex",
+        "mastercard",
+        "discover"
+      ],
+      "note": "Costco warehouses and gas stations in the US accept only Visa (Discover is not accepted anywhere at Costco). Groceries bought at Costco do not count as 'supermarket' for Amex or Chase grocery bonuses (warehouse clubs are excluded)."
+    },
+    {
+      "n": "Costco gas",
+      "a": [
+        "costco gas",
+        "costco gasoline",
+        "costco fuel",
+        "costco gas station"
+      ],
+      "c": [
+        "gas"
+      ],
+      "ap": "unknown",
+      "no": [
+        "amex",
+        "mastercard",
+        "discover"
+      ],
+      "note": "Visa only. Codes as a gas station, so gas bonuses on Visa cards apply."
+    },
+    {
+      "n": "Costco.com",
+      "a": [
+        "costco online",
+        "costco.com"
+      ],
+      "c": [
+        "warehouse-clubs",
+        "online-shopping"
+      ],
+      "ap": false,
+      "no": [
+        "amex",
+        "discover"
+      ],
+      "online": true,
+      "note": "Costco.com accepts Visa and Mastercard only (Discover was dropped in Nov 2023; no American Express)."
+    },
+    {
+      "n": "Sam's Club",
+      "a": [
+        "sams club",
+        "sam's",
+        "sams"
+      ],
+      "c": [
+        "warehouse-clubs"
+      ],
+      "ap": "unknown",
+      "note": "Warehouse club: excluded from supermarket bonuses on Amex and Chase."
+    },
+    {
+      "n": "BJ's Wholesale",
+      "a": [
+        "bjs",
+        "bj's"
+      ],
+      "c": [
+        "warehouse-clubs"
+      ],
+      "ap": "unknown",
+      "note": "Warehouse club: excluded from supermarket bonuses."
+    },
+    {
+      "n": "Walmart",
+      "a": [
+        "walmart",
+        "wal-mart",
+        "walmart.com",
+        "walmart grocery"
+      ],
+      "c": [
+        "shopping"
+      ],
+      "ap": false,
+      "note": "Walmart does not accept Apple Pay in stores. Walmart (a superstore) is excluded from Amex and Chase supermarket bonuses even for groceries."
+    },
+    {
+      "n": "Target",
+      "a": [
+        "target",
+        "target.com"
+      ],
+      "c": [
+        "shopping"
+      ],
+      "ap": true,
+      "note": "Target is excluded from Amex and Chase supermarket bonuses even for groceries."
+    },
+    {
+      "n": "Amazon.com",
+      "a": [
+        "amazon",
+        "amazon.com",
+        "amzn",
+        "amazon prime"
+      ],
+      "c": [
+        "amazon",
+        "online-shopping"
+      ],
+      "ap": false,
+      "online": true,
+      "note": "Amazon.com does not accept Apple Pay. Prime Visa earns its top rate here with an active Prime membership."
+    },
+    {
+      "n": "Amazon Fresh",
+      "a": [
+        "amazon fresh",
+        "fresh"
+      ],
+      "c": [
+        "amazon",
+        "groceries"
+      ],
+      "ap": "unknown",
+      "note": "Prime Visa counts Amazon Fresh at its Amazon rate. Amex and Chase may not treat Amazon Fresh as a supermarket."
+    },
+    {
+      "n": "Whole Foods Market",
+      "a": [
+        "whole foods",
+        "wholefoods",
+        "wfm"
+      ],
+      "c": [
+        "whole-foods",
+        "groceries"
+      ],
+      "ap": true,
+      "note": "Counts as a US supermarket for Amex, and as a Whole Foods purchase for Prime Visa."
+    },
+    {
+      "n": "Trader Joe's",
+      "a": [
+        "trader joes",
+        "trader joe's",
+        "tj's",
+        "tjs"
+      ],
+      "c": [
+        "groceries"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Safeway",
+      "a": [
+        "safeway"
+      ],
+      "c": [
+        "groceries"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Kroger",
+      "a": [
+        "kroger",
+        "ralphs",
+        "fred meyer",
+        "king soopers",
+        "fry's",
+        "frys",
+        "smith's",
+        "qfc",
+        "harris teeter",
+        "food 4 less",
+        "food4less"
+      ],
+      "c": [
+        "groceries"
+      ],
+      "ap": true,
+      "note": "Kroger-family stores began accepting Apple Pay in 2025."
+    },
+    {
+      "n": "Albertsons / Vons / Pavilions",
+      "a": [
+        "albertsons",
+        "vons",
+        "pavilions",
+        "jewel-osco",
+        "jewel",
+        "shaw's",
+        "acme"
+      ],
+      "c": [
+        "groceries"
+      ],
+      "ap": true
+    },
+    {
+      "n": "H-E-B",
+      "a": [
+        "heb",
+        "h-e-b",
+        "h e b"
+      ],
+      "c": [
+        "groceries"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Publix",
+      "a": [
+        "publix"
+      ],
+      "c": [
+        "groceries"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Wegmans",
+      "a": [
+        "wegmans"
+      ],
+      "c": [
+        "groceries"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Aldi",
+      "a": [
+        "aldi"
+      ],
+      "c": [
+        "groceries"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Lidl",
+      "a": [
+        "lidl"
+      ],
+      "c": [
+        "groceries"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Sprouts Farmers Market",
+      "a": [
+        "sprouts"
+      ],
+      "c": [
+        "groceries"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Stop & Shop / Giant",
+      "a": [
+        "stop and shop",
+        "stop & shop",
+        "giant",
+        "giant food",
+        "hannaford"
+      ],
+      "c": [
+        "groceries"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Meijer",
+      "a": [
+        "meijer"
+      ],
+      "c": [
+        "groceries"
+      ],
+      "ap": true
+    },
+    {
+      "n": "WinCo Foods",
+      "a": [
+        "winco"
+      ],
+      "c": [
+        "groceries"
+      ],
+      "ap": "unknown",
+      "no": [
+        "amex",
+        "mastercard",
+        "discover"
+      ],
+      "note": "WinCo historically accepts only Visa and debit; verify at your store."
+    },
+    {
+      "n": "Grocery Outlet",
+      "a": [
+        "grocery outlet"
+      ],
+      "c": [
+        "groceries"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Smart & Final",
+      "a": [
+        "smart and final",
+        "smart & final"
+      ],
+      "c": [
+        "groceries"
+      ],
+      "ap": true,
+      "note": "Coding varies; some locations code as a warehouse/general store rather than a supermarket."
+    },
+    {
+      "n": "99 Ranch Market",
+      "a": [
+        "99 ranch",
+        "ranch 99",
+        "ranch market"
+      ],
+      "c": [
+        "groceries"
+      ],
+      "ap": true
+    },
+    {
+      "n": "H Mart",
+      "a": [
+        "hmart",
+        "h mart",
+        "h-mart"
+      ],
+      "c": [
+        "groceries"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Mitsuwa / Nijiya / Marukai / Tokyo Central",
+      "a": [
+        "mitsuwa",
+        "nijiya",
+        "marukai",
+        "tokyo central",
+        "japanese market"
+      ],
+      "c": [
+        "groceries"
+      ],
+      "ap": "unknown"
+    },
+    {
+      "n": "Zion Market / Hankook",
+      "a": [
+        "zion market",
+        "hankook",
+        "korean market"
+      ],
+      "c": [
+        "groceries"
+      ],
+      "ap": "unknown"
+    },
+    {
+      "n": "Instacart",
+      "a": [
+        "instacart"
+      ],
+      "c": [
+        "groceries",
+        "online-shopping"
+      ],
+      "ap": true,
+      "online": true,
+      "note": "Instacart orders usually code as the grocery store or as Instacart itself. Amex does not treat Instacart as a US supermarket; Chase grocery bonuses may or may not apply. Expect the base rate unless the charge codes as the store."
+    },
+    {
+      "n": "Uber",
+      "a": [
+        "uber",
+        "uber ride",
+        "uber rides",
+        "uberx"
+      ],
+      "c": [
+        "rideshare",
+        "transit"
+      ],
+      "ap": true,
+      "online": true,
+      "note": "Pay in the Uber app. Apple Card earns its partner rate only when you pay with Apple Pay inside the app. Amex Uber Cash must be added to your Uber account first."
+    },
+    {
+      "n": "Uber Eats",
+      "a": [
+        "uber eats",
+        "ubereats"
+      ],
+      "c": [
+        "dining",
+        "rideshare"
+      ],
+      "ap": true,
+      "online": true,
+      "note": "Uber Eats orders generally code as restaurants (Amex Gold 4x, Freedom Unlimited 3%). Amex Uber Cash applies to Uber Eats too."
+    },
+    {
+      "n": "Lyft",
+      "a": [
+        "lyft"
+      ],
+      "c": [
+        "rideshare",
+        "transit"
+      ],
+      "ap": true,
+      "online": true,
+      "note": "Freedom Unlimited earns 2% total on Lyft (through Sept 30, 2027; the old 5% ended March 2025). Bilt Palladium earns 4x when Bilt is linked as the loyalty partner in the Lyft app. Bilt Cash can cover $10 of Lyft per month."
+    },
+    {
+      "n": "DoorDash",
+      "a": [
+        "doordash",
+        "door dash",
+        "dashpass"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true,
+      "online": true,
+      "note": "Generally codes as restaurants."
+    },
+    {
+      "n": "Grubhub / Seamless",
+      "a": [
+        "grubhub",
+        "seamless"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true,
+      "online": true,
+      "note": "Generally codes as restaurants. Amex Gold's $10 monthly dining credit covers Grubhub/Seamless; Bilt Cash can cover $10 of Grubhub per month."
+    },
+    {
+      "n": "Caviar / Postmates",
+      "a": [
+        "caviar",
+        "postmates"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true,
+      "online": true
+    },
+    {
+      "n": "Goldbelly",
+      "a": [
+        "goldbelly"
+      ],
+      "c": [
+        "dining",
+        "online-shopping"
+      ],
+      "ap": "unknown",
+      "online": true,
+      "note": "Removed from the Amex Gold monthly dining credit on July 1, 2026."
+    },
+    {
+      "n": "Wine.com",
+      "a": [
+        "wine.com"
+      ],
+      "c": [
+        "online-shopping"
+      ],
+      "ap": "unknown",
+      "online": true,
+      "note": "Removed from the Amex Gold monthly dining credit on July 1, 2026."
+    },
+    {
+      "n": "Starbucks",
+      "a": [
+        "starbucks",
+        "sbux"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true,
+      "note": "Loading the Starbucks app card usually codes as a restaurant too."
+    },
+    {
+      "n": "Dunkin'",
+      "a": [
+        "dunkin",
+        "dunkin donuts",
+        "dunkin'"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true,
+      "note": "Amex Gold has a monthly Dunkin' credit (enrollment required)."
+    },
+    {
+      "n": "McDonald's",
+      "a": [
+        "mcdonalds",
+        "mcdonald's",
+        "mcd"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Chipotle",
+      "a": [
+        "chipotle"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Chick-fil-A",
+      "a": [
+        "chick-fil-a",
+        "chickfila",
+        "chick fil a"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true
+    },
+    {
+      "n": "In-N-Out Burger",
+      "a": [
+        "in-n-out",
+        "in n out",
+        "innout"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": "unknown"
+    },
+    {
+      "n": "Panera Bread",
+      "a": [
+        "panera"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true,
+      "note": "No longer an Apple Card partner (removed Feb 2025)."
+    },
+    {
+      "n": "The Cheesecake Factory",
+      "a": [
+        "cheesecake factory"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true,
+      "note": "Covered by the Amex Gold monthly dining credit."
+    },
+    {
+      "n": "Five Guys",
+      "a": [
+        "five guys"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true,
+      "note": "Covered by the Amex Gold monthly dining credit."
+    },
+    {
+      "n": "Shake Shack",
+      "a": [
+        "shake shack"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Sweetgreen",
+      "a": [
+        "sweetgreen"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Taco Bell",
+      "a": [
+        "taco bell"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Wendy's / Burger King / Subway",
+      "a": [
+        "wendys",
+        "wendy's",
+        "burger king",
+        "subway"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Domino's / Pizza Hut / Papa John's",
+      "a": [
+        "dominos",
+        "domino's",
+        "pizza hut",
+        "papa johns",
+        "papa john's"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Panda Express",
+      "a": [
+        "panda express"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Olive Garden / Chili's / Applebee's",
+      "a": [
+        "olive garden",
+        "chili's",
+        "chilis",
+        "applebee's",
+        "applebees",
+        "outback",
+        "red lobster"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Peet's / Philz / Blue Bottle",
+      "a": [
+        "peets",
+        "peet's",
+        "philz",
+        "blue bottle",
+        "coffee shop"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Din Tai Fung",
+      "a": [
+        "din tai fung",
+        "dtf"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": "unknown"
+    },
+    {
+      "n": "Boba shops (Boba Guys, 85°C, etc.)",
+      "a": [
+        "boba guys",
+        "85c",
+        "85 degrees",
+        "sharetea",
+        "gong cha",
+        "tp tea",
+        "happy lemon"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": "unknown"
+    },
+    {
+      "n": "Resy restaurants",
+      "a": [
+        "resy"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": "unknown",
+      "note": "Amex Platinum and Amex Gold Resy credits apply at US restaurants on Resy (enrollment required; pay with the card at the restaurant)."
+    },
+    {
+      "n": "Shell",
+      "a": [
+        "shell",
+        "shell gas"
+      ],
+      "c": [
+        "gas"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Chevron / Texaco",
+      "a": [
+        "chevron",
+        "texaco"
+      ],
+      "c": [
+        "gas"
+      ],
+      "ap": true,
+      "note": "Chevron/Texaco are not Apple Card partners (only Exxon and Mobil are)."
+    },
+    {
+      "n": "Exxon / Mobil",
+      "a": [
+        "exxon",
+        "mobil",
+        "exxonmobil"
+      ],
+      "c": [
+        "gas"
+      ],
+      "ap": true,
+      "note": "Apple Card partner: 3% with Apple Pay at Exxon- and Mobil-branded pumps via the Exxon Mobil Rewards+ app or contactless at the pump."
+    },
+    {
+      "n": "76 / Arco / Valero / BP / Circle K",
+      "a": [
+        "76",
+        "arco",
+        "valero",
+        "bp",
+        "circle k",
+        "speedway",
+        "marathon",
+        "sunoco",
+        "wawa",
+        "sheetz",
+        "quiktrip",
+        "qt",
+        "racetrac",
+        "kwik trip",
+        "casey's"
+      ],
+      "c": [
+        "gas"
+      ],
+      "ap": true,
+      "note": "Arco stations may charge a fee for credit cards or accept debit only at some pumps."
+    },
+    {
+      "n": "Sam's Club gas",
+      "a": [
+        "sams gas",
+        "sam's club gas"
+      ],
+      "c": [
+        "gas"
+      ],
+      "ap": "unknown"
+    },
+    {
+      "n": "Safeway / Vons fuel",
+      "a": [
+        "safeway gas",
+        "vons gas",
+        "safeway fuel"
+      ],
+      "c": [
+        "gas"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Tesla Supercharger",
+      "a": [
+        "tesla",
+        "supercharger",
+        "tesla charging"
+      ],
+      "c": [
+        "ev-charging"
+      ],
+      "ap": "unknown",
+      "online": true,
+      "note": "Billed through your Tesla account; codes vary between 'electric vehicle charging' and 'automotive'. Wells Fargo Autograph counts EV charging with gas; Amex and Chase gas bonuses usually do not."
+    },
+    {
+      "n": "Electrify America / EVgo / Blink",
+      "a": [
+        "electrify america",
+        "evgo",
+        "blink charging"
+      ],
+      "c": [
+        "ev-charging"
+      ],
+      "ap": true,
+      "online": true
+    },
+    {
+      "n": "BART / Caltrain / Muni / Clipper",
+      "a": [
+        "bart",
+        "caltrain",
+        "muni",
+        "clipper",
+        "clipper card",
+        "sf transit"
+      ],
+      "c": [
+        "transit"
+      ],
+      "ap": true
+    },
+    {
+      "n": "NYC MTA / OMNY",
+      "a": [
+        "mta",
+        "omny",
+        "nyc subway",
+        "metrocard"
+      ],
+      "c": [
+        "transit"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Amtrak",
+      "a": [
+        "amtrak"
+      ],
+      "c": [
+        "transit",
+        "travel"
+      ],
+      "ap": true,
+      "note": "Codes as passenger rail: counts as transit on Amex Blue Cash Preferred and as travel on most travel cards."
+    },
+    {
+      "n": "Tolls (FasTrak, E-ZPass, SunPass)",
+      "a": [
+        "fastrak",
+        "ezpass",
+        "e-zpass",
+        "sunpass",
+        "toll",
+        "tolls",
+        "bridge toll"
+      ],
+      "c": [
+        "transit"
+      ],
+      "ap": false
+    },
+    {
+      "n": "Parking (SpotHero, ParkMobile, garages, meters)",
+      "a": [
+        "parking",
+        "spothero",
+        "parkmobile",
+        "paybyphone",
+        "garage",
+        "meter",
+        "laz parking",
+        "ace parking"
+      ],
+      "c": [
+        "transit"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Taxi",
+      "a": [
+        "taxi",
+        "cab",
+        "yellow cab",
+        "curb"
+      ],
+      "c": [
+        "transit"
+      ],
+      "ap": true
+    },
+    {
+      "n": "United Airlines",
+      "a": [
+        "united",
+        "united airlines",
+        "ual",
+        "united.com"
+      ],
+      "c": [
+        "flights"
+      ],
+      "ap": true,
+      "note": "United is your selected airline for the Amex Platinum airline fee credit (incidentals such as seat fees, bags, and some purchases; not airfare)."
+    },
+    {
+      "n": "Delta Air Lines",
+      "a": [
+        "delta",
+        "delta airlines",
+        "delta air lines"
+      ],
+      "c": [
+        "flights"
+      ],
+      "ap": true
+    },
+    {
+      "n": "American Airlines",
+      "a": [
+        "american airlines",
+        "american",
+        "aa",
+        "aa.com"
+      ],
+      "c": [
+        "flights"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Southwest Airlines",
+      "a": [
+        "southwest",
+        "southwest airlines",
+        "swa"
+      ],
+      "c": [
+        "flights"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Alaska Airlines",
+      "a": [
+        "alaska",
+        "alaska airlines"
+      ],
+      "c": [
+        "flights"
+      ],
+      "ap": true
+    },
+    {
+      "n": "JetBlue",
+      "a": [
+        "jetblue",
+        "jet blue"
+      ],
+      "c": [
+        "flights"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Spirit / Frontier / Allegiant / Hawaiian / Breeze",
+      "a": [
+        "spirit",
+        "frontier",
+        "allegiant",
+        "hawaiian",
+        "hawaiian airlines",
+        "breeze",
+        "sun country",
+        "avelo"
+      ],
+      "c": [
+        "flights"
+      ],
+      "ap": "unknown"
+    },
+    {
+      "n": "International airlines (ANA, JAL, Cathay, EVA, Korean, Singapore, Lufthansa, BA, Air France, KLM, Emirates, Qatar, Turkish, Air Canada)",
+      "a": [
+        "ana",
+        "jal",
+        "japan airlines",
+        "cathay",
+        "cathay pacific",
+        "eva air",
+        "eva",
+        "korean air",
+        "singapore airlines",
+        "lufthansa",
+        "british airways",
+        "air france",
+        "klm",
+        "emirates",
+        "qatar airways",
+        "qatar",
+        "turkish airlines",
+        "air canada",
+        "china airlines",
+        "starlux",
+        "philippine airlines",
+        "asiana",
+        "etihad",
+        "air new zealand",
+        "qantas",
+        "aeromexico",
+        "iberia",
+        "virgin atlantic"
+      ],
+      "c": [
+        "flights"
+      ],
+      "ap": "unknown",
+      "note": "Booking directly with a foreign airline counts as 'airline' for Amex Platinum 5x and Amex Gold 3x. Watch foreign transaction fees on Freedom Unlimited and Blue Cash Preferred if billed in a foreign currency."
+    },
+    {
+      "n": "Marriott Bonvoy hotels",
+      "a": [
+        "marriott",
+        "bonvoy",
+        "westin",
+        "sheraton",
+        "ritz-carlton",
+        "ritz carlton",
+        "st. regis",
+        "st regis",
+        "w hotels",
+        "courtyard",
+        "residence inn",
+        "fairfield inn",
+        "springhill suites",
+        "aloft",
+        "moxy",
+        "jw marriott",
+        "le meridien",
+        "renaissance",
+        "autograph collection",
+        "edition",
+        "four points",
+        "element",
+        "towneplace",
+        "delta hotels",
+        "gaylord",
+        "luxury collection",
+        "tribute portfolio",
+        "ac hotels"
+      ],
+      "c": [
+        "marriott",
+        "hotels"
+      ],
+      "ap": "unknown",
+      "note": "Book directly with Marriott (marriott.com or the app) to earn the Boundless card's Marriott rate plus base Bonvoy points and elite bonuses. Third-party bookings do not earn Bonvoy points or elite nights."
+    },
+    {
+      "n": "Hilton",
+      "a": [
+        "hilton",
+        "hampton inn",
+        "doubletree",
+        "embassy suites",
+        "waldorf",
+        "conrad",
+        "homewood",
+        "hilton garden inn",
+        "tru by hilton",
+        "canopy"
+      ],
+      "c": [
+        "hotels"
+      ],
+      "ap": "unknown"
+    },
+    {
+      "n": "Hyatt",
+      "a": [
+        "hyatt",
+        "hyatt place",
+        "hyatt house",
+        "grand hyatt",
+        "park hyatt",
+        "andaz",
+        "thompson",
+        "hyatt regency"
+      ],
+      "c": [
+        "hotels"
+      ],
+      "ap": "unknown",
+      "note": "Bilt points transfer to World of Hyatt 1:1; consider paying with the card whose points you want and transferring Bilt points for award stays."
+    },
+    {
+      "n": "IHG (Holiday Inn, Kimpton, InterContinental)",
+      "a": [
+        "ihg",
+        "holiday inn",
+        "kimpton",
+        "intercontinental",
+        "crowne plaza",
+        "hotel indigo",
+        "candlewood",
+        "staybridge"
+      ],
+      "c": [
+        "hotels"
+      ],
+      "ap": "unknown"
+    },
+    {
+      "n": "Wyndham / Choice / Best Western",
+      "a": [
+        "wyndham",
+        "choice hotels",
+        "comfort inn",
+        "quality inn",
+        "best western",
+        "la quinta",
+        "days inn",
+        "super 8",
+        "ramada",
+        "sleep inn"
+      ],
+      "c": [
+        "hotels"
+      ],
+      "ap": "unknown"
+    },
+    {
+      "n": "Four Seasons / luxury independents",
+      "a": [
+        "four seasons",
+        "aman",
+        "rosewood",
+        "peninsula",
+        "mandarin oriental",
+        "auberge",
+        "montage",
+        "fairmont",
+        "sofitel",
+        "accor",
+        "1 hotels"
+      ],
+      "c": [
+        "hotels"
+      ],
+      "ap": "unknown",
+      "note": "Many luxury independents are bookable through Amex Fine Hotels + Resorts / The Hotel Collection (Platinum hotel credit) or Bilt Travel (Palladium hotel credit)."
+    },
+    {
+      "n": "Airbnb",
+      "a": [
+        "airbnb",
+        "air bnb"
+      ],
+      "c": [
+        "hotels",
+        "travel"
+      ],
+      "ap": true,
+      "online": true,
+      "note": "Airbnb codes as travel/lodging: earns Wells Fargo Autograph 3x travel and Bilt 2x, but does NOT count as a hotel for Amex Gold or Platinum bonus rates."
+    },
+    {
+      "n": "Vrbo",
+      "a": [
+        "vrbo",
+        "homeaway"
+      ],
+      "c": [
+        "hotels",
+        "travel"
+      ],
+      "ap": "unknown",
+      "online": true,
+      "note": "Codes as travel; not a hotel for Amex bonus categories."
+    },
+    {
+      "n": "Expedia / Hotels.com / Orbitz / Travelocity",
+      "a": [
+        "expedia",
+        "hotels.com",
+        "orbitz",
+        "travelocity",
+        "cheaptickets"
+      ],
+      "c": [
+        "travel"
+      ],
+      "ap": true,
+      "online": true,
+      "note": "Online travel agencies code as 'travel', not as airlines or hotels: Amex Platinum/Gold airline and hotel bonus rates do not apply, and hotel stays booked here usually earn no hotel loyalty points or elite credit. Wells Fargo Autograph (3x travel) and Bilt (2x + Bilt Cash) still earn."
+    },
+    {
+      "n": "Booking.com",
+      "a": [
+        "booking.com",
+        "booking"
+      ],
+      "c": [
+        "travel"
+      ],
+      "ap": true,
+      "online": true,
+      "note": "Apple Card partner: 3% with Apple Pay in the Booking.com app. Codes as travel, not hotel, for Amex."
+    },
+    {
+      "n": "Priceline / Kayak / Hopper / Agoda / Trip.com",
+      "a": [
+        "priceline",
+        "kayak",
+        "hopper",
+        "agoda",
+        "trip.com",
+        "ctrip",
+        "skyscanner",
+        "google flights"
+      ],
+      "c": [
+        "travel"
+      ],
+      "ap": "unknown",
+      "online": true,
+      "note": "Online travel agencies code as travel (not airline/hotel) for Amex. Google Flights and Kayak hand you off to the airline or an agency; check who actually charges the card."
+    },
+    {
+      "n": "Chase Travel portal",
+      "a": [
+        "chase travel",
+        "chase ultimate rewards travel",
+        "chase portal"
+      ],
+      "c": [
+        "portal-travel",
+        "travel"
+      ],
+      "ap": false,
+      "online": true,
+      "note": "Only Chase cards earn the portal bonus (Freedom Unlimited 5%, Prime Visa 5%). Hotels booked through portals usually don't earn hotel elite credit.",
+      "only": [
+        "chase-freedom-unlimited",
+        "amazon-prime-visa"
+      ]
+    },
+    {
+      "n": "Amex Travel (amextravel.com)",
+      "a": [
+        "amex travel",
+        "amextravel",
+        "amextravel.com",
+        "american express travel",
+        "fine hotels",
+        "fhr",
+        "hotel collection",
+        "the hotel collection"
+      ],
+      "c": [
+        "portal-travel",
+        "travel"
+      ],
+      "ap": false,
+      "online": true,
+      "note": "Platinum: 5x on flights and prepaid hotels booked here, and the hotel credit applies to Fine Hotels + Resorts and The Hotel Collection prepaid bookings. Gold: 3x flights, 2x prepaid hotels.",
+      "only": [
+        "amex-platinum",
+        "amex-gold",
+        "amex-blue-cash-preferred"
+      ]
+    },
+    {
+      "n": "Bilt Travel",
+      "a": [
+        "bilt travel",
+        "bilt hotels"
+      ],
+      "c": [
+        "portal-travel",
+        "travel",
+        "hotels"
+      ],
+      "ap": false,
+      "online": true,
+      "note": "Bilt Palladium's hotel credit is used on Bilt Travel hotel bookings.",
+      "only": [
+        "bilt-palladium"
+      ]
+    },
+    {
+      "n": "Avis / National / Enterprise / Budget / Sixt / Alamo / Thrifty / Dollar",
+      "a": [
+        "avis",
+        "national",
+        "national car rental",
+        "enterprise",
+        "budget",
+        "sixt",
+        "alamo",
+        "thrifty",
+        "dollar",
+        "car rental",
+        "rental car"
+      ],
+      "c": [
+        "car-rental",
+        "travel"
+      ],
+      "ap": "unknown",
+      "note": "Decline the rental company's collision damage waiver to use card coverage. Primary coverage (pays before your own insurance) beats secondary. Coverage typically excludes trucks, exotic cars, some countries, and rentals over 15 to 30 days."
+    },
+    {
+      "n": "Turo",
+      "a": [
+        "turo",
+        "getaround",
+        "zipcar"
+      ],
+      "c": [
+        "car-rental",
+        "travel"
+      ],
+      "ap": true,
+      "online": true,
+      "note": "Peer-to-peer rentals like Turo are usually EXCLUDED from card rental car coverage. Buy Turo's protection plan."
+    },
+    {
+      "n": "Cruise lines",
+      "a": [
+        "cruise",
+        "royal caribbean",
+        "carnival",
+        "norwegian",
+        "ncl",
+        "princess",
+        "celebrity",
+        "disney cruise",
+        "viking",
+        "msc",
+        "holland america"
+      ],
+      "c": [
+        "travel"
+      ],
+      "ap": "unknown"
+    },
+    {
+      "n": "Netflix",
+      "a": [
+        "netflix"
+      ],
+      "c": [
+        "streaming"
+      ],
+      "ap": false,
+      "online": true,
+      "note": "Netflix bills your card directly (no Apple Pay)."
+    },
+    {
+      "n": "Hulu / Disney+ / ESPN+",
+      "a": [
+        "hulu",
+        "disney+",
+        "disney plus",
+        "disney bundle",
+        "espn+",
+        "espn plus"
+      ],
+      "c": [
+        "streaming"
+      ],
+      "ap": "unknown",
+      "online": true,
+      "note": "Check whether an Amex Platinum digital entertainment credit or a Blue Cash Preferred credit currently covers this service."
+    },
+    {
+      "n": "Max (HBO)",
+      "a": [
+        "max",
+        "hbo max",
+        "hbo"
+      ],
+      "c": [
+        "streaming"
+      ],
+      "ap": "unknown",
+      "online": true
+    },
+    {
+      "n": "Spotify",
+      "a": [
+        "spotify"
+      ],
+      "c": [
+        "streaming"
+      ],
+      "ap": false,
+      "online": true
+    },
+    {
+      "n": "Apple Music / Apple TV+ / Apple One / iCloud+",
+      "a": [
+        "apple music",
+        "apple tv+",
+        "apple tv plus",
+        "apple one",
+        "icloud",
+        "icloud+",
+        "apple arcade",
+        "apple fitness"
+      ],
+      "c": [
+        "streaming",
+        "apple"
+      ],
+      "ap": true,
+      "online": true,
+      "note": "Apple services billed by Apple earn Apple Card's Apple rate. They also count as streaming for Blue Cash Preferred and Wells Fargo Autograph."
+    },
+    {
+      "n": "YouTube Premium / YouTube TV",
+      "a": [
+        "youtube",
+        "youtube premium",
+        "youtube tv",
+        "youtube music"
+      ],
+      "c": [
+        "streaming"
+      ],
+      "ap": "unknown",
+      "online": true
+    },
+    {
+      "n": "Peacock / Paramount+ / Sling / Fubo / Philo",
+      "a": [
+        "peacock",
+        "paramount+",
+        "paramount plus",
+        "sling",
+        "sling tv",
+        "fubo",
+        "fubotv",
+        "philo"
+      ],
+      "c": [
+        "streaming"
+      ],
+      "ap": "unknown",
+      "online": true,
+      "note": "Check the Amex Platinum digital entertainment credit's current eligible list."
+    },
+    {
+      "n": "Amazon Prime Video / Channels",
+      "a": [
+        "prime video",
+        "amazon channels",
+        "amazon video"
+      ],
+      "c": [
+        "streaming",
+        "amazon"
+      ],
+      "ap": false,
+      "online": true,
+      "note": "Prime membership fees are generally excluded from Amex streaming bonuses; Prime Video Channels may code as Amazon."
+    },
+    {
+      "n": "Audible / Kindle Unlimited",
+      "a": [
+        "audible",
+        "kindle unlimited",
+        "kindle"
+      ],
+      "c": [
+        "streaming",
+        "amazon"
+      ],
+      "ap": false,
+      "online": true,
+      "note": "Codes as Amazon for Prime Visa; Audible is on the Amex Blue Cash Preferred streaming list."
+    },
+    {
+      "n": "SiriusXM / Pandora / Tidal",
+      "a": [
+        "siriusxm",
+        "sirius",
+        "pandora",
+        "tidal"
+      ],
+      "c": [
+        "streaming"
+      ],
+      "ap": "unknown",
+      "online": true
+    },
+    {
+      "n": "New York Times / Wall Street Journal (digital)",
+      "a": [
+        "nyt",
+        "new york times",
+        "nytimes",
+        "wsj",
+        "wall street journal",
+        "newspaper subscription"
+      ],
+      "c": [
+        "streaming",
+        "everything"
+      ],
+      "ap": "unknown",
+      "online": true,
+      "note": "Check the Amex Platinum digital entertainment credit's current eligible list."
+    },
+    {
+      "n": "Verizon",
+      "a": [
+        "verizon",
+        "verizon wireless",
+        "vzw"
+      ],
+      "c": [
+        "phone-plan"
+      ],
+      "ap": "unknown",
+      "online": true,
+      "note": "Paying your bill with a card that has cell phone protection activates that coverage. Some carriers charge a fee or withhold autopay discounts for credit cards; compare the discount with the rewards."
+    },
+    {
+      "n": "AT&T Wireless",
+      "a": [
+        "at&t",
+        "att",
+        "at&t wireless",
+        "att wireless"
+      ],
+      "c": [
+        "phone-plan"
+      ],
+      "ap": "unknown",
+      "online": true,
+      "note": "AT&T's autopay discount is lower for credit cards than for bank drafts on many plans; weigh the discount against rewards and cell phone protection."
+    },
+    {
+      "n": "T-Mobile",
+      "a": [
+        "t-mobile",
+        "tmobile",
+        "t mobile"
+      ],
+      "c": [
+        "phone-plan"
+      ],
+      "ap": true,
+      "online": true,
+      "note": "No longer an Apple Card partner (removed July 2025). T-Mobile's autopay discount may require a debit card or bank account."
+    },
+    {
+      "n": "Mint Mobile / Visible / Google Fi / Cricket / Boost / US Mobile",
+      "a": [
+        "mint mobile",
+        "mint",
+        "visible",
+        "google fi",
+        "fi",
+        "cricket",
+        "boost mobile",
+        "us mobile",
+        "metro by t-mobile",
+        "metropcs",
+        "xfinity mobile",
+        "spectrum mobile",
+        "consumer cellular",
+        "tello"
+      ],
+      "c": [
+        "phone-plan"
+      ],
+      "ap": "unknown",
+      "online": true,
+      "note": "Most MVNOs code as telecommunications, which counts as a phone plan for Wells Fargo Autograph and for cell phone protection."
+    },
+    {
+      "n": "CVS",
+      "a": [
+        "cvs",
+        "cvs pharmacy"
+      ],
+      "c": [
+        "drugstores"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Walgreens / Duane Reade",
+      "a": [
+        "walgreens",
+        "duane reade"
+      ],
+      "c": [
+        "drugstores"
+      ],
+      "ap": true,
+      "note": "Apple Card partner: 3% with Apple Pay. Bilt Palladium earns 3x in-store (4x on Walgreens-brand items, +100 points per prescription) when linked. Bilt Cash can cover $10 at Walgreens per month."
+    },
+    {
+      "n": "Rite Aid / Bartell",
+      "a": [
+        "rite aid",
+        "riteaid",
+        "bartell"
+      ],
+      "c": [
+        "drugstores"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Amazon Pharmacy",
+      "a": [
+        "amazon pharmacy",
+        "pillpack"
+      ],
+      "c": [
+        "amazon",
+        "drugstores"
+      ],
+      "ap": false,
+      "online": true
+    },
+    {
+      "n": "Apple Store / apple.com",
+      "a": [
+        "apple",
+        "apple store",
+        "apple.com",
+        "iphone",
+        "ipad",
+        "macbook",
+        "airpods",
+        "apple watch",
+        "applecare",
+        "apple care"
+      ],
+      "c": [
+        "apple",
+        "shopping"
+      ],
+      "ap": true,
+      "note": "Apple Card earns 3% on Apple purchases and 0% APR Apple Card Monthly Installments on eligible devices. Weigh that against purchase protection and extended warranty on Amex cards for big-ticket devices."
+    },
+    {
+      "n": "App Store / iTunes",
+      "a": [
+        "app store",
+        "itunes",
+        "in-app purchase",
+        "app subscription"
+      ],
+      "c": [
+        "apple",
+        "streaming"
+      ],
+      "ap": true,
+      "online": true
+    },
+    {
+      "n": "Best Buy",
+      "a": [
+        "best buy",
+        "bestbuy"
+      ],
+      "c": [
+        "shopping",
+        "online-shopping"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Nike",
+      "a": [
+        "nike",
+        "nike.com"
+      ],
+      "c": [
+        "shopping"
+      ],
+      "ap": true,
+      "note": "Apple Card partner: 3% with Apple Pay in the Nike app, nike.com, or Nike stores."
+    },
+    {
+      "n": "lululemon",
+      "a": [
+        "lululemon",
+        "lulu"
+      ],
+      "c": [
+        "shopping"
+      ],
+      "ap": true,
+      "note": "Amex Platinum has a quarterly lululemon credit (US stores and lululemon.com, enrollment required, outlets excluded)."
+    },
+    {
+      "n": "Saks Fifth Avenue",
+      "a": [
+        "saks",
+        "saks fifth avenue"
+      ],
+      "c": [
+        "department-stores",
+        "shopping"
+      ],
+      "ap": true,
+      "note": "The Amex Platinum Saks credit ended July 1, 2026."
+    },
+    {
+      "n": "Home Depot",
+      "a": [
+        "home depot",
+        "homedepot"
+      ],
+      "c": [
+        "home-improvement"
+      ],
+      "ap": "unknown"
+    },
+    {
+      "n": "Lowe's",
+      "a": [
+        "lowes",
+        "lowe's"
+      ],
+      "c": [
+        "home-improvement"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Ace Hardware",
+      "a": [
+        "ace hardware",
+        "ace"
+      ],
+      "c": [
+        "home-improvement"
+      ],
+      "ap": true,
+      "note": "Apple Card partner: 3% with Apple Pay at participating Ace stores and acehardware.com."
+    },
+    {
+      "n": "IKEA",
+      "a": [
+        "ikea"
+      ],
+      "c": [
+        "shopping",
+        "home-improvement"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Wayfair / Overstock",
+      "a": [
+        "wayfair",
+        "overstock"
+      ],
+      "c": [
+        "online-shopping",
+        "shopping"
+      ],
+      "ap": true,
+      "online": true
+    },
+    {
+      "n": "Etsy / eBay",
+      "a": [
+        "etsy",
+        "ebay"
+      ],
+      "c": [
+        "online-shopping"
+      ],
+      "ap": true,
+      "online": true
+    },
+    {
+      "n": "Temu / Shein / AliExpress",
+      "a": [
+        "temu",
+        "shein",
+        "aliexpress"
+      ],
+      "c": [
+        "online-shopping"
+      ],
+      "ap": true,
+      "online": true,
+      "note": "May be billed by a foreign merchant: foreign transaction fees can apply on Freedom Unlimited and Blue Cash Preferred even in US dollars."
+    },
+    {
+      "n": "Zara / H&M / Uniqlo / Gap / Old Navy",
+      "a": [
+        "zara",
+        "h&m",
+        "hm",
+        "uniqlo",
+        "gap",
+        "old navy",
+        "banana republic",
+        "j.crew",
+        "jcrew",
+        "abercrombie",
+        "american eagle",
+        "levi's",
+        "levis"
+      ],
+      "c": [
+        "shopping"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Nordstrom / Macy's / Bloomingdale's",
+      "a": [
+        "nordstrom",
+        "nordstrom rack",
+        "macys",
+        "macy's",
+        "bloomingdales",
+        "bloomingdale's",
+        "neiman marcus",
+        "kohls",
+        "kohl's",
+        "jcpenney",
+        "dillards"
+      ],
+      "c": [
+        "department-stores",
+        "shopping"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Sephora / Ulta",
+      "a": [
+        "sephora",
+        "ulta"
+      ],
+      "c": [
+        "shopping"
+      ],
+      "ap": true
+    },
+    {
+      "n": "REI / Dick's Sporting Goods",
+      "a": [
+        "rei",
+        "dick's",
+        "dicks sporting goods",
+        "academy sports",
+        "big 5"
+      ],
+      "c": [
+        "shopping"
+      ],
+      "ap": true
+    },
+    {
+      "n": "PetSmart / Petco / Chewy",
+      "a": [
+        "petsmart",
+        "petco",
+        "chewy",
+        "pet store",
+        "pet food"
+      ],
+      "c": [
+        "shopping",
+        "online-shopping"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Staples / Office Depot",
+      "a": [
+        "staples",
+        "office depot",
+        "officemax",
+        "office supplies"
+      ],
+      "c": [
+        "shopping"
+      ],
+      "ap": true
+    },
+    {
+      "n": "TJ Maxx / Marshalls / Ross / HomeGoods",
+      "a": [
+        "tj maxx",
+        "tjmaxx",
+        "marshalls",
+        "ross",
+        "homegoods",
+        "burlington"
+      ],
+      "c": [
+        "shopping"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Dollar Tree / Five Below / Dollar General",
+      "a": [
+        "dollar tree",
+        "five below",
+        "dollar general",
+        "99 cents"
+      ],
+      "c": [
+        "shopping"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Michaels / Hobby Lobby / Joann",
+      "a": [
+        "michaels",
+        "hobby lobby",
+        "joann"
+      ],
+      "c": [
+        "shopping"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Barnes & Noble",
+      "a": [
+        "barnes and noble",
+        "barnes & noble",
+        "bookstore",
+        "books"
+      ],
+      "c": [
+        "shopping"
+      ],
+      "ap": true
+    },
+    {
+      "n": "GameStop / Steam / PlayStation Store / Nintendo eShop / Xbox",
+      "a": [
+        "gamestop",
+        "steam",
+        "playstation store",
+        "psn",
+        "nintendo eshop",
+        "nintendo",
+        "xbox",
+        "video games",
+        "game"
+      ],
+      "c": [
+        "entertainment",
+        "online-shopping"
+      ],
+      "ap": "unknown",
+      "online": true
+    },
+    {
+      "n": "Warby Parker / eyeglasses",
+      "a": [
+        "warby parker",
+        "eyeglasses",
+        "contacts",
+        "lenscrafters",
+        "costco optical",
+        "zenni"
+      ],
+      "c": [
+        "medical",
+        "shopping"
+      ],
+      "ap": "unknown"
+    },
+    {
+      "n": "AMC / Regal / Cinemark",
+      "a": [
+        "amc",
+        "regal",
+        "cinemark",
+        "movie theater",
+        "movies"
+      ],
+      "c": [
+        "entertainment"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Ticketmaster / StubHub / SeatGeek / AXS",
+      "a": [
+        "ticketmaster",
+        "stubhub",
+        "seatgeek",
+        "axs",
+        "concert tickets",
+        "event tickets"
+      ],
+      "c": [
+        "entertainment"
+      ],
+      "ap": true,
+      "online": true
+    },
+    {
+      "n": "Disneyland / Disney World / Universal / Six Flags",
+      "a": [
+        "disneyland",
+        "disney world",
+        "walt disney world",
+        "universal studios",
+        "six flags",
+        "knott's",
+        "cedar point",
+        "theme park",
+        "seaworld",
+        "legoland"
+      ],
+      "c": [
+        "entertainment"
+      ],
+      "ap": true
+    },
+    {
+      "n": "Museums, zoos, aquariums",
+      "a": [
+        "museum",
+        "zoo",
+        "aquarium",
+        "exploratorium",
+        "academy of sciences"
+      ],
+      "c": [
+        "entertainment"
+      ],
+      "ap": "unknown"
+    },
+    {
+      "n": "Equinox",
+      "a": [
+        "equinox"
+      ],
+      "c": [
+        "fitness"
+      ],
+      "ap": "unknown",
+      "note": "Amex Platinum has an annual Equinox credit (enrollment required)."
+    },
+    {
+      "n": "Peloton",
+      "a": [
+        "peloton"
+      ],
+      "c": [
+        "fitness",
+        "streaming"
+      ],
+      "ap": "unknown",
+      "online": true
+    },
+    {
+      "n": "SoulCycle / Barry's / Orangetheory / F45 / ClassPass",
+      "a": [
+        "soulcycle",
+        "barry's",
+        "barrys",
+        "orangetheory",
+        "f45",
+        "classpass",
+        "corepower",
+        "yoga studio",
+        "pilates studio"
+      ],
+      "c": [
+        "fitness"
+      ],
+      "ap": "unknown",
+      "note": "Bilt has fitness partnerships (e.g., SoulCycle) that award extra Bilt points when linked."
+    },
+    {
+      "n": "Planet Fitness / 24 Hour Fitness / LA Fitness / Crunch",
+      "a": [
+        "planet fitness",
+        "24 hour fitness",
+        "la fitness",
+        "crunch",
+        "anytime fitness",
+        "gym membership",
+        "ymca"
+      ],
+      "c": [
+        "fitness"
+      ],
+      "ap": "unknown",
+      "online": true
+    },
+    {
+      "n": "PG&E / SoCal Edison / SDG&E",
+      "a": [
+        "pg&e",
+        "pge",
+        "pacific gas",
+        "socal edison",
+        "sce",
+        "sdg&e",
+        "sdge",
+        "ladwp",
+        "con edison",
+        "coned",
+        "electric bill",
+        "power bill"
+      ],
+      "c": [
+        "utilities"
+      ],
+      "ap": false,
+      "online": true,
+      "note": "Most utilities charge a convenience fee for credit card payments (often $1 to $3 per payment or ~2%). If the fee exceeds the rewards, pay from a bank account instead."
+    },
+    {
+      "n": "Comcast Xfinity / Spectrum / AT&T Internet / Sonic",
+      "a": [
+        "comcast",
+        "xfinity",
+        "spectrum",
+        "at&t internet",
+        "att internet",
+        "sonic",
+        "google fiber",
+        "cox",
+        "frontier internet",
+        "internet bill",
+        "cable bill"
+      ],
+      "c": [
+        "utilities"
+      ],
+      "ap": false,
+      "online": true,
+      "note": "Internet and cable are not 'streaming' or 'phone plan' for bonus purposes. Xfinity and some others reduce autopay discounts for credit cards."
+    },
+    {
+      "n": "Water / trash / sewer",
+      "a": [
+        "water bill",
+        "recology",
+        "trash",
+        "garbage",
+        "sewer",
+        "waste management"
+      ],
+      "c": [
+        "utilities"
+      ],
+      "ap": false,
+      "online": true,
+      "note": "Convenience fees are common; compare with rewards."
+    },
+    {
+      "n": "Car insurance (Geico, Progressive, State Farm, Allstate, Farmers)",
+      "a": [
+        "geico",
+        "progressive",
+        "state farm",
+        "allstate",
+        "farmers",
+        "usaa",
+        "liberty mutual",
+        "car insurance",
+        "auto insurance",
+        "renters insurance",
+        "lemonade"
+      ],
+      "c": [
+        "insurance"
+      ],
+      "ap": false,
+      "online": true,
+      "note": "Insurance earns base rates everywhere. No fee at most insurers."
+    },
+    {
+      "n": "Rent via Bilt",
+      "a": [
+        "rent",
+        "rent payment",
+        "bilt rent",
+        "landlord",
+        "apartment rent"
+      ],
+      "c": [
+        "rent"
+      ],
+      "ap": false,
+      "online": true,
+      "note": "Pay rent through the Bilt app with the Bilt card — no fee. Under your Flexible Bilt Cash option, rent earns 0 points unless you redeem Bilt Cash at checkout ($3 per 100 points, max 1 point per $1). Other cards would pay ~3% through rent portals, which wipes out any rewards."
+    },
+    {
+      "n": "Mortgage",
+      "a": [
+        "mortgage",
+        "mortgage payment"
+      ],
+      "c": [
+        "rent"
+      ],
+      "ap": false,
+      "online": true,
+      "note": "Bilt supports mortgage payments for Bilt cardholders; other cards generally cannot pay mortgages without a fee."
+    },
+    {
+      "n": "IRS / federal taxes",
+      "a": [
+        "irs",
+        "federal tax",
+        "taxes",
+        "estimated taxes",
+        "pay1040",
+        "tax payment"
+      ],
+      "c": [
+        "taxes-government"
+      ],
+      "ap": "unknown",
+      "online": true,
+      "note": "IRS processors charge about 1.75% to 1.9% for credit cards. Only worthwhile with a card earning more than that, or to hit a spending bonus."
+    },
+    {
+      "n": "DMV / passport / government fees",
+      "a": [
+        "dmv",
+        "passport",
+        "government fee",
+        "city fee",
+        "court",
+        "usps",
+        "post office",
+        "postage",
+        "stamps"
+      ],
+      "c": [
+        "taxes-government"
+      ],
+      "ap": "unknown",
+      "note": "Many government agencies add a credit card surcharge."
+    },
+    {
+      "n": "TSA PreCheck / Global Entry / CLEAR",
+      "a": [
+        "tsa precheck",
+        "precheck",
+        "global entry",
+        "clear",
+        "clear plus",
+        "nexus"
+      ],
+      "c": [
+        "travel",
+        "taxes-government"
+      ],
+      "ap": "unknown",
+      "online": true,
+      "note": "Amex Platinum reimburses Global Entry or TSA PreCheck application fees and has an annual CLEAR Plus credit (enrollment may be required)."
+    },
+    {
+      "n": "Doctor / dentist / hospital / vet",
+      "a": [
+        "doctor",
+        "dentist",
+        "dental",
+        "hospital",
+        "clinic",
+        "kaiser",
+        "sutter",
+        "one medical",
+        "urgent care",
+        "vet",
+        "veterinarian",
+        "vca",
+        "banfield",
+        "copay",
+        "therapist",
+        "chiropractor",
+        "physical therapy"
+      ],
+      "c": [
+        "medical"
+      ],
+      "ap": "unknown"
+    },
+    {
+      "n": "Tuition / daycare / lessons",
+      "a": [
+        "tuition",
+        "daycare",
+        "childcare",
+        "preschool",
+        "school fees",
+        "college",
+        "university",
+        "lessons",
+        "tutoring",
+        "kumon"
+      ],
+      "c": [
+        "education"
+      ],
+      "ap": "unknown",
+      "note": "Schools and daycares often add a 2% to 3% card fee; check first."
+    },
+    {
+      "n": "Charity / donations",
+      "a": [
+        "donation",
+        "donate",
+        "charity",
+        "gofundme",
+        "church",
+        "temple",
+        "nonprofit",
+        "red cross"
+      ],
+      "c": [
+        "charity"
+      ],
+      "ap": "unknown",
+      "online": true
+    },
+    {
+      "n": "PayPal / Venmo / Cash App / Zelle (sending money)",
+      "a": [
+        "paypal",
+        "venmo",
+        "cash app",
+        "cashapp",
+        "zelle",
+        "send money",
+        "peer to peer",
+        "p2p"
+      ],
+      "c": [
+        "everything"
+      ],
+      "ap": false,
+      "online": true,
+      "note": "Sending money to a person with a credit card costs ~3% on Venmo/PayPal and may post as a cash advance on some cards. Use a bank account instead. PayPal checkout at a merchant is fine and codes as that merchant."
+    },
+    {
+      "n": "Gift cards",
+      "a": [
+        "gift card",
+        "gift cards",
+        "visa gift card",
+        "giftcard"
+      ],
+      "c": [
+        "everything"
+      ],
+      "ap": "unknown",
+      "note": "Gift card purchases are excluded from most bonus categories and from most credits. Amazon gift cards do not earn the Prime Visa 5%."
+    },
+    {
+      "n": "Oura",
+      "a": [
+        "oura",
+        "oura ring"
+      ],
+      "c": [
+        "shopping",
+        "online-shopping"
+      ],
+      "ap": "unknown",
+      "online": true,
+      "note": "Amex Platinum has an Oura credit (check the current amount, period, and enrollment rules)."
+    },
+    {
+      "n": "Walmart+",
+      "a": [
+        "walmart+",
+        "walmart plus"
+      ],
+      "c": [
+        "shopping"
+      ],
+      "ap": false,
+      "online": true,
+      "note": "Amex Platinum reimburses the Walmart+ monthly membership (enrollment required; taxes and Plus Up excluded)."
+    },
+    {
+      "n": "Uber One",
+      "a": [
+        "uber one"
+      ],
+      "c": [
+        "rideshare",
+        "dining"
+      ],
+      "ap": true,
+      "online": true,
+      "note": "Amex Platinum reimburses an auto-renewing Uber One membership paid with the card."
+    },
+    {
+      "n": "Costco Travel",
+      "a": [
+        "costco travel"
+      ],
+      "c": [
+        "travel",
+        "car-rental",
+        "hotels"
+      ],
+      "ap": false,
+      "online": true,
+      "no": [
+        "amex",
+        "mastercard",
+        "discover"
+      ],
+      "note": "Costco Travel accepts only Visa."
+    },
+    {
+      "n": "Hotel booked on Marriott.com for someone else / Marriott gift cards",
+      "a": [
+        "marriott gift card"
+      ],
+      "c": [
+        "marriott"
+      ],
+      "ap": false,
+      "online": true,
+      "note": "Gift card purchases are usually excluded from bonus earning."
+    },
+    {
+      "n": "Foreign purchase (abroad)",
+      "a": [
+        "abroad",
+        "overseas",
+        "international purchase",
+        "foreign"
+      ],
+      "c": [
+        "everything"
+      ],
+      "ap": true,
+      "note": "Outside the US: Freedom Unlimited (3%) and Blue Cash Preferred (2.7%) charge foreign transaction fees. Discover has limited acceptance abroad; Amex is accepted less than Visa/Mastercard. Amex Gold/Platinum bonus categories are US-only for restaurants/supermarkets, but flights on foreign airlines still earn the airline rate."
+    },
+    {
+      "n": "Hertz",
+      "a": [
+        "hertz",
+        "hertz.com"
+      ],
+      "c": [
+        "car-rental",
+        "travel"
+      ],
+      "ap": true,
+      "note": "Apple Card partner: 3% with Apple Pay for rentals booked on Hertz.com or in the Hertz app at US corporate locations (≤61 days). Amex Platinum gives Hertz President's Circle status; Amex Gold gives Five Star. Decline Hertz's damage waiver to use card coverage."
+    },
+    {
+      "n": "ChargePoint",
+      "a": [
+        "chargepoint",
+        "charge point"
+      ],
+      "c": [
+        "ev-charging"
+      ],
+      "ap": true,
+      "online": true,
+      "note": "Apple Card partner: 3% with Apple Pay in the ChargePoint app at public stations. Wells Fargo Autograph counts EV charging as fuel (3x)."
+    },
+    {
+      "n": "Buffalo Wild Wings",
+      "a": [
+        "buffalo wild wings",
+        "bdubs",
+        "b-dubs"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true,
+      "note": "Covered by the Amex Gold monthly dining credit (added April 2026)."
+    },
+    {
+      "n": "Wonder (food hall / delivery)",
+      "a": [
+        "wonder"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": true,
+      "online": true,
+      "note": "Covered by the Amex Gold monthly dining credit (added April 2026)."
+    },
+    {
+      "n": "Shopbop",
+      "a": [
+        "shopbop"
+      ],
+      "c": [
+        "online-shopping",
+        "shopping"
+      ],
+      "ap": false,
+      "online": true,
+      "note": "Amazon-owned: Prime Visa earns its Amazon rate here."
+    },
+    {
+      "n": "Twitch / Woot (via Amazon Pay)",
+      "a": [
+        "twitch",
+        "woot"
+      ],
+      "c": [
+        "online-shopping",
+        "entertainment"
+      ],
+      "ap": false,
+      "online": true,
+      "note": "Prime Visa earns its Amazon rate when paying with Amazon Pay."
+    },
+    {
+      "n": "Metropolis parking",
+      "a": [
+        "metropolis",
+        "metropolis parking"
+      ],
+      "c": [
+        "transit"
+      ],
+      "ap": false,
+      "note": "Bilt Palladium earns 3x at Metropolis drive-up garages when your Metropolis account is linked (airport, event, municipal and hospital lots excluded)."
+    },
+    {
+      "n": "Amex Venue Collection stadiums & arenas",
+      "a": [
+        "amex venue collection",
+        "venue collection",
+        "stadium concessions",
+        "arena concessions"
+      ],
+      "c": [
+        "entertainment",
+        "dining"
+      ],
+      "ap": true,
+      "note": "Amex Platinum and Blue Cash Preferred: 10% back on concessions at participating venues, up to $250/yr, enrollment required (offer ends Dec 31, 2026)."
+    },
+    {
+      "n": "Fine Hotels + Resorts / The Hotel Collection (Amex Travel)",
+      "a": [
+        "fine hotels + resorts",
+        "fine hotels and resorts",
+        "fhr",
+        "the hotel collection",
+        "hotel collection",
+        "thc"
+      ],
+      "c": [
+        "portal-travel",
+        "hotels",
+        "travel"
+      ],
+      "ap": false,
+      "online": true,
+      "only": [
+        "amex-platinum",
+        "amex-gold",
+        "amex-blue-cash-preferred"
+      ],
+      "note": "Amex Platinum: 5x and the $300 semiannual hotel credit on prepaid FHR (any length) or THC (2+ nights) bookings. Amex Gold: 5x on prepaid hotels plus a $100 on-property credit at THC stays of 2+ nights."
+    }
+  ]
+}
