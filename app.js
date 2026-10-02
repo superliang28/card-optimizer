@@ -300,7 +300,12 @@
     const abroad = App.state.abroad || resolved.tags.includes('abroad');
     const ctx = { merchant: m, primary: resolved.primary, categories: resolved.categories, tags: resolved.tags, applePay, abroad };
     const results = App.data.cards.map(c => evaluateCard(c, ctx));
-    const ranked = results.filter(r => !r.excluded).sort((a, b) => (b.effective - a.effective) || (b.protectionScore - a.protectionScore));
+    const ranked = results.filter(r => !r.excluded).sort((a, b) => {
+      const d = b.effective - a.effective;
+      if (Math.abs(d) > 0.004) return d; // different value: higher first
+      // tie: card with the higher annual fee first, then stronger protections
+      return ((b.card.annualFee || 0) - (a.card.annualFee || 0)) || (b.protectionScore - a.protectionScore);
+    });
     const excluded = results.filter(r => r.excluded);
     return { ctx, ranked, excluded };
   }

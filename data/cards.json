@@ -39,7 +39,7 @@
       "name": "Bilt Cash (per $1)",
       "shortName": "Bilt Cash",
       "unit": "percent",
-      "note": "worth $1 only on Bilt credits you'd use anyway (Lyft/Walgreens/Grubhub $10/mo each, Bilt Travel hotels, dining, fitness); converting to rent points costs $3 per 100 pts, i.e. ~$0.50 of value at 1.5¢/pt. Default 0.5 assumes conversion; raise it if you use the credits"
+      "note": "worth $1 only on Bilt credits you'd use anyway (Lyft/Walgreens/Grubhub $10/mo each, Bilt Travel hotels, dining, fitness); converting to rent points costs $3 per 100 pts. Set this to what $1 of Bilt Cash is really worth to you"
     },
     "marriott-bonvoy": {
       "name": "Marriott Bonvoy points",
@@ -2422,7 +2422,7 @@
             "rent"
           ],
           "conditions": "4% back in Bilt Cash on everyday spend (Flexible Bilt Cash option only; not on housing). Bilt Cash has no cash value: spend it dollar-for-dollar on Bilt Travel hotels ($100/mo at Gold+), Lyft/Walgreens/Grubhub ($10/mo each), Bilt Dining, fitness, or convert to rent points at 3¢ each. Expires Dec 31 ($100 rolls over).",
-          "notes": "Valued via the 'Bilt Cash' setting (default 0.5 per $1 = converted to rent points at 3¢ each; raise it if you spend Bilt Cash on credits at face value)."
+          "notes": "Valued via the 'Bilt Cash' setting in Settings (per $1 of Bilt Cash)."
         },
         {
           "category": "portal-travel",
