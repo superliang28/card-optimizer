@@ -744,6 +744,18 @@
       "note": "Amex Platinum and Amex Gold Resy credits apply at US restaurants on Resy (enrollment required; pay with the card at the restaurant)."
     },
     {
+      "n": "Tock restaurants",
+      "a": [
+        "tock",
+        "exploretock"
+      ],
+      "c": [
+        "dining"
+      ],
+      "ap": "unknown",
+      "note": "Since Sept 15, 2026 select US Tock venues showing the 'Resy Credit eligible' badge count toward the Amex Platinum and Amex Gold Resy credits (enrollment required; pay with the card)."
+    },
+    {
       "n": "Shell",
       "a": [
         "shell",

@@ -1,12 +1,16 @@
 {
   "meta": {
-    "dataAsOf": "2026-09-28",
+    "dataAsOf": "2026-10-02",
     "nextUpdate": "2027-01-01",
     "repo": "https://github.com/superliang28/card-optimizer",
     "changelog": [
       {
         "date": "2026-09-29",
         "summary": "Initial research of all 10 cards from issuer terms, guides to benefits and official pages."
+      },
+      {
+        "date": "2026-10-02",
+        "summary": "2026-Q4 refresh of all 10 cards. Bilt: World of Hyatt transfers drop from 1:1 to 4:3 on 2027-01-01 (announced 2026-10-01); Grubhub Bilt Cash now issued as expiring promo cards. Chase Freedom Unlimited: points combined into a pre-June-15-2026 Sapphire Preferred now transfer to Hyatt at 4:3 (since 2026-10-01). Amex Platinum: Lufthansa lounge access ended 2026-10-01; Resy credit needs the 'Resy Credit eligible' badge (since 2026-08-01) and badged U.S. Tock venues count (since 2026-09-15); Global Entry/TSA credit corrected to one per Additional Card as well; credit fine print expanded. Amex Gold: same Resy badge/Tock rules, Hotel Collection credit terms from Amex Travel, Uber One credit conditions. Discover: Q4 2026 confirmed (restaurants, entertainment, utilities) with streaming excluded; Q1 2027 not yet announced; Capital One migration waves noted. Wells Fargo: rewards pooling note corrected (manual moves between own cards still allowed). Apple Card: still Goldman, Chase transition not closed; Apple Upgrade lease payments earn 3%. Prime Visa: no changes; noted it is excluded from Chase's DashPass and Lyft partner benefits. Marriott Boundless and Blue Cash Preferred: no changes. Issuer sites were blocked by the network proxy this run, so checks relied on official text in search results; see Needs manual check."
       }
     ]
   },
@@ -80,7 +84,7 @@
         "id": "amex-mr",
         "name": "Membership Rewards",
         "unit": "points",
-        "redemption": "Points do not expire while at least one MR-earning card stays open. Best fixed-value use is Pay with Points for flights booked through Amex Travel (amextravel.com / Amex Travel app / Platinum Travel Service) at 1.0 cent per point (100 points = $1; 5,000-point minimum; Platinum Member Airfares fares can be paid with points and prepaid FHR/THC bookings paid with points still trigger the hotel credit). Prepaid hotels, car rentals, cruises and vacation packages via Amex Travel run about 0.7 cpp; statement credits ('Cover Your Card Charges') about 0.6 cpp; gift cards roughly 0.5-1.0 cpp; Amazon/PayPal checkout about 0.7 cpp. Highest value is transferring to 20 travel partners (16 airlines + 4 hotels), most at 1:1 (minimum transfer 1,000 points, 250 for JetBlue, 500 for Qantas): Aer Lingus AerClub 1:1, Aeromexico Rewards 1:1.6, Air Canada Aeroplan 1:1, Air France-KLM Flying Blue 1:1, ANA Mileage Club 1:1, Avianca LifeMiles 1:1, British Airways Club 1:1, Cathay Pacific 5:4 (1,000 MR = 800), Delta SkyMiles 1:1, Emirates Skywards 5:4, Iberia Club 1:1, JetBlue TrueBlue 1:0.8 (250 MR = 200), Qantas Frequent Flyer 1:1, Qatar Privilege Club 1:1, Singapore KrisFlyer 1:1, Virgin Atlantic Flying Club 1:1; hotels: Choice Privileges 1:1, Hilton Honors 1:2, Marriott Bonvoy 1:1, Leading Hotels of the World Leaders Club 4:1 (added July 2026). Etihad Guest was removed as a partner June 30, 2026. Transfers to U.S.-based airline programs (Delta, JetBlue) incur an excise-tax offset fee of $0.0006 per point, capped at $99 per transfer. Most transfers are instant; ANA can take ~48 hours and Leaders Club ~72 hours. Amex Travel redemption rates and transfer ratios are from The Points Guy (Aug 20, 2026) and Upgraded Points (Aug 21, 2026); the official Pay with Points page confirms eligible purchases and the 5,000-point minimum but does not publish cpp values.",
+        "redemption": "Points do not expire while at least one MR-earning card stays open. Best fixed-value use is Pay with Points for flights booked through Amex Travel (amextravel.com / Amex Travel app / Platinum Travel Service) at 1.0 cent per point (100 points = $1; 5,000-point minimum; Platinum Member Airfares fares can be paid with points and prepaid FHR/THC bookings paid with points still trigger the hotel credit). Prepaid hotels, car rentals, cruises and vacation packages via Amex Travel run about 0.7 cpp; statement credits ('Cover Your Card Charges') about 0.6 cpp; gift cards roughly 0.5-1.0 cpp; Amazon/PayPal checkout about 0.7 cpp. Highest value is transferring to 20 travel partners (16 airlines + 4 hotels), most at 1:1 (minimum transfer 1,000 points, 250 for JetBlue, 500 for Qantas): Aer Lingus AerClub 1:1, Aeromexico Rewards 1:1.6, Air Canada Aeroplan 1:1, Air France-KLM Flying Blue 1:1, ANA Mileage Club 1:1, Avianca LifeMiles 1:1, British Airways Club 1:1, Cathay Pacific 5:4 (1,000 MR = 800), Delta SkyMiles 1:1, Emirates Skywards 5:4, Iberia Club 1:1, JetBlue TrueBlue 1:0.8 (250 MR = 200), Qantas Frequent Flyer 1:1, Qatar Privilege Club 1:1, Singapore KrisFlyer 1:1, Virgin Atlantic Flying Club 1:1; hotels: Choice Privileges 1:1, Hilton Honors 1:2, Marriott Bonvoy 1:1, Leading Hotels of the World Leaders Club 4:1 (added July 28, 2026). Etihad Guest was removed as a partner June 30, 2026. Transfers to U.S.-based airline programs (Delta, JetBlue) incur an excise-tax offset fee of $0.0006 per point, capped at $99 per transfer. Most transfers are instant; ANA can take ~48 hours and Leaders Club ~72 hours. Amex Travel redemption rates and transfer ratios are from The Points Guy (Aug 20, 2026) and Upgraded Points (Aug 21, 2026); the official Pay with Points page confirms eligible purchases and the 5,000-point minimum but does not publish cpp values.",
         "pointsExpire": false,
         "transferPartnerCountOfficial": 20,
         "verified": true,
@@ -147,7 +151,7 @@
           ],
           "categoryTags": [],
           "enrollmentRequired": true,
-          "howToUse": "Select ONE qualifying airline in the Amex account (this cardholder: United) before the fee charges post; the selection can be changed only in January each year (or once via phone), otherwise last year's choice carries forward. Official qualifying fees: checked-bag and overweight/oversize bag fees, seat selection, in-flight food/beverage and entertainment (not Wi-Fi), flight-change fees, airport lounge day passes and annual club memberships, pet-kennel/in-cabin pet fees, phone reservation fees. Officially EXCLUDED: airfare, upgrades, mileage purchases/transfer fees, gift cards, duty-free, award tickets. United data points (2026): Economy Plus seat purchases, United Club day passes/memberships, checked bags, seat selection, pet fees, same-day change fees reliably post; United TravelBank loads STOPPED triggering the credit around Feb 2026 and award-ticket close-in/redeposit fees stopped around July 2026 per Upgraded Points. Amex relies on airline transaction coding; credit usually posts in days, up to 8 weeks. Both Basic and Additional Card charges on the selected airline count toward the same $200.",
+          "howToUse": "Select ONE qualifying airline in the Amex account (this cardholder: United) before the fee charges post; the selection can be changed only in January each year (or once via phone), otherwise last year's choice carries forward. Official qualifying fees: checked-bag and overweight/oversize bag fees, seat selection, in-flight food/beverage and entertainment (not Wi-Fi), flight-change fees, airport lounge day passes and annual club memberships, pet-kennel/in-cabin pet fees, phone reservation fees. Officially EXCLUDED: airfare, upgrades, mileage purchases/transfer fees, gift cards, duty-free, award tickets. United data points (2026): Economy Plus seat purchases, United Club day passes/memberships, checked bags, seat selection, pet fees, same-day change fees reliably post; United TravelBank loads STOPPED triggering the credit around Feb 2026 and award-ticket close-in/redeposit fees stopped around July 2026 per Upgraded Points. Amex relies on airline transaction coding; credit usually posts in days, officially allow 6-8 weeks. Both Basic and Additional Card charges on the selected airline count toward the same $200.",
           "expiresUnused": true,
           "source": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/using-your-american-express-platinum-airline-credit/"
         },
@@ -164,9 +168,9 @@
           ],
           "categoryTags": [],
           "enrollmentRequired": true,
-          "howToUse": "Add the Platinum Card as a payment method in the Uber / Uber Eats app (this is the 'enrollment'); Uber Cash appears automatically each month. To use it, select an American Express card as the payment method for the ride/order and have Uber Cash toggled ON. Works only for rides and orders in the U.S.; not for Uber gift cards, and Uber Cash cannot be used for the Uber One membership fee if you want the Uber One credit. Delivered as Uber Cash in the app, not a statement credit. Widely reported (not verified from official terms in this session) that only the Basic Card Member, not Additional Card Members, receives Platinum Uber Cash.",
+          "howToUse": "Add the Platinum Card as a payment method in the Uber / Uber Eats app (this is the 'enrollment'); Uber Cash appears automatically each month. To use it, select an American Express card as the payment method for the ride/order and have Uber Cash toggled ON. Works only for rides and orders in the U.S.; not for Uber gift cards, and Uber Cash cannot be used for the Uber One membership fee if you want the Uber One credit. Delivered as Uber Cash in the app, not a statement credit. Per the official benefit terms, Additional Card Members are not eligible for Platinum Uber Cash (Basic Card Member only).",
           "expiresUnused": true,
-          "source": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/how-does-the-american-express-platinum-uber-credit-work/"
+          "source": "https://global.americanexpress.com/card-benefits/detail/uber-rides-with-platinum/platinum"
         },
         {
           "id": "plat-uber-one",
@@ -181,7 +185,7 @@
           "enrollmentRequired": false,
           "howToUse": "Purchase an auto-renewing Uber One membership in the U.S. with the Platinum Card as the payment method. In the app, turn Uber Cash OFF for the membership fee so the fee is charged to the Amex card (if Uber Cash pays it, no statement credit). Credits post automatically, typically within a few days, up to 8 weeks. Uber One charges from Basic and Additional Card Members are eligible but share the $120 cap. New benefit added Sept 18, 2025.",
           "expiresUnused": true,
-          "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/"
+          "source": "https://global.americanexpress.com/card-benefits/detail/uber-one-credit/platinum"
         },
         {
           "id": "plat-resy",
@@ -190,13 +194,14 @@
           "period": "quarterly",
           "schedule": "Up to $100 per calendar quarter (Jan-Mar, Apr-Jun, Jul-Sep, Oct-Dec); up to $400 per calendar year. Unused quarterly amounts do not roll over.",
           "merchants": [
-            "Resy"
+            "Resy",
+            "Tock restaurants"
           ],
           "categoryTags": [
             "dining"
           ],
           "enrollmentRequired": true,
-          "howToUse": "Enroll once in the Amex account or app (allow up to 24 hours). Then pay with the Platinum Card at any qualifying U.S. Resy restaurant; a Resy reservation is NOT required, dining purchases at a Resy-partnered restaurant trigger it based on merchant coding. Excludes gift cards purchased at restaurants, merchandise, Resy-branded gift cards and restaurant software. Credits typically post within days, officially up to 8 weeks. Tip: the Resy app/website shows which restaurants participate. New benefit added Sept 18, 2025.",
+          "howToUse": "Enroll once in the Amex account or app (allow up to 24 hours). Then pay with the Platinum Card at a qualifying U.S. restaurant or other food and beverage establishment (e.g. wineries, cafes) on Resy, or for purchases made directly on Resy.com / the Resy app or via Resy Pay; a Resy reservation is NOT required. Since Aug 1, 2026 the venue must be shown as eligible for the Resy Credit (a 'Resy Credit eligible' badge) on its Resy.com / Resy app page at the time of purchase, and the eligible list can change at any time. Since Sept 15, 2026 select U.S. Tock venues (Tock is being merged into Resy) that carry the badge also qualify. Excludes gift cards purchased at restaurants, merchandise, Resy-branded gift cards and restaurant software. The $100/quarter cap is shared across all Cards on the Account. Credits typically post within days, officially up to 8 weeks. New benefit added Sept 18, 2025.",
           "expiresUnused": true,
           "source": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/resy-credit/"
         },
@@ -210,10 +215,10 @@
             "Disney+",
             "Hulu",
             "ESPN+",
-            "The New York Times",
+            "New York Times",
             "Paramount+",
             "Peacock",
-            "The Wall Street Journal",
+            "Wall Street Journal",
             "YouTube Premium",
             "YouTube TV"
           ],
@@ -221,9 +226,9 @@
             "streaming"
           ],
           "enrollmentRequired": true,
-          "howToUse": "Enroll in the Amex account (allow up to 24 hours) and pay for the subscription DIRECTLY with the partner (disneyplus.com, hulu.com, nytimes.com, etc.) using the Platinum Card. Subscriptions billed through Apple App Store, Google Play, Amazon, Roku or other third parties do NOT qualify. Effective Aug 1, 2026 Peacock bundled subscriptions (e.g. Peacock + Apple TV bundle), add-on services and third-party purchases are ineligible; standalone Peacock plans bought at peacocktv.com still qualify. Netflix, Max, Apple TV+, Prime Video, Spotify, Apple Music, Sling, Fubo are NOT eligible. Basic and Additional Card Member charges share the same $25 monthly cap. Credit usually posts within days, up to 8 weeks.",
+          "howToUse": "Enroll (Basic Card Member) in the Amex account and allow up to 24 hours, then pay for the subscription DIRECTLY with the partner using the Platinum Card: disneyplus.com (Disney+ or a Disney+ bundle), stream.ESPN.com (ESPN streaming subscriptions, add-ons and pay-per-view; not ESPN bundled with cable or bought through third parties), hulu.com, nytimes.com/subscription, paramountplus.com, peacocktv.com, wsj.com/amex, YouTube (Premium / TV). Subscriptions billed through Apple App Store, Google Play, Amazon, Roku or other third parties do NOT qualify. Effective Aug 1, 2026 Peacock bundled subscriptions (e.g. Peacock + Apple TV bundle), add-on services and third-party purchases are ineligible; standalone Peacock plans bought at peacocktv.com still qualify. Netflix, Max, Apple TV+, Prime Video, Spotify, Apple Music, Sling, Fubo are NOT eligible. Basic and Additional Card Member charges share the same $25 monthly cap per Card Account. Credit usually posts within days, up to 8 weeks.",
           "expiresUnused": true,
-          "source": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/how-does-the-amex-platinum-digital-entertainment-credit-work/"
+          "source": "https://global.americanexpress.com/card-benefits/detail/digital-entertainment/platinum"
         },
         {
           "id": "plat-lululemon",
@@ -236,9 +241,9 @@
           ],
           "categoryTags": [],
           "enrollmentRequired": true,
-          "howToUse": "Enroll in the Amex account (allow up to 24 hours), then pay with the Platinum Card at a U.S. lululemon store or lululemon.com. Outlet stores, lululemon in other countries, third-party retailers, and (per reports) gift cards and lululemon Studio/Mirror subscriptions are excluded. Online orders are charged when they ship, so order early enough in the quarter for the charge to post before quarter end. Credit usually posts within days, officially up to 8 weeks. Returns can reverse the credit. New benefit added Sept 18, 2025.",
+          "howToUse": "Enrollment by the Basic Card Member is required (allow up to 24 hours). Then pay with the Platinum Card directly with lululemon at a U.S. lululemon store, lululemon.com (U.S. site) or the lululemon app. Officially excluded: lululemon Studio, Like New, outlet locations, warehouse sales, event locations, showrooms and wholesale transactions, gift card purchases, orders shipped outside the U.S., non-U.S. stores and third-party retailers. Online orders are charged when they ship, so order early enough in the quarter for the charge to post before quarter end. Credit usually posts within days, officially up to 8 weeks. Returns can reverse the credit. New benefit added Sept 18, 2025.",
           "expiresUnused": true,
-          "source": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/american-express-platinum-shopping-benefits/"
+          "source": "https://global.americanexpress.com/card-benefits/detail/lululemon-credit/platinum"
         },
         {
           "id": "plat-oura",
@@ -251,9 +256,9 @@
           ],
           "categoryTags": [],
           "enrollmentRequired": true,
-          "howToUse": "Enroll in the Amex account first, then buy an Oura Ring at ouraring.com (U.S. site) with the Platinum Card, shipping to a U.S. address (not territories). Only ring hardware qualifies: the Oura membership/subscription (~$5.99/mo), chargers and other hardware add-ons, extended warranties, Oura gift cards, and purchases from Amazon/Best Buy/other third-party retailers do NOT qualify. Do not split payment via PayPal. Allow up to 8 weeks to post; returns/cancellations reverse the credit. The $200 is per account (shared with Additional Card Members) and does not require a subscription purchase. New benefit added Sept 18, 2025.",
+          "howToUse": "Enrollment by the Basic Card Member is required; enroll in the Amex account first, then buy an Oura Ring at ouraring.com (U.S. site) with the Platinum Card, shipping to a U.S. address (not territories). Only ring hardware qualifies: the Oura membership/subscription (~$5.99/mo), chargers and other hardware add-ons, extended warranties, Oura gift cards, and purchases from Amazon/Best Buy/other third-party retailers do NOT qualify. Do not split payment via PayPal. Allow up to 8 weeks to post; returns/cancellations reverse the credit. The $200 is per account (shared with Additional Card Members) and does not require a subscription purchase. New benefit added Sept 18, 2025.",
           "expiresUnused": true,
-          "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/"
+          "source": "https://global.americanexpress.com/card-benefits/detail/oura-credit/platinum"
         },
         {
           "id": "plat-equinox",
@@ -266,9 +271,9 @@
           ],
           "categoryTags": [],
           "enrollmentRequired": true,
-          "howToUse": "Enroll at https://platinum.equinox.com/ (Equinox-hosted enrollment tied to your Amex account) BEFORE paying, then pay the auto-renewing Equinox club membership or Equinox+ digital subscription with the Platinum Card. Initiation fees, personal training, spa services, retail and Equinox Hotel charges do not qualify. Credit typically posts in 2-4 days, up to 8 weeks. Since Jan 1, 2023 the credit is a single $300 annual pool rather than $25/month.",
+          "howToUse": "The Basic Card Member must first validate the Card Account at https://platinum.equinox.com/ (or via the link in the Amex account benefits section) BEFORE paying, then the Basic or an Additional Card Member pays the auto-renewing Equinox club membership or Equinox+ digital subscription directly with Equinox/Equinox+ using the Platinum Card. Eligible club memberships per Amex: Single Club (U.S. only), Regional Access (U.S. only), All-Access, Destination Access and E by Equinox Access. Initiation fees, personal training, spa services, retail and Equinox Hotel charges do not qualify. $300 cap is per Card Account. Credit typically posts in a few days, up to 8 weeks. Since Jan 1, 2023 the credit is a single $300 annual pool rather than $25/month.",
           "expiresUnused": true,
-          "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/"
+          "source": "https://global.americanexpress.com/card-benefits/detail/credit-equinox/platinum"
         },
         {
           "id": "plat-walmart-plus",
@@ -281,9 +286,9 @@
           ],
           "categoryTags": [],
           "enrollmentRequired": false,
-          "howToUse": "Sign up for the MONTHLY (not annual) Walmart+ plan and set the Platinum Card as the payment method; the $12.95 + tax fee is credited automatically each month. Only one membership per account; 'Plus Up' add-ons (InHome delivery, Business+) are excluded. Walmart+ includes Paramount+ Essential at no extra charge, plus free shipping/delivery and fuel discounts. Credit usually posts within days, up to 8 weeks. Amex's Credit Intel page describes this as automatic with card payment (Upgraded Points says enrollment is required; check the benefits dashboard).",
+          "howToUse": "Sign up for the MONTHLY (not annual) Walmart+ plan (Amex/Walmart partner page: walmart.com/plus/partnerenroll?programName=amexplatinum) and pay with any Card on the Platinum account; up to $12.95 + tax is credited each month. Only one Walmart+ monthly membership per Card Account per month; annual memberships, 'Plus Up' add-ons (e.g. Walmart InHome) and Walmart Business+ are excluded. Walmart+ includes Paramount+ Essential at no extra charge, plus free shipping/delivery and fuel discounts. Credit usually posts within days, up to 6-8 weeks. Amex's Credit Intel page describes this as automatic with card payment, while the benefit terms refer to the 'enrolled Basic Card Member' (Upgraded Points says Amex enrollment is required); enroll in the benefits dashboard if the option appears.",
           "expiresUnused": true,
-          "source": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/american-express-platinum-shopping-benefits/"
+          "source": "https://global.americanexpress.com/card-benefits/detail/walmart-platinum/platinum"
         },
         {
           "id": "plat-clear",
@@ -296,7 +301,7 @@
           ],
           "categoryTags": [],
           "enrollmentRequired": false,
-          "howToUse": "Sign up for or renew an auto-renewing CLEAR+ membership at clearme.com with the Platinum Card as the payment method. The credit covers one adult membership ($219/yr list); added family members ($125 each) are not fully covered. Children under 18 accompany a member free. The Amex terms describe the credit as applying 'after you enroll and pay for CLEAR+' (CLEAR enrollment; no separate Amex enrollment per the official fact sheet, though some sites say to check the benefits dashboard). Credit posts within days, up to 8 weeks. CLEAR+ is separate from TSA PreCheck; pairing both is the fastest path through U.S. security.",
+          "howToUse": "Sign up for or renew an auto-renewing CLEAR+ membership at clearme.com with the Platinum Card as the payment method (completing CLEAR's own enrollment at an airport CLEAR location; no separate Amex enrollment per the official fact sheet). The credit covers one adult membership ($219/yr list); added family members ($125 each) are not fully covered unless room remains under the cap. Children under 18 accompany a member free. Basic and Additional Card Member purchases are eligible but share $219 per Card Account per calendar year. Officially, no credit if paid through an electronic wallet or a third party (such as an app store) or if the merchant uses a mobile/wireless card reader. Credit posts within days, up to 6-8 weeks. CLEAR+ is separate from TSA PreCheck; pairing both is the fastest path through U.S. security.",
           "expiresUnused": true,
           "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/"
         },
@@ -312,9 +317,9 @@
           ],
           "categoryTags": [],
           "enrollmentRequired": false,
-          "howToUse": "Pay the Global Entry ($120) or TSA PreCheck (up to $85 through an official TSA enrollment provider such as IDEMIA, Telos, or CLEAR) application/renewal fee with the Platinum Card; the credit posts automatically, usually within days (up to 8 weeks). Global Entry includes TSA PreCheck, so it is the better choice. The credit covers anyone's application fee charged to the card (e.g., a family member), but only one credit per 4/4.5-year window per account. Full terms at americanexpress.com/expeditedtravel.",
+          "howToUse": "Pay the Global Entry ($120) or TSA PreCheck (up to $85 for a five-year membership through an official TSA PreCheck enrollment provider such as IDEMIA, Telos, or CLEAR) application/renewal fee with the Platinum Card; the credit posts automatically, usually within days (up to 6-8 weeks), whether or not the application is approved. Global Entry includes TSA PreCheck, so it is the better choice. The fee can be for anyone (e.g., a family member). One credit per card per 4-year window (4.5 years for TSA PreCheck), whichever fee is charged first; per Amex, each Additional Platinum Card is also eligible for its own credit when the fee is charged on that Additional Card. Full terms at americanexpress.com/en-us/benefits/travel/expedite-your-travel/.",
           "expiresUnused": false,
-          "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/"
+          "source": "https://www.americanexpress.com/en-us/benefits/travel/expedite-your-travel/"
         },
         {
           "id": "plat-venue-collection",
@@ -449,15 +454,16 @@
         },
         {
           "name": "Priority Pass Select membership",
-          "details": "Enrollment required (enroll in the Amex account; both Basic and Additional Platinum Card Members can enroll). Access to 1,400-1,550+ Priority Pass lounges worldwide with up to 2 complimentary guests; additional guests charged (~$35). The Amex-issued Priority Pass EXCLUDES non-lounge experiences: Priority Pass restaurants/bars (the dining credits), Minute Suites/nap rooms, spas, gaming lounges and similar 'non-lounge' airport experiences are not accessible with the Amex Priority Pass card (since Aug 1, 2019). Use the Priority Pass digital card in the app.",
+          "details": "Enrollment required (enroll in the Amex account; both Basic and Additional Platinum Card Members can enroll). Access to 1,400-1,550+ Priority Pass lounges worldwide with up to 2 complimentary guests; additional guests charged (~$35). The Amex-issued Priority Pass EXCLUDES non-lounge experiences: Priority Pass restaurants/bars (the dining credits), Minute Suites/nap rooms, spas, gaming lounges and similar 'non-lounge' airport experiences are not accessible with the Amex Priority Pass card (since Aug 1, 2019). Use the Priority Pass digital card in the app. Note: the Oct 1, 2026 removal of Priority Pass for Additional Card Members was announced for Amex Australia, not the U.S.; Amex's U.S. Platinum/Additional Platinum guides still say both Basic and Additional Platinum Card Members can enroll.",
           "verified": true,
           "source": "https://upgradedpoints.com/credit-cards/reviews/american-express-platinum-card/airport-lounge-access/"
         },
         {
-          "name": "Other Global Lounge Collection partner lounges (Escape, Plaza Premium, Virgin Clubhouse; Lufthansa until Sept 30, 2026)",
-          "details": "Escape Lounges (U.S.; 'The Centurion Studio Partner' locations): Card Member plus up to 2 guests free, same-day boarding pass. Plaza Premium Lounges (mostly international): Card Member plus 2 guests free, within 3 hours of departure. Virgin Atlantic Clubhouses at LAX, JFK, SFO, IAD and JNB when flying same-day Virgin Atlantic (or Delta on certain routes) in any cabin. Lufthansa Business Lounges (economy) / Senator Lounges (business) at Frankfurt and Munich when flying Lufthansa Group same-day: ENDS October 1, 2026 - after that, only lounges that participate in Priority Pass remain accessible. Total network advertised as 1,550+ lounges as of Jan 2026.",
-          "verified": true,
-          "source": "https://thepointsguy.com/news/amex-platinum-economy-discounts-ends-lufthansa-lounge-access"
+          "name": "Other Global Lounge Collection partner lounges (Escape, Plaza Premium, Virgin Clubhouse)",
+          "details": "Escape Lounges (U.S.; 'The Centurion Studio Partner' locations): Card Member plus up to 2 guests free, same-day boarding pass. Plaza Premium Lounges (mostly international): Card Member plus 2 guests free, within 3 hours of departure. Virgin Atlantic Clubhouses at LAX, JFK, SFO, IAD and JNB when flying same-day Virgin Atlantic (or Delta on certain routes) in any cabin. Lufthansa Business/Senator Lounge access ENDED October 1, 2026 (no longer accessible via the Platinum Card even when flying Lufthansa Group). Total network advertised as 1,550+ lounges as of Jan 2026 (count predates the Lufthansa removal).",
+          "verified": false,
+          "source": "https://www.americanexpress.com/en-us/travel/lounges/the-platinum-card/terms/",
+          "verificationNotes": "Partner-lounge guest rules carried over from the previous refresh; Lufthansa end date confirmed only by secondary sources (OMAAT, Frequent Miler, TPG, MileLion) because americanexpress.com could not be fetched on 2026-10-02."
         },
         {
           "name": "Marriott Bonvoy Gold Elite status",
@@ -473,7 +479,7 @@
         },
         {
           "name": "Leaders Club Sterling status (The Leading Hotels of the World)",
-          "details": "New Sept 18, 2025. Complimentary Leaders Club Sterling status at 400+ independent luxury hotels; enrollment required. Perks: 5% Leaders Club points bonus on qualifying stays, 5 pre-arrival upgrade requests per year (subject to availability), daily continental breakfast for two, on-property perks, early check-in/late checkout when available. Leaders Club also became a Membership Rewards transfer partner (4:1) in July 2026.",
+          "details": "New Sept 18, 2025. Complimentary Leaders Club Sterling status at 400+ independent luxury hotels; enrollment required. Perks: 5% Leaders Club points bonus on qualifying stays, 5 pre-arrival upgrade requests per year (subject to availability), daily continental breakfast for two, on-property perks, early check-in/late checkout when available. Leaders Club also became a Membership Rewards transfer partner (4:1) on July 28, 2026.",
           "verified": true,
           "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/"
         },
@@ -527,7 +533,7 @@
         },
         {
           "name": "Additional and Companion Platinum Cards",
-          "details": "Additional Platinum Cards ($195 each per year) receive their own lounge access (Centurion, Delta Sky Club 10 visits, Priority Pass enrollment), hotel/car status enrollment, and insurance coverage, and their charges count toward shared credit caps (airline fee, digital entertainment, Uber One, Oura, etc.), but they do NOT get separate credit pools. Companion Platinum Cards ($0) earn points and get the Platinum servicing but not lounge access or most benefits.",
+          "details": "Additional Platinum Cards ($195 each per year) receive their own lounge access (Centurion, Delta Sky Club 10 visits, Priority Pass enrollment), hotel/car status enrollment, and insurance coverage, and their charges count toward shared credit caps (airline fee, digital entertainment, Uber One, Oura, etc.), but they do NOT get separate credit pools (exception: each Additional Platinum Card gets its own Global Entry/TSA PreCheck fee credit; Additional Card Members get no Uber Cash). Companion Platinum Cards ($0) earn points and get the Platinum servicing but not lounge access or most benefits.",
           "verified": true,
           "source": "https://www.americanexpress.com/en-us/benefits/additional-card/additional-platinum-card/terms-and-conditions/"
         }
@@ -541,12 +547,14 @@
         "2026-04 (announced April 10-13, 2026): Platinum Member Airfares launched, replacing the International Airline Program and Recommended Flights, adding select domestic economy discounts across 30+ airlines for up to 8 passengers. Same announcement: Lufthansa Group lounge access (Business/Senator lounges at FRA/MUC) ends October 1, 2026.",
         "2026-05-07: Uber VIP status removed and replaced with 'Signature Support for Amex' (24/7 live-agent support in Uber apps). Uber Cash ($200) and Uber One ($120) credits unchanged.",
         "2026-06-10: 'Events by Amex / Events with Amex' branding discontinued; Premium Events Collection, Amex Presale/Reserved Tickets and Venue Collection continue.",
-        "2026-06-30: Etihad Guest removed as a Membership Rewards transfer partner. 2026-07: The Leading Hotels of the World Leaders Club added as a transfer partner at 4:1 (20 partners total).",
+        "2026-06-30: Etihad Guest removed as a Membership Rewards transfer partner. 2026-07-28: The Leading Hotels of the World Leaders Club added as a transfer partner at 4:1 (20 partners total).",
         "2026-07-01: CLEAR+ credit increased from $209 to $219 per calendar year (matching CLEAR's price increase from $209 to $219).",
         "2026-07-08: Centurion Lounge changes took effect: guests must be traveling on the same flight as the Card Member; connecting passengers admitted only within 5 hours of the connecting flight (3-hour rule for originating departures unchanged). Applies at U.S. lounges plus LHR, HND, HKG, SYD, MEL.",
         "2026-08-01: Digital Entertainment credit terms tightened: Peacock bundled subscriptions (e.g. Peacock + Apple TV), add-on services and subscriptions purchased through third parties are ineligible; standalone Peacock plans bought at peacocktv.com still qualify.",
-        "2026-10-01 (upcoming): Lufthansa Business/Senator lounge access via the Platinum Card ends. Centurion, Delta Sky Club, Priority Pass, Escape, Plaza Premium and Virgin Clubhouse access are unaffected.",
-        "No changes announced for 2027 as of Sept 29, 2026; the $895 fee and the credit lineup above are current."
+        "2026-08-01: Resy credit terms changed: a restaurant/venue must be shown as eligible for the Resy Credit (badge on its Resy.com / Resy app page) at the time of purchase; the eligible list can change at any time.",
+        "2026-09-15: Select U.S. Tock venues (Tock being merged into Resy) became eligible for the $100/quarter Resy credit when they display the 'Resy Credit eligible' badge.",
+        "2026-10-01: Lufthansa Business/Senator lounge access via the Platinum Card ended. Centurion, Delta Sky Club, Priority Pass, Escape, Plaza Premium and Virgin Clubhouse access are unaffected. (The same-day removal of Priority Pass for Additional Card Members applies to Amex Australia, not U.S. cards.)",
+        "No new U.S. Platinum changes found announced between Sept 28 and Oct 2, 2026; no 2027 changes announced. The $895 fee and the credit lineup above are current."
       ],
       "gotchas": [
         "Most credits require ENROLLMENT in the Amex account before the purchase (Resy, Digital Entertainment, lululemon, Oura, Equinox (at platinum.equinox.com), airline selection, Venue Collection, Priority Pass, hotel/car status). Enrollment can take up to 24 hours; purchases made before enrolling are not credited retroactively.",
@@ -554,19 +562,19 @@
         "Airline fee credit: you must pick United BEFORE the charges post and can change airlines only in January. Airfare, upgrades, award tickets and gift cards are excluded by terms; United TravelBank loads stopped working around Feb 2026 and award-fee charges around July 2026. Reliable United uses: Economy Plus seats, checked bags, United Club day passes/membership, pet fees, seat selection, in-flight food.",
         "Hotel credit counts only PREPAID Amex Travel FHR/THC bookings ('Pay at hotel' bookings never trigger it), THC needs 2+ nights, and it is based on the CHARGE date, not the stay date. Cancelling a refundable prepaid booking reverses the credit. FHR rates are often higher than direct rates; value comes from the $100 property credit, breakfast and the $300 statement credit.",
         "Digital Entertainment: subscriptions billed through Apple App Store, Google Play, Amazon, Roku or bundled through another carrier do not count; you must be billed directly by Disney/Hulu/ESPN/NYT/WSJ/Paramount+/Peacock/YouTube. Netflix, Max, Apple TV+, Prime Video and Spotify never qualify. Since Aug 1, 2026 Peacock bundles/add-ons are excluded.",
-        "Uber One credit requires the membership fee to be charged to the Amex card, so turn Uber Cash OFF for the membership charge; if Uber Cash pays the fee you get no statement credit and burn Uber Cash. Uber Cash is US-only and is Uber Cash, not a statement credit; Additional Card Members reportedly do not receive Platinum Uber Cash.",
+        "Uber One credit requires the membership fee to be charged to the Amex card, so turn Uber Cash OFF for the membership charge; if Uber Cash pays the fee you get no statement credit and burn Uber Cash. Uber Cash is US-only and is Uber Cash, not a statement credit; Additional Card Members do not receive Platinum Uber Cash (official terms).",
         "Oura credit covers the RING only, bought at ouraring.com shipped to a U.S. address; the monthly Oura membership, chargers, warranties, gift cards, and Amazon/Best Buy purchases do not qualify. Splitting payment with PayPal can break it.",
         "lululemon: outlets, non-U.S. stores and third-party retailers are excluded, and online orders post when they SHIP, so late-quarter orders may land in the next quarter. Returns reverse the credit.",
-        "Resy credit: no reservation needed, but the restaurant must be a Resy-partnered U.S. restaurant coded as such; restaurants that use OpenTable/Tock do not count. Gift cards and merchandise excluded.",
+        "Resy credit: no reservation needed, but the U.S. venue must show the 'Resy Credit eligible' badge on Resy at the time of purchase (rule since Aug 1, 2026; list can change). Since Sept 15, 2026 badged Tock venues also count; OpenTable-only restaurants do not. Gift cards and merchandise excluded.",
         "Walmart+ credit only covers the MONTHLY plan ($12.95 + tax); the $98 annual plan is not reimbursed, and Plus Up add-ons are excluded.",
         "Earning is weak outside airfare: 1X on dining, groceries, gas and hotels booked direct. 5X applies only to flights bought from the airline or Amex Travel (not Expedia/Chase Travel) and to PREPAID hotels through Amex Travel (not pay-at-hotel, not direct with the hotel). The 5X flights bonus caps at $500,000 of flight spend per calendar year.",
-        "Lounge rules: Centurion entry only within 3 hours of departure (5 hours if connecting), guests $50/$30 unless you spend $75k in a calendar year, and since July 8, 2026 guests must be on your same flight. Delta Sky Club is capped at 10 visits per Medallion Year (Feb-Jan) and requires a same-day Delta flight (Basic Economy excluded); guests are $50 each. Amex's Priority Pass excludes restaurants, Minute Suites and spa credits. Lufthansa lounge access disappears Oct 1, 2026. Companion Platinum Card holders have no lounge access.",
+        "Lounge rules: Centurion entry only within 3 hours of departure (5 hours if connecting), guests $50/$30 unless you spend $75k in a calendar year, and since July 8, 2026 guests must be on your same flight. Delta Sky Club is capped at 10 visits per Medallion Year (Feb-Jan) and requires a same-day Delta flight (Basic Economy excluded); guests are $50 each. Amex's Priority Pass excludes restaurants, Minute Suites and spa credits. Lufthansa lounge access ended Oct 1, 2026. Companion Platinum Card holders have no lounge access.",
         "Insurance requires paying the ENTIRE round-trip fare or rental with the Platinum Card; trip delay needs a 6+ hour delay and is capped at 2 claims/12 months; car rental coverage is SECONDARY (unless you buy Premium Car Rental Protection, ~$19.95-$24.95 per rental for primary coverage) and excludes Australia, Italy and New Zealand; cell phone protection requires last month's wireless bill to have been paid with this card and has a $50 deductible.",
         "Hotel and car statuses (Marriott Gold, Hilton Gold, Leaders Club Sterling, Avis Preferred Plus, Hertz President's Circle, National Executive) are NOT automatic; enroll in the Amex account and allow 24-72 hours.",
         "Membership Rewards points redeemed for statement credits are worth only ~0.6 cpp; flights via Amex Travel are 1.0 cpp; transfers to U.S. airlines (Delta, JetBlue) carry a $0.0006/point fee capped at $99; JetBlue transfers are 1:0.8 and Cathay/Emirates 5:4. Points are forfeited if you close all MR cards without redeeming.",
         "The Saks credit no longer exists (retired July 1, 2026); ignore older guides that count $100 Saks toward the fee offset. Uber VIP status is also gone (replaced by Signature Support)."
       ],
-      "dataAsOf": "2026-09-28",
+      "dataAsOf": "2026-10-02",
       "sources": [
         "https://www.americanexpress.com/us/credit-cards/card/platinum/",
         "https://www.americanexpress.com/content/dam/amex/en-us/company/press-kits/platinum-refresh/U-S-Consumer-Platinum-Card-Fact-Sheet.pdf",
@@ -621,7 +629,25 @@
         "https://onemileatatime.com/news/amex-centurion-lounges-new-access-restrictions/",
         "https://www.nerdwallet.com/travel/news/amex-platinum-saks-credit",
         "https://travelupdate.com/2026-american-express-platinum-card-changes-updated-list-with-dates/",
-        "https://travelupdate.com/airline-fee-credit-data-points-2026-what-works-amex-platinum-card/"
+        "https://travelupdate.com/airline-fee-credit-data-points-2026-what-works-amex-platinum-card/",
+        "https://global.americanexpress.com/card-benefits/detail/uber-rides-with-platinum/platinum",
+        "https://global.americanexpress.com/card-benefits/detail/uber-one-credit/platinum",
+        "https://global.americanexpress.com/card-benefits/detail/digital-entertainment/platinum",
+        "https://global.americanexpress.com/card-benefits/detail/lululemon-credit/platinum",
+        "https://global.americanexpress.com/card-benefits/detail/oura-credit/platinum",
+        "https://global.americanexpress.com/card-benefits/detail/credit-equinox/platinum",
+        "https://global.americanexpress.com/card-benefits/detail/walmart-platinum/platinum",
+        "https://global.americanexpress.com/card-benefits/detail/hotel-credit/platinum",
+        "https://www.americanexpress.com/en-us/travel/benefits/how-to-use-hotel-credit",
+        "https://www.americanexpress.com/en-us/travel/benefits/clear/",
+        "https://www.americanexpress.com/en-us/benefits/travel/expedite-your-travel/",
+        "https://www.americanexpress.com/en-us/account/get-started/additional-card-member//platinum",
+        "https://www.americanexpress.com/en-us/travel/lounges/the-platinum-card/terms/",
+        "https://thepointsguy.com/news/american-express-leading-hotels-of-the-world-transfer-partner",
+        "https://thepointsguy.com/news/amex-resy-credit-tock-restaurants/",
+        "https://upgradedpoints.com/news/amex-resy-credit-restriction/",
+        "https://frequentmiler.com/tock-restaurants-now-on-resy/",
+        "https://onemileatatime.com/news/amex-cuts-lufthansa-lounge-access"
       ],
       "shortName": "Amex Platinum",
       "color": "#6b7280"
@@ -716,7 +742,7 @@
           "enrollmentRequired": true,
           "howToUse": "Add the Gold Card as a payment method in your Uber account (no separate Amex enrollment); Uber Cash appears within ~48 hours and then on the 1st of each month. Valid only for rides and Uber Eats/Postmates orders in the U.S.; at checkout you must select an American Express card as the payment method and have Uber Cash toggled on. Only the Basic (primary) Card Member gets the benefit (Additional Cards do not). If the same card is added to multiple Uber accounts, only the first account gets it. Does not auto-apply on business profiles. Uber Cash can pay for tips inside the app; it cannot be used for Uber gift cards.",
           "expiresUnused": true,
-          "source": "https://www.americanexpress.com/us/credit-cards/card/gold-card/ ; https://help.uber.com/riders/article/american-express-gold-card-benefit?nodeId=8099fedd-294e-4960-bda4-ba02fd077855"
+          "source": "https://global.americanexpress.com/card-benefits/detail/uber-cash/gold ; https://www.americanexpress.com/us/credit-cards/card/gold-card/ ; https://help.uber.com/riders/article/american-express-gold-card-benefit?nodeId=8099fedd-294e-4960-bda4-ba02fd077855"
         },
         {
           "id": "gold-dining-credit",
@@ -736,7 +762,7 @@
           "enrollmentRequired": true,
           "howToUse": "Enroll once in the Benefits section of your Amex account (or by phone); enrollment can take up to 24 hours. Pay with the enrolled Gold Card (Basic or Additional Cards on the account count toward the one $10 monthly limit) at the listed merchants; the credit posts automatically, usually within days but allow up to 8 weeks. Grubhub pickup and delivery both qualify (Grubhub gift cards do not). Gift-card purchases at any of the five merchants are excluded. Goldbelly and Wine.com were removed effective July 1, 2026; Buffalo Wild Wings and Wonder were added April 30, 2026. Merchant list is subject to change.",
           "expiresUnused": true,
-          "source": "https://www.americanexpress.com/us/credit-cards/card/gold-card/ ; https://www.doctorofcredit.com/american-express-gold-card-changes-hertz-five-star-status-new-dining-partners-af-remains-same/ ; https://upgradedpoints.com/credit-cards/reviews/american-express-gold-card/dining-credit/"
+          "source": "https://global.americanexpress.com/card-benefits/detail/dining-credit/gold ; https://www.americanexpress.com/us/credit-cards/card/gold-card/ ; https://www.doctorofcredit.com/american-express-gold-card-changes-hertz-five-star-status-new-dining-partners-af-remains-same/ ; https://upgradedpoints.com/credit-cards/reviews/american-express-gold-card/dining-credit/"
         },
         {
           "id": "gold-resy-credit",
@@ -745,15 +771,18 @@
           "period": "semiannual",
           "schedule": "Up to $50 in statement credits January-June and up to $50 July-December ($100 per calendar year); unused amounts do not carry over between halves.",
           "merchants": [
-            "Resy"
+            "Resy",
+            "Tock restaurants"
           ],
           "categoryTags": [
             "dining"
           ],
           "enrollmentRequired": true,
-          "howToUse": "Enroll in the Benefits section of your Amex account. Then simply pay the restaurant bill with the enrolled Gold Card at any U.S. restaurant that offers reservations on Resy -- a Resy reservation is NOT required (walk-ins and takeout at a Resy restaurant count). Purchases made directly on Resy.com/the Resy app (e.g., Resy events) also count. Excluded per Amex terms: non-dining purchases (merchandise, gift cards), Resy Pay transactions, Resy OS software purchases, electronic-wallet payments, and mobile/wireless card-reader transactions -- so paying with a physical/virtual card number rather than Apple/Google Pay is safest. Restaurant must be live on Resy at the time of purchase. Credits usually post within days (allow up to 8 weeks). Both Basic and Additional Cards count toward the account limit.",
+          "howToUse": "Enroll in the Benefits section of your Amex account (Basic Card Member or Authorized Account Manager). Then pay the restaurant bill with the enrolled Gold Card at a U.S. restaurant/food-and-beverage venue that accepts Amex AND is marked as eligible for the Resy Credit on its Resy.com / Resy app page at the time of purchase (since August 1, 2026 Amex requires this 'credit-eligible' badge; Amex told media no restaurants were removed when the badge launched and that more venues, e.g. Tock restaurants moving to Resy, will be added). Since Sept 15, 2026 select U.S. Tock venues that display the 'Resy Credit eligible' badge also qualify (Gold, Platinum and Delta Reserve); international Tock venues do not. A Resy reservation is NOT required (walk-ins and takeout count). Purchases made directly on Resy.com/the Resy app also count. Excluded per Amex terms: restaurants located inside another business (e.g., hotel or department store), non-dining purchases (Resy merchandise, Resy OS software, Resy-branded Amex gift cards, gift cards bought at restaurants), and transactions processed through a third-party system (mobile card readers or payment platforms). Resy Pay: older terms (as quoted May 2026) excluded it, while current Amex benefit text surfaced in search lists 'purchases made via Resy Pay' as eligible -- treat as uncertain. Paying with the physical/virtual card directly at the restaurant is safest. Credits usually post within days (allow up to 8 weeks). Both Basic and Additional Cards count toward the account limit.",
           "expiresUnused": true,
-          "source": "https://www.americanexpress.com/us/credit-cards/card/gold-card/ ; https://upgradedpoints.com/credit-cards/reviews/american-express-gold-card/resy-credit/"
+          "source": "https://global.americanexpress.com/card-benefits/detail/resy-credit/gold ; https://helpdesk.resy.com/en_us/resy-credit-faq-HJSEckqixl ; https://awardwallet.com/news/credit-cards/american-express-resy-credit-changes/ ; https://upgradedpoints.com/news/amex-resy-credit-restriction/ ; https://onemileatatime.com/news/amex-resy-credits-tock-restaurants/ ; https://awardwallet.com/news/amex-membership-rewards/resy-credit-tock-venues/",
+          "uncertain": true,
+          "uncertainNote": "Resy Pay eligibility conflicts between sources (older terms excluded it; current Amex benefit text reportedly includes it)."
         },
         {
           "id": "gold-dunkin-credit",
@@ -767,9 +796,9 @@
           "categoryTags": [],
           "categoryTagsNote": "coffee shop / quick-service; Amex codes Dunkin' as a restaurant",
           "enrollmentRequired": true,
-          "howToUse": "Enroll in the Benefits section of your Amex account (up to 24 hours to take effect). Pay with the enrolled Gold Card at U.S. Dunkin' locations, in store, drive-thru, or via the Dunkin' app (in-app card reloads paid with the Gold Card are widely reported to trigger the credit but this is not stated in Amex's terms). Multiple small transactions can be combined to reach $7. Excluded: Dunkin' gift cards purchased online, Dunkin'-branded products bought at other retailers (grocery stores etc.), orders through third-party delivery apps, and Dunkin' kiosks inside other establishments (e.g., gas stations) that don't code as Dunkin'. Credits usually post within days; allow up to 8 weeks.",
+          "howToUse": "Enroll in the Benefits section of your Amex account (up to 24 hours to take effect). Pay with the enrolled Gold Card at U.S. Dunkin' locations that accept Amex (9,000+ per Amex), in store, drive-thru, or via the Dunkin' app (in-app card reloads paid with the Gold Card are widely reported to trigger the credit but this is not stated in Amex's terms). Multiple small transactions can be combined to reach $7. Excluded: Dunkin' gift cards purchased online, Dunkin'-branded products bought at other retailers (grocery stores etc.), orders through third-party delivery apps, and Dunkin' kiosks inside other establishments (e.g., gas stations) that don't code as Dunkin'. Credits usually post within days; allow up to 8 weeks.",
           "expiresUnused": true,
-          "source": "https://www.americanexpress.com/us/credit-cards/card/gold-card/ ; https://www.doctorofcredit.com/american-express-gold-dunkin-donuts-7-monthly-credit-everything-to-know/ ; https://upgradedpoints.com/credit-cards/reviews/american-express-gold-card/dunkin-credit/"
+          "source": "https://global.americanexpress.com/card-benefits/terms/gold ; https://www.americanexpress.com/us/credit-cards/card/gold-card/ ; https://www.doctorofcredit.com/american-express-gold-dunkin-donuts-7-monthly-credit-everything-to-know/ ; https://upgradedpoints.com/credit-cards/reviews/american-express-gold-card/dunkin-credit/"
         },
         {
           "id": "gold-hotel-collection-credit",
@@ -784,11 +813,11 @@
           ],
           "categoryTags": [],
           "enrollmentRequired": false,
-          "howToUse": "Book a stay of 2+ consecutive nights at a Hotel Collection property on AmexTravel.com or the Amex Travel App and pay with the Gold Card; receive a $100 credit toward eligible on-property charges (typically dining, spa and resort activities -- Amex states 'eligible charges vary by property') applied at checkout, plus a room upgrade at check-in when available. The credit is per stay/room, is not cash, and any unused portion is forfeited at checkout. Booking through the hotel directly or other OTAs does not qualify. Not a monthly/annual statement credit.",
+          "howToUse": "Book a NEW stay of 2+ consecutive nights at a participating Hotel Collection property on AmexTravel.com or the Amex Travel App and pay with the Gold Card. You get a $100 credit toward qualifying on-property charges (typically dining, spa, golf or other hotel facilities; eligible charges vary by property) -- it cannot be used for the room rate, taxes, fees or gratuities -- plus a room upgrade on arrival when available (some room categories excluded). Limit one credit per room per stay, up to three rooms per eligible Card Member per stay. The credit must be used during that stay, cannot be carried over, has no cash value and expires at check-out. Booking directly with the hotel or via other OTAs does not qualify. Not a monthly/annual statement credit.",
           "expiresUnused": true,
           "verified": true,
-          "verificationNote": "Amount, 2-night minimum, booking channel and 'eligible charges vary by property' are on the official Gold Card page; the room-upgrade and dining/spa detail come from secondary sources (Roaming Cactus, CardStack) and the Hotel Collection program description, not an official terms page I could load.",
-          "source": "https://www.americanexpress.com/us/credit-cards/card/gold-card/ ; https://cardstack.money/cards/american-express-gold-card"
+          "verificationNote": "All terms (2-night minimum, qualifying charges, exclusions, 1 credit per room per stay / 3-room limit, expires at check-out, upgrade when available, valid for U.S. Consumer Gold) are from Amex Travel's official Hotel Collection pages. Amex's card page says 1,300+ hotels; the Amex Travel page says 1,400+.",
+          "source": "https://www.americanexpress.com/en-us/travel/the-hotel-collection/book/ ; https://www.americanexpress.com/us/credit-cards/card/gold-card/ ; https://www.americanexpress.com/en-us/travel/faq/travel-benefits/"
         },
         {
           "id": "gold-uber-one-2026",
@@ -801,11 +830,11 @@
           ],
           "categoryTags": [],
           "enrollmentRequired": true,
-          "howToUse": "In your Amex account, find and add the Uber One offer under Amex Offers, then buy an annual (not monthly) Uber One membership in the Uber app paying with the Gold Card; turn your Uber Cash balance OFF for that purchase so the full fee charges to the card. Credit posts within up to 8 weeks. Membership auto-renews at full price the following year. Offer valid through 10/30/2026 (one secondary source says you must have been a Card Member by 10/16/2026 to enroll -- unverified).",
+          "howToUse": "In your Amex account, find and add the Uber One offer under Amex Offers, then make a single purchase of an ANNUAL (not monthly) Uber One membership at uber.com or in the Uber, Uber Eats or Postmates app, paying with the Gold Card; turn your Uber Cash balance OFF for that purchase so the full fee charges to the card. Credit posts within up to 8 weeks. Membership auto-renews at full price the following year. Offer valid through 10/30/2026; Upgraded Points and Kudos report you must have been a Gold Card Member by 10/16/2026 to enroll (offer terms not viewable without login).",
           "expiresUnused": true,
           "validThrough": "2026-10-30",
           "verified": true,
-          "source": "https://www.doctorofcredit.com/american-express-gold-card-changes-hertz-five-star-status-new-dining-partners-af-remains-same/ ; https://upgradedpoints.com/news/amex-gold-card-uber-one-credit/ ; https://thepointsguy.com/credit-cards/amex-gold-current-offer/",
+          "source": "https://upgradedpoints.com/news/amex-gold-card-uber-one-credit/ ; https://www.doctorofcredit.com/american-express-gold-card-changes-hertz-five-star-status-new-dining-partners-af-remains-same/ ; https://thepointsguy.com/credit-cards/amex-gold-current-offer/",
           "endsOn": "2026-10-30"
         }
       ],
@@ -887,12 +916,12 @@
         {
           "name": "Hertz Five Star status (added April 30, 2026)",
           "details": "Complimentary Hertz Gold Plus Rewards Five Star status for Basic and Additional Card Members. Enrollment required in the Benefits section of your Amex account (or by phone); you must already have a Hertz Gold Plus Rewards number registered with the SAME email as your Amex account; status appears within ~72 hours and is retained while you remain an eligible Card Member. Benefits: one-class vehicle upgrade when available, skip-the-counter/expedited pickup at select locations, free additional driver (spouse/domestic partner), 25% bonus Hertz points, wider Ultimate Choice selection.",
-          "source": "https://www.americanexpress.com/us/credit-cards/card/gold-card/ ; https://upgradedpoints.com/news/amex-gold-hertz-five-star-status/"
+          "source": "https://www.americanexpress.com/us/credit-cards/card/gold-card/ ; https://global.americanexpress.com/card-benefits/detail/hertz/gold ; https://upgradedpoints.com/news/amex-gold-hertz-five-star-status/"
         },
         {
           "name": "The Hotel Collection access",
-          "details": "Book 2+ consecutive nights at 1,300+ upscale Hotel Collection properties through Amex Travel for a $100 on-property credit (eligible charges vary by property) and a room upgrade at check-in when available; these bookings also earn 5X when prepaid. Limited-time 60th-anniversary offers (free 3rd/4th nights, discounts, extra credits) ran through July 15, 2026.",
-          "source": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
+          "details": "Book 2+ consecutive nights at participating Hotel Collection properties (1,300+ per the card page; 1,400+ per Amex Travel) through AmexTravel.com or the Amex Travel App for a $100 on-property credit (dining/spa/golf-type charges; not room, taxes or fees) and a room upgrade on arrival when available; these bookings also earn 5X when prepaid. Limited-time 60th-anniversary offers (free 3rd/4th nights, discounts, extra credits) ran through July 15, 2026.",
+          "source": "https://www.americanexpress.com/us/credit-cards/card/gold-card/ ; https://www.americanexpress.com/en-us/travel/the-hotel-collection/book/"
         },
         {
           "name": "Welcome offer (varies)",
@@ -928,13 +957,12 @@
       ],
       "acceptance": "American Express network. Widely accepted in the U.S. but still refused by a minority of small merchants; Costco U.S. warehouses, Costco gas stations and Costco.com accept Visa only. Acceptance abroad is materially lower than Visa/Mastercard, especially at small restaurants and shops in Europe, Latin America and parts of Asia -- carry a Visa/Mastercard backup. No foreign transaction fee. Metal card.",
       "recentChanges": [
-        "2024-07-25: Major refresh. Annual fee raised $250 -> $325 (new applicants immediately; existing members at first renewal on/after Oct 1, 2024). Added $84 Dunkin' credit ($7/mo) and $100 Resy credit ($50 semiannual). Added spending caps on 4X: $50,000/yr restaurants and $25,000/yr U.S. supermarkets (immediately for new members; from Jan 1, 2025 for existing members). Added 2X on prepaid hotels and other Amex Travel bookings (car rentals, cruises). Limited-edition White Gold design launched.",
-        "2024-09-26: Dining credit partners changed: Shake Shack and Milk Bar removed; Five Guys added (Grubhub, Cheesecake Factory, Goldbelly, Wine.com continued).",
-        "2025-03-31: ShopRunner membership benefit removed from all Amex cards (ShopRunner itself shut down Jan 31, 2026).",
         "2025-09: Membership Rewards -> Emirates Skywards transfer ratio cut from 1:1 to 5:4.",
         "2026-03-01: Membership Rewards -> Cathay Pacific Asia Miles transfer ratio cut from 1:1 to 5:4.",
         "2026-04-30: 60th-anniversary refresh, no fee change: prepaid hotels via Amex Travel raised 2X -> 5X; complimentary Hertz Five Star status added (enrollment required); dining credit adds Buffalo Wild Wings and Wonder; Goldbelly and Wine.com removed effective July 1, 2026 (last eligible day June 30, 2026); welcome-offer spend requirement raised $6,000 -> $8,000; limited-time perks: one-time $96 Uber One annual-membership credit (through Oct 30, 2026), 20% Hilton Honors transfer bonus (through May 30, 2026), Hotel Collection anniversary offers (through July 15, 2026), curated Gold Amex Offers; 'Summer Seat by Amex Gold & Resy' dining events; refreshed Amex app benefit trackers.",
         "2026-06-30: Membership Rewards transfers to Etihad Guest ended (last transfers June 29, 2026). Hawaiian Airlines was earlier removed as a partner after its merger into Alaska (date not verified).",
+        "2026-08-01: Resy Credit now requires the restaurant to be marked 'eligible for the Resy Credit' on its Resy.com/Resy app page at the time of purchase (affects Gold and Platinum). Amex says no restaurants were removed when the badge launched and more venues (incl. Tock restaurants) will be added later in 2026.",
+        "2026-09-15: Select U.S. Tock venues (Tock being merged into Resy) became eligible for the Resy credit when they display the 'Resy Credit eligible' badge; international Tock venues excluded.",
         "2026-07 (late July): Leading Hotels of the World Leaders Club added as the 4th hotel transfer partner at 4:1.",
         "Unchanged in 2026: $325 fee, 4X dining/supermarkets and caps, 3X flights, $120 Uber Cash, $120 Dining, $100 Resy, $84 Dunkin', 0% FX, purchase protection, extended warranty, baggage, secondary rental car, $300 trip delay."
       ],
@@ -943,7 +971,7 @@
         "Every credit is use-it-or-lose-it on its own calendar: Uber Cash and Dining/Dunkin' reset monthly, Resy resets Jan-Jun / Jul-Dec. None roll over; none pro-rate.",
         "Uber Cash: you must pick an Amex card AND have Uber Cash toggled on at checkout; U.S. rides/orders only; primary Card Member only; expires at month-end.",
         "Dining credit: gift-card purchases at Grubhub/BWW/Five Guys/Cheesecake/Wonder do not count; the merchant list changes (Goldbelly & Wine.com gone since July 1, 2026).",
-        "Resy credit: no reservation needed, but pay the restaurant directly with the card; Amex's terms exclude e-wallet (Apple Pay/Google Pay) and mobile card-reader transactions, and gift cards/merch.",
+        "Resy credit: no reservation needed, but the restaurant must show the 'eligible for the Resy Credit' badge on Resy.com/the Resy app when you pay (since Aug 1, 2026); badged U.S. Tock venues also count since Sept 15, 2026; restaurants inside hotels/department stores, gift cards/merch and payments through third-party systems (mobile card readers, payment platforms) are excluded.",
         "Dunkin': online gift cards and Dunkin' products at grocery stores don't count; Dunkin' counters inside gas stations may code as the host merchant.",
         "4X supermarkets is U.S.-only and MCC-based: Walmart, Target, Costco, Sam's, BJ's, Amazon.com, drugstores and convenience stores earn 1X. Whole Foods, Trader Joe's, Kroger, Publix, etc. earn 4X.",
         "4X restaurants is worldwide, but restaurants inside hotels, casinos, stadiums or department stores, plus bars/nightclubs and caterers, may code otherwise and earn 1X.",
@@ -956,11 +984,18 @@
         "Welcome offer is once per lifetime per product; the application shows eligibility before a hard inquiry.",
         "Statement-credit cash-out is only 0.6 cents/point -- avoid; use transfers or 1.0-cent flights."
       ],
-      "dataAsOf": "2026-09-28",
+      "dataAsOf": "2026-10-02",
       "sources": [
         "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
         "https://www.americanexpress.com/en-us/credit-cards/credit-intel/gold-card-annual-fee/",
         "https://www.americanexpress.com/en-us/newsroom/articles/products-and-services/u-s--consumer-american-express-gold--card-introduces-new-and-enh.html",
+        "https://www.americanexpress.com/en-us/travel/faq/travel-benefits/",
+        "https://www.americanexpress.com/en-us/travel/the-hotel-collection/book/",
+        "https://global.americanexpress.com/card-benefits/detail/hertz/gold",
+        "https://global.americanexpress.com/card-benefits/detail/uber-cash/gold",
+        "https://global.americanexpress.com/card-benefits/detail/resy-credit/gold",
+        "https://global.americanexpress.com/card-benefits/detail/dining-credit/gold",
+        "https://global.americanexpress.com/card-benefits/terms/gold",
         "https://www.businesswire.com/news/home/20260430513413/en/U.S.-Consumer-American-Express-Gold-Card-Introduces-New-and-Enhanced-Benefits-as-Part-of-60th-Anniversary-Celebration",
         "https://www.americanexpress.com/en-us/newsroom/articles/products-and-services/american-express--updates-u-s--consumer-gold-card-with-new-benef.html",
         "https://www.americanexpress.com/content/dam/amex/us/credit-cards/features-benefits/policies/pdf/Trip_Delay-Insurance-300_12hours.pdf",
@@ -1010,7 +1045,12 @@
         "https://cardstack.money/cards/american-express-gold-card",
         "https://roamingcactus.com/credit-cards/amex-gold-card-2026-review",
         "https://www.joinkudos.com/blog/american-express-gold-card-2026-benefits",
-        "https://www.joinkudos.com/blog/amex-gold-card-96-uber-one-credit-how-to-claim-it-even-after-renewal-2026"
+        "https://www.joinkudos.com/blog/amex-gold-card-96-uber-one-credit-how-to-claim-it-even-after-renewal-2026",
+        "https://helpdesk.resy.com/en_us/resy-credit-faq-HJSEckqixl",
+        "https://awardwallet.com/news/credit-cards/american-express-resy-credit-changes/",
+        "https://upgradedpoints.com/news/amex-resy-credit-restriction/",
+        "https://onemileatatime.com/news/amex-resy-credits-tock-restaurants/",
+        "https://awardwallet.com/news/amex-membership-rewards/resy-credit-tock-venues/"
       ],
       "shortName": "Amex Gold",
       "color": "#ca8a04"
@@ -1046,7 +1086,7 @@
           "category": "streaming",
           "rate": 6,
           "conditions": "Eligible purchases of U.S. streaming subscriptions from Amex's list of select providers; the subscription must be billed directly by the provider. No spending cap.",
-          "notes": "Official select-provider list at americanexpress.com/rewards-info (retail page, fetched 2026-09-28), 32 providers: Amazon Music Unlimited, AMC+, Apple Music, Apple TV+, Audible, Britbox, DirecTV Stream, Discovery+, Disney+, ESPN, Fubo TV, HBO Max, Hulu, iHeartRadio, Kindle Unlimited, Luminary, MGM+, MLB.TV, NBA League Pass, Netflix, Pandora, Paramount+, Peacock, Prime Video, Sling TV, SiriusXM Streaming and Satellite, Spotify, Starz, TIDAL Music, YouTube Music Premium, YouTube Premium, YouTube TV. Rewards Program terms: if a subscription is bundled with another product or service or billed by a third party (such as a digital platform, a cable, telecommunications, or internet provider, or a car manufacturer), the purchase may not be eligible. In practice: Netflix billed through Apple/iTunes, Hulu via Spotify, Disney+ via Verizon, channels via Amazon Prime Video Channels, or Roku billing typically do not earn 6%. MGM+, AMC+, BritBox, Discovery+ and Starz were added 2025-01-30 (NerdWallet).",
+          "notes": "Official select-provider list at americanexpress.com/rewards-info (retail page, fetched 2026-09-28; no additions or removals reported by Amex or secondary sources as of 2026-10-02), 32 providers: Amazon Music Unlimited, AMC+, Apple Music, Apple TV+, Audible, Britbox, DirecTV Stream, Discovery+, Disney+, ESPN, Fubo TV, HBO Max, Hulu, iHeartRadio, Kindle Unlimited, Luminary, MGM+, MLB.TV, NBA League Pass, Netflix, Pandora, Paramount+, Peacock, Prime Video, Sling TV, SiriusXM Streaming and Satellite, Spotify, Starz, TIDAL Music, YouTube Music Premium, YouTube Premium, YouTube TV. Rewards Program terms: if a subscription is bundled with another product or service or billed by a third party (such as a digital platform, a cable, telecommunications, or internet provider, or a car manufacturer), the purchase may not be eligible. In practice: Netflix billed through Apple/iTunes, Hulu via Spotify, Disney+ via Verizon, channels via Amazon Prime Video Channels, or Roku billing typically do not earn 6%. MGM+, AMC+, BritBox, Discovery+ and Starz were added 2025-01-30 (NerdWallet).",
           "usOnly": true
         },
         {
@@ -1248,12 +1288,11 @@
       ],
       "acceptance": "American Express network. Accepted at the large majority of U.S. merchants, but notable holdouts remain: Costco warehouses and Costco.com accept Visa only (Costco is also excluded from the supermarket and gas categories anyway); some small merchants, landlords and utilities decline Amex. International acceptance is narrower than Visa/Mastercard, and with a 2.7% foreign transaction fee this card should not be used abroad. Transit purchases outside the U.S. can earn 3% but still incur the 2.7% fee.",
       "recentChanges": [
-        "2025-01-30: Five streaming providers (MGM+, AMC+, BritBox, Discovery+, Starz) added to the 6% select U.S. streaming list, bringing it to 32 providers (NerdWallet; official list at rewards-info confirms all five are present as of 2026-09-28).",
         "2025-08-01: 'Disney Bundle credit' renamed 'Disney Streaming Credit' and raised from up to $7/month ($84/yr) to up to $10/month ($120/yr); the previous $9.99 minimum monthly purchase requirement was removed; standalone Disney+, Hulu or ESPN subscriptions now qualify, not just the bundle. Annual fee unchanged at $95 (TPG, Doctor of Credit, AwardWallet, Upgraded Points; official page reflects new terms). Blue Cash Everyday got the same structure at $7/month.",
         "2026 (early): Public welcome offer moved to an 'as high as $300 after $3,000 in 6 months' model, meaning some applicants are offered less; targeted offers of $400 (E*Trade/Morgan Stanley customers) and $300 pre-approved mailers have circulated (Frequent Miler, Doctor of Credit, US Credit Card Guide).",
-        "2026-04-15: Doctor of Credit reported Amex surveyed cardholders on possible Blue Cash Preferred redesigns: annual fee rising to $135 or $160, an option for 8% at U.S. supermarkets (still capped at $6,000), and new monthly credits such as $10 Resy, an AI-subscription credit, a cloud-storage credit, and a PetSmart perk. As of 2026-09-28 NO such change has been announced; the card page still shows $95 and 6%/6%/3%/3%/1%.",
+        "2026-04-15: Doctor of Credit reported Amex surveyed cardholders on possible Blue Cash Preferred redesigns: annual fee rising to $135 or $160, an option for 8% at U.S. supermarkets (still capped at $6,000), and new monthly credits such as $10 Resy, an AI-subscription credit, a cloud-storage credit, and a PetSmart perk. Secondary write-ups of the survey also describe variants that would cap 6% streaming or cut it to 3%. As of 2026-10-02 NO such change has been announced; the card page still shows $0 intro then $95 and 6%/6%/3%/3%/1%.",
         "Current through 2026-12-31: American Express Venue Collection concessions offer (10% back, up to $250 per calendar year, enrollment required, one card per Card Member) is listed in the card's benefit terms with an end date of 12/31/2026; whether it will be renewed for 2027 is unknown.",
-        "No change as of 2026-09-28 to the $6,000 supermarket cap, the 2.7% foreign transaction fee, or the protections (benefit guides last revised 4/19/2024; Return Protection guide 10/2023)."
+        "No change as of 2026-10-02 to the $6,000 calendar-year supermarket cap, the 6% select-streaming list, the $10/month Disney Streaming Credit, the 3% gas/transit definitions, the $95 annual fee, the 2.7% foreign transaction fee, or the protections (benefit guides last revised 4/19/2024; Return Protection guide 10/2023)."
       ],
       "gotchas": [
         "The 6% supermarket cap is $6,000 of spend per CALENDAR year (about $500/month) and resets January 1; spend above it earns only 1%, so route overflow grocery spend to another card.",
@@ -1268,7 +1307,7 @@
         "The annual fee is $0 only in the first year; from year two the $95 fee applies (plus a Plan It plan cannot be used to pay it). Net value depends on using the $120 Disney credit and spending near the $6,000 grocery cap.",
         "Welcome offer is subject to Amex's once-per-lifetime rule per card product, and prior Morgan Stanley Blue Cash Preferred holders are ineligible; Amex also limits cardholders to a maximum of 5 Amex credit cards and 2 approvals per 90 days (Frequent Miler)."
       ],
-      "dataAsOf": "2026-09-28",
+      "dataAsOf": "2026-10-02",
       "sources": [
         "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
         "https://global.americanexpress.com/card-benefits/detail/blue-cash-preferred-631/blue-cash-preferred",
@@ -1304,7 +1343,8 @@
         "https://awardwallet.com/news/cash-back/amex-disney-streaming-credit-update/",
         "https://onemileatatime.com/reviews/credit-cards/american-express/blue-cash-preferred-card/",
         "https://frequentmiler.com/amxbcp/",
-        "https://www.uscreditcardguide.com/blue-cash-preferred-credit-card/"
+        "https://www.uscreditcardguide.com/blue-cash-preferred-credit-card/",
+        "https://www.pointswithphillip.com/credit-card-and-travel-news/big-changes-coming-to-the-amex-blue-cash-preferred-heres-what-we-know"
       ],
       "shortName": "Blue Cash Preferred",
       "color": "#2563eb"
@@ -1320,7 +1360,7 @@
         "id": "chase-ur",
         "name": "Ultimate Rewards (marketed as Cash Back; tracked as points, $1 Cash Back = 100 points)",
         "unit": "points",
-        "redemption": "Per the Rewards Program Agreement (RPA0509, 09/11/2025): when redeemed for cash (statement credit or electronic deposit to an eligible US Chase account), gift cards, or travel through Chase Travel, each point is worth $0.01 (1.5 points per $1 = 1.5% cash back). No minimum to redeem for cash (card page). Pay-with-points at third parties (e.g., Amazon) may be worth less. Points do not expire while the account is open; 30 days to use them after a voluntary closure; forfeited immediately if closed for misuse/fraud/delinquency. NEW since 2026-09-21 (partially verified): Chase says 'Freedom cards' get rotating Points Boost offers on select hotels via Chase Travel worth up to 10% more (about 1.1 cents/point); TPG names Freedom Unlimited explicitly, but CFU's own product page does not yet mention it. On its own, CFU cannot transfer to airline/hotel partners. COMBINING WITH A HOUSEHOLD SAPPHIRE PREFERRED: the agreement allows moving points only to another Chase Ultimate Rewards card 'belonging to you or one member of your household' (Chase defines household member as someone who shares your address; you may link to only one person). Once in the spouse's Sapphire Preferred the points follow CSP rules: 1:1 transfers to Chase's airline/hotel partners (Aer Lingus, Aeroplan, British Airways, Flying Blue, Iberia, JetBlue, Singapore, Southwest, United, Virgin Atlantic, IHG, Marriott, Hyatt, Wyndham) and Chase Travel at 1 cent base or Points Boost up to 1.5 cents (hotels/economy) and 1.75 cents (premium-cabin flights). The flat 1.25 cents/point Chase Travel rate NO LONGER applies to newly combined points: since 2025-10-26 it survives only for points that were already in a CSP account (earned or combined) by 2025-10-25, on accounts opened/upgraded before 2025-06-23, and only through 2027-10-26; points are consumed first-in-first-out. Points combined into the CSP today get 1 cent / Points Boost / partner transfers."
+        "redemption": "Per the Rewards Program Agreement (RPA0509, 09/11/2025): when redeemed for cash (statement credit or electronic deposit to an eligible US Chase account), gift cards, or travel through Chase Travel, each point is worth $0.01 (1.5 points per $1 = 1.5% cash back). No minimum to redeem for cash (card page). Pay-with-points at third parties (e.g., Amazon) may be worth less. Points do not expire while the account is open; 30 days to use them after a voluntary closure; forfeited immediately if closed for misuse/fraud/delinquency. NEW since 2026-09-21 (partially verified): Chase says 'Freedom cards' get rotating Points Boost offers on select hotels via Chase Travel worth up to 10% more (about 1.1 cents/point); TPG names Freedom Unlimited explicitly, but CFU's own product page does not yet mention it. On its own, CFU cannot transfer to airline/hotel partners. COMBINING WITH A HOUSEHOLD SAPPHIRE PREFERRED: the agreement allows moving points only to another Chase Ultimate Rewards card 'belonging to you or one member of your household' (Chase defines household member as someone who shares your address; you may link to only one person). Once in the spouse's Sapphire Preferred the points follow CSP rules: 1:1 transfers to Chase's airline/hotel partners (Aer Lingus, Aeroplan, British Airways, Flying Blue, Iberia, JetBlue, Singapore, Southwest, United, Virgin Atlantic, IHG, Marriott, Wyndham) EXCEPT World of Hyatt, which from a Sapphire Preferred is 4:3 (1,000 UR = 750 Hyatt) since 2026-10-01 for all CSP cardmembers (immediately for CSP applications on/after 2026-06-15); Sapphire Reserve keeps Hyatt at 1:1, and Chase Travel at 1 cent base or Points Boost up to 1.5 cents (hotels/economy) and 1.75 cents (premium-cabin flights). The flat 1.25 cents/point Chase Travel rate NO LONGER applies to newly combined points: since 2025-10-26 it survives only for points that were already in a CSP account (earned or combined) by 2025-10-25, on accounts opened/upgraded before 2025-06-23, and only through 2027-10-26; points are consumed first-in-first-out. Points combined into the CSP today get 1 cent / Points Boost / partner transfers."
       },
       "earning": [
         {
@@ -1454,7 +1494,7 @@
       "perks": [
         {
           "name": "Combine points with a household member's Sapphire Preferred",
-          "details": "Rewards Program Agreement: 'You can move your points, but only to another Chase card with Ultimate Rewards belonging to you or one member of your household.' Transfers are blocked if either account is currently prohibited from earning/using points. Chase's household page: the household member must share your address (spouse, partner, roommate or family member you live with); you can link with only ONE person; not friends/family at another address. How: chase.com or Chase app > Ultimate Rewards > pick the Freedom Unlimited > Rewards details > 'Combine points' > choose source card (CFU) and destination card (spouse's CSP) > enter amount > Review > Submit; moves are instant and there is no fee. Secondary sources (TPG July 2026; AwardWallet Sept 2026) report that the FIRST time you link another person's account you must call the number on the back of the card so a rep can verify the household relationship and add the CSP account number; after that it appears as a destination online. Chase's own article describes entering the recipient's information online, so the phone step may not always be required. Once combined, the points are the spouse's and follow CSP redemption rules (1:1 partner transfers; Chase Travel at 1 cent or Points Boost up to 1.5/1.75 cents; the legacy 1.25 cents applies only to points that were in the CSP by 2025-10-25 on pre-2025-06-23 accounts, through 2027-10-26).",
+          "details": "Rewards Program Agreement: 'You can move your points, but only to another Chase card with Ultimate Rewards belonging to you or one member of your household.' Transfers are blocked if either account is currently prohibited from earning/using points. Chase's household page: the household member must share your address (spouse, partner, roommate or family member you live with); you can link with only ONE person; not friends/family at another address. How: chase.com or Chase app > Ultimate Rewards > pick the Freedom Unlimited > Rewards details > 'Combine points' > choose source card (CFU) and destination card (spouse's CSP) > enter amount > Review > Submit; moves are instant and there is no fee. Secondary sources (TPG July 2026; AwardWallet Sept 2026) report that the FIRST time you link another person's account you must call the number on the back of the card so a rep can verify the household relationship and add the CSP account number; after that it appears as a destination online. Chase's own article describes entering the recipient's information online, so the phone step may not always be required. Once combined, the points are the spouse's and follow CSP redemption rules (1:1 partner transfers, except World of Hyatt at 4:3 from a Sapphire Preferred since 2026-10-01; Chase Travel at 1 cent or Points Boost up to 1.5/1.75 cents; the legacy 1.25 cents applies only to points that were in the CSP by 2025-10-25 on pre-2025-06-23 accounts, through 2027-10-26).",
           "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0509_Web.pdf"
         },
         {
@@ -1465,7 +1505,7 @@
         {
           "name": "Points Boost on select hotels via Chase Travel (Freedom cards)",
           "verified": false,
-          "details": "Chase press release 2026-09-21: 'Chase Freedom cardmembers can now also access rotating Points Boost offers when redeeming points on select hotels booked through Chase Travel, with Ultimate Rewards points worth up to 10% more' (i.e., up to about 1.1 cents/point; hotels only, no flights). The release body is about Freedom Flex, but its footnote says 'up to 10% more for Freedom cards depending on the offer', and The Points Guy (updated 2026-09-21) states Chase expanded Points Boost to Freedom Unlimited, Freedom Flex and the original Freedom. Marked unverified because the Freedom Unlimited product page and the 09/11/2025 program agreement do not mention it yet. Boosted hotels show a rocket icon in Chase Travel.",
+          "details": "Chase press release 2026-09-21: 'Chase Freedom cardmembers can now also access rotating Points Boost offers when redeeming points on select hotels booked through Chase Travel, with Ultimate Rewards points worth up to 10% more' (i.e., up to about 1.1 cents/point; hotels only, no flights). The release body is about Freedom Flex, but its footnote says 'up to 10% more for Freedom cards depending on the offer', and The Points Guy (updated 2026-09-21) states Chase expanded Points Boost to Freedom Unlimited, Freedom Flex and the original Freedom. Marked unverified because the Freedom Unlimited product page and the 09/11/2025 program agreement do not mention it yet. Boosted hotels show a rocket icon in Chase Travel. Chase's education page 'Chase Ultimate Rewards: How Our Program Works' (seen via search index 2026-10-02) also says Freedom Unlimited cardmembers may be able to use Points Boost on select bookings; still unconfirmed on the CFU product page/agreement.",
           "source": "https://media.chase.com/news/chase-freedom-flex-more-travel-value"
         },
         {
@@ -1496,35 +1536,33 @@
       ],
       "acceptance": "Visa (issued as Visa Platinum or Visa Signature depending on credit line; both carry the same Freedom Guide to Benefits). Costco: US warehouses and Costco gas stations accept 'All Visa Cards' (Mastercard is NOT accepted in-warehouse but is on Costco.com), so the CFU works at Costco in-store at 1.5% (warehouse clubs are excluded from the drugstore category). Visa is accepted essentially everywhere in the US and worldwide, but every non-USD or foreign-merchant transaction incurs the 3% foreign transaction fee, so it is a poor card for use abroad (unlike Freedom Flex, which dropped its FTF on 2026-09-21).",
       "recentChanges": [
-        "2024-07-31: Instacart benefit for Freedom cards (3 free months of Instacart+ plus up to $10/quarter statement credit) EXPIRED. Chase's new Instacart program (2025-05-01 through 2027-12-31) covers Chase co-brand cards ($10/month) and Ink Cash/Unlimited ($20/month) only; Freedom Unlimited has NO Instacart benefit and the card page no longer lists one.",
-        "2025-02-01: DoorDash benefit restructured: 6 months of complimentary DashPass (activate 2025-02-01 to 2027-12-31) plus one $10 promo per quarter on non-restaurant orders through 2027-12-31; replaced the prior '3 months free then 9 months half off' structure (activation deadline 2025-01-31).",
-        "2025-04-01: Lyft bonus CUT from 5% total to 2% total (0.5% on top of 1.5%) through 2027-09-30; the 5% rate ended 2025-03-31 (Chase card page footnote; lyft.com/chase; Doctor of Credit 2025-03-31).",
         "2025-06-23 / 2025-10-26: Chase 'Points Boost' replaced the fixed 1.25 cents (Sapphire Preferred) and 1.5 cents (Sapphire Reserve) Chase Travel rates. Legacy rates survive only for points already in those accounts by 2025-10-25 (accounts opened/upgraded before 2025-06-23), through 2027-10-26. Points combined from a Freedom Unlimited into a Sapphire Preferred on or after 2025-10-26 get 1 cent or Points Boost (up to 1.5/1.75 cents), not 1.25 cents. Partner transfers unchanged at 1:1.",
         "2025-09-11: Rewards Program Agreement revised (RPA0509). Earning structure unchanged (1.5% / 3% dining and drugstores / 5% Chase Travel); FROSCH bookings explicitly excluded from 5%.",
         "2026-01-15: Limited-time $300 (30,000-point) welcome bonus ended; standard offer reverted to $200 after $500 in 3 months (Frequent Miler 2026-01-08).",
         "2026-03-16 to 2026-04-30: Limited-time $250 welcome bonus after $500 spend (NerdWallet; seen only via search summary, not fetched).",
         "2026-05: In-branch-only offer: $200 after $500 plus 5% back on gas and grocery for the first year (Doctor of Credit 2026-05-07; Frequent Miler).",
         "2026-08-01 to 2026-10-31: TARGETED promo (email) for existing cardholders: 3% back on either gas stations or grocery stores, up to $1,500 in spend, activation required by 2026-09-15 (Doctor of Credit 2026-08-11). Not a public benefit.",
-        "2026-09-21: Chase refreshed the sibling Freedom Flex (no foreign transaction fee, hotel Points Boost up to 10% more, $250 bonus, cell phone protection removed 2026-09-20). Chase's release says Points Boost hotel offers now reach 'Freedom cards' generally and TPG names Freedom Unlimited; however Freedom Unlimited KEEPS its 3% foreign transaction fee (Doctor of Credit 2026-09-22: 'The Freedom Unlimited still has a foreign transaction fee'; CFU pricing & terms still show 3%). Watch for a CFU refresh.",
+        "2026-09-21: Chase refreshed the sibling Freedom Flex (no foreign transaction fee, hotel Points Boost up to 10% more, $250 bonus, cell phone protection removed 2026-09-20). Chase's release says Points Boost hotel offers now reach 'Freedom cards' generally and TPG names Freedom Unlimited; however Freedom Unlimited KEEPS its 3% foreign transaction fee (Doctor of Credit 2026-09-22: 'The Freedom Unlimited still has a foreign transaction fee'; CFU pricing & terms still show 3%). Freedom Unlimited only received new card art at the same time (Doctor of Credit); no CFU earning/fee changes. Watch for a CFU refresh.",
+        "2026-10-01: Chase Sapphire Preferred (and Ink Business Preferred) transfers to World of Hyatt dropped from 1:1 to 4:3 for cardmembers who applied before 2026-06-15 (already 4:3 for applications on/after 2026-06-15); Sapphire Reserve keeps 1:1. Freedom Unlimited points combined into a household CSP now get 750 Hyatt points per 1,000 (about a 25% cut for Hyatt redemptions); other partners unchanged at 1:1 (chase.com Sapphire Preferred benefits page; Chase newsroom 'Meet the New Chase Sapphire Preferred').",
         "Announced/scheduled: Lyft 2% runs through 2027-09-30; DoorDash DashPass activation and $10 quarterly promo run through 2027-12-31; legacy 1.25-cent CSP redemption window closes 2027-10-26."
       ],
       "gotchas": [
-        "Lyft is 2% total, not 5%. The 5% Lyft rate ended 2025-03-31. Card must be the payment method inside the Lyft app; PayPal/wallet payments and gift cards do not qualify.",
+        "Lyft is 2% total, not 5%. The 5% Lyft rate ended 2025-03-31 (2% since 2025-04-01, through 2027-09-30). Card must be the payment method inside the Lyft app; PayPal/wallet payments and gift cards do not qualify.",
         "3% dining depends on the merchant's code: restaurants inside hotels, casinos, stadiums, theme parks, grocery and department stores, plus bakeries, caterers and meal-kit services, often earn only 1.5%. Third-party delivery apps count only when coded as restaurants (they usually are); check the statement's bonus line.",
         "3% drugstores means stand-alone drugstores. Pharmacy counters inside Target, Walmart, Costco, Kroger, etc. earn 1.5% because those merchants are coded as discount/grocery/warehouse.",
         "5% travel requires booking THROUGH Chase Travel and paying with the card; direct airline/hotel bookings earn 1.5%. Any portion paid with points earns nothing, and FROSCH/Valerie Wilson advisor bookings are excluded. Chase Travel bookings are often less flexible than direct bookings and may forfeit elite credit/benefits.",
         "The DoorDash $10 quarterly benefit is a checkout promo on NON-restaurant orders (grocery, convenience, retail) only, requires active DashPass, must be paid with the physical card credential (not Apple/Google Pay), and is forfeited if unused by quarter end. DashPass auto-renews at the paid rate after the 6 free months.",
-        "There is currently no Instacart benefit on this card even though many 2024 articles still describe one.",
+        "There is currently no Instacart benefit on this card even though many 2024 articles still describe one (the Freedom Instacart+ / $10 quarterly benefit ended 2024-07-31; Chase's 2025-2027 Instacart program covers co-brand and Ink cards only).",
         "3% foreign transaction fee: do not use abroad or with foreign online merchants; Freedom Flex (since 2026-09-21) and Sapphire cards have no FTF.",
         "Points are worth a flat 1 cent on the CFU itself. To get transfer partners or Points Boost you must combine into a Sapphire/Ink Preferred; a household member's card qualifies only if they share your address, you may link with only one person, and the first link typically requires a phone call.",
-        "Combining into a spouse's Sapphire Preferred TODAY does not unlock 1.25 cents in Chase Travel: that legacy rate applies only to points that were already in the CSP by 2025-10-25 (on pre-2025-06-23 accounts) and expires 2027-10-26. Newly combined points redeem at 1 cent, Points Boost (up to 1.5/1.75 cents on select bookings), or 1:1 partner transfers.",
+        "Combining into a spouse's Sapphire Preferred TODAY does not unlock 1.25 cents in Chase Travel: that legacy rate applies only to points that were already in the CSP by 2025-10-25 (on pre-2025-06-23 accounts) and expires 2027-10-26. Newly combined points redeem at 1 cent, Points Boost (up to 1.5/1.75 cents on select bookings), or partner transfers (1:1, except World of Hyatt at 4:3 from a Sapphire Preferred since 2026-10-01).",
         "Purchase protection is $500 per item (lower than Sapphire's $10,000) and is secondary to homeowner's/renter's insurance; extended warranty only applies when the total of manufacturer + store + service-contract warranties is 3 years or less.",
         "Rental car coverage is SECONDARY in the US (your own auto policy pays first; the card covers your deductible) and excludes Turo-style peer-to-peer rentals, trucks other than pickups, and vehicles over $125,000 MSRP.",
         "No trip delay, baggage delay, lost luggage reimbursement, travel accident or cell phone insurance. Roadside 'assistance' is pay-per-use, not a free tow.",
         "Sign-up bonus eligibility: not available if you currently hold the card or received a CFU bonus in the past 24 months; Chase's 5/24 rule generally applies to approval.",
         "Chase considers manufactured spending, buying/selling points, and reselling gift cards bought with points to be misuse and can freeze or forfeit points."
       ],
-      "dataAsOf": "2026-09-28",
+      "dataAsOf": "2026-10-02",
       "sources": [
         "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
         "https://www.chase.com/personal/credit-cards/freedom/unlimited",
@@ -1567,7 +1605,13 @@
         "https://www.doctorofcredit.com/targeted-chase-freedom-unlimited-3-back-on-gas-or-grocery-august-october/",
         "https://frequentmiler.com/chase-freedom-unlimited-now-offering-30k-300-after-only-500-in-spend/",
         "https://www.doctorofcredit.com/chase-freedom-unlimited-200-5-back-on-gas-grocery-first-year-in-branch-only/",
-        "https://www.doctorofcredit.com/tag/chase-freedom/"
+        "https://www.doctorofcredit.com/tag/chase-freedom/",
+        "https://www.chase.com/sapphire-cards/personal/preferred",
+        "https://media.chase.com/news/Meet-the-New-Chase-Sapphire-Preferred",
+        "https://thepointsguy.com/news/chase-hyatt-transfer-ratio-change/",
+        "https://www.chase.com/personal/credit-cards/education/basics/how-chase-ultimate-rewards-works",
+        "https://www.doctorofcredit.com/chase-launches-new-design-on-chase-freedom-unlimited/",
+        "https://frequentmiler.com/chase-instacart-benefits-now-available-on-many-cards/"
       ],
       "shortName": "Freedom Unlimited",
       "color": "#1e40af"
@@ -1747,16 +1791,6 @@
       },
       "perks": [
         {
-          "name": "10% back: Amazon.com Prime Card Bonus items (rotating selection)",
-          "details": "Eligible Prime membership; items shipped and sold by Amazon.com; offer active at time of purchase; automatic, no activation '10% back or more' TOTAL (includes the base 5%); current deal filters show 10%, 15%, and 20% total tiers (e.g., Ring, TP-Link, Command, Play-Doh, HP in Sept 2026). Excludes purchases via Installments/equal monthly payments, Prime Wardrobe, and Amazon Fresh. Extra % posts within about a week of the transaction posting. Browse at amazon.com/b?node=121188110011.",
-          "source": ""
-        },
-        {
-          "name": "6% back: Amazon.com orders with Amazon Day or No-Rush delivery (promotional)",
-          "details": "Eligible Prime membership; offer must appear at checkout; items shipped by Amazon; not for software subscriptions, gift cards, digital video games or memberships; cancelled or changed shipping speed voids it 'From time to time' offer: extra 1% (6% total) for qualifying delivery options; extra 2-3% (7-8% total) during Prime Day, Prime Big Deal Days, and holidays. Amazon help page GHJG8KU6QURQMMUU and Offer Details. Not available without eligible Prime.",
-          "source": ""
-        },
-        {
           "name": "Prime Card Bonus (10%+ back on rotating Amazon items)",
           "details": "Eligible Prime cardmembers earn 10% back or more TOTAL (5% base + extra) on a rotating selection of items and categories shipped and sold by Amazon.com; limited-time, while supplies last, automatic with no sign-up; excludes Installments, Prime Wardrobe and Amazon Fresh; extra % posts within about a week. Deals page: amazon.com/b?node=121188110011 (tiers of 10%, 15%, 20% total shown Sept 2026).",
           "source": "https://www.amazon.com/b?ie=UTF8&node=121188110011"
@@ -1805,14 +1839,13 @@
       ],
       "acceptance": "Visa credit card: accepted anywhere Visa is accepted, including Costco warehouses and Costco gas stations, which accept 'All Visa Cards' in-store (Costco payment-methods page published 03/02/2026; Costco.com also takes Mastercard). No foreign transaction fees, so usable abroad; 5% is not earned on international Amazon sites or international Whole Foods. Rewards points can only be spent via Shop with Points at Amazon.com/Whole Foods in-store/Amazon Pay merchants or redeemed at chase.com; they are not Ultimate Rewards.",
       "recentChanges": [
-        "2023-05-01: Card renamed from Amazon Prime Rewards Visa Signature to 'Prime Visa'; added 5% back on Chase Travel and 2% back on local transit and commuting including rideshare; rewards began posting daily (Sun-Fri) with next-day redemption at Amazon; new card design (Chase press release).",
-        "2024-10-01: Current Guide to Benefits BGC11359 took effect (Auto Rental Coverage secondary in US up to $60,000; Purchase Protection $500/item, $50,000/account, 120 days; Extended Warranty +1 year, $10,000/item; Baggage Delay $100/day x3; Lost Luggage $3,000; Travel Accident $500,000 common carrier; pay-per-use Roadside Assistance; Travel and Emergency Assistance).",
         "2025-11 (Wayback 2025-11-14): Holiday welcome offer of $250 Amazon Gift Card on approval; back to $150 by Feb 2026.",
         "2026-01-09: Rewards Program Agreement revised (RPA0441_0510, printed date 01/09/2026): codifies 5-2-1 vs 3-2-1 structure, Chase Travel definition (excludes FROSCH), Daily Rewards, Amazon Pay exclusion, and the rule that the card drops to 3% if the Amazon account loses eligible Prime, unlinks the card, is closed, selects a different card, or opens another Prime Visa.",
         "2026-06-11 to 2026-07-09: Welcome offer raised to $200 Amazon Gift Card for Prime Day (Doctor of Credit, The Points Guy); reverted to $150 afterward.",
         "2026-06/07 (between Wayback snapshots 2026-06-08 and 2026-07-12): Chase and Amazon changed the 5% headline from 'Amazon.com, Amazon Fresh, Whole Foods Market, and on Chase Travel' to 'Amazon.com, Audible.com, Whole Foods Market, and on Chase Travel'. Amazon Fresh STILL earns 5% (fine print: 'Amazon Fresh orders'; Amazon benefits page: 'and on Amazon Fresh'). amazon.com/primevisa/benefits now explicitly lists Audible.com, Shopbop, Twitch/Woot via Amazon Pay, Prime Video, Kindle Unlimited, Amazon Pharmacy, One Medical, PillPack as earning 5%, and explicitly EXCLUDES Zappos, Ring, AbeBooks, Blink, Eero, Amazon Games, Wondery, Amazon Music and Buy with Prime. Whether Audible newly began earning 5% or was merely newly advertised could not be verified.",
-        "2026-07-01 to 2026-09-30: Targeted (not universal) promotion reported by Kudos: 5%-9% TOTAL back at grocery stores, gas stations and restaurants on up to $1,000 combined spend, excluding Amazon.com/Whole Foods; bonus posts 6-8 weeks after the promo ends. Not verifiable from public official pages (verified: false).",
-        "2026-09 (current): $0 annual fee, no FX fee, $150 gift card offer, variable APR 18.74%-27.49% (penalty up to 29.99%), cash advance APR 28.49%, balance transfer/cash advance fee greater of $5 or 4% (Chase Pricing & Terms LGC59329). No devaluation of the 5/2/1 structure found."
+        "2026-07-01 to 2026-09-30: Targeted (not universal) promotion reported by Kudos: 5%-9% TOTAL back at grocery stores, gas stations and restaurants on up to $1,000 combined spend, excluding Amazon.com/Whole Foods; bonus posts 6-8 weeks after the promo ends. Not verifiable from public official pages (verified: false). Promotion window ENDED 2026-09-30; no Q4 2026 (Oct-Dec) targeted category offer found as of 2026-10-02 (prior years ran Oct 1-Dec 31 offers via chase.com/mybonus, so check your Chase account).",
+        "2026-09 (current): $0 annual fee, no FX fee, $150 gift card offer, variable APR 18.74%-27.49% (penalty up to 29.99%), cash advance APR 28.49%, balance transfer/cash advance fee greater of $5 or 4% (Chase Pricing & Terms LGC59329). No devaluation of the 5/2/1 structure found.",
+        "2026-10-02: Quarterly re-check: no changes to the 5%/2%/1% structure, $0 annual fee, no FX fee, $150 welcome gift card, APR range, or Guide to Benefits BGC11359 protections found since 2026-09-28. Prime Visa remains EXCLUDED from Chase's co-brand DoorDash DashPass benefit (12 months free DashPass for activations through 12/31/2027, plus $10/month non-restaurant discount for first-time activations 09/01/2026-12/31/2027 on eligible co-brands; Amazon, Instacart and DoorDash cards excluded) and is not part of the Chase-Lyft earning partnership (Sapphire/Freedom/Ink only, through 2027-09-30)."
       ],
       "gotchas": [
         "Prime lapse: if your Amazon account loses an eligible Prime membership (or the Prime Video-only plan / invited-guest status is all you have), the card keeps working but Amazon/Whole Foods/Chase Travel earning drops from 5% to 3%, and Prime Card Bonus and delivery-option bonuses stop. Earning status is set at time of purchase; check Your Account > Your Payments > expand the card.",
@@ -1830,9 +1863,10 @@
         "No trip cancellation/interruption, no trip delay, no cell phone protection, no return protection. Baggage/travel accident benefits define Common Carrier to exclude rideshare, taxis, commuter rail and commuter bus.",
         "Roadside Assistance is pay-per-use dispatch (a fee is charged to the card), not free towing.",
         "New York residents: Purchase Protection window is 90 days; Lost Luggage additionally capped at $2,000 per bag and $10,000 per trip.",
-        "Welcome gift card only for applicants without an existing Amazon Visa or Prime Visa; the card is issued as Visa Signature or Visa Platinum depending on credit line, so Visa Signature-only network perks are not guaranteed."
+        "Welcome gift card only for applicants without an existing Amazon Visa or Prime Visa; the card is issued as Visa Signature or Visa Platinum depending on credit line, so Visa Signature-only network perks are not guaranteed.",
+        "No Chase partner perks: unlike most Chase cards, the Prime Visa gets NO complimentary DoorDash DashPass or DoorDash monthly discount (Chase co-brand DashPass terms exclude the Amazon cards) and NO bonus earning on Lyft (Lyft rides earn the normal 2% local transit/rideshare rate)."
       ],
-      "dataAsOf": "2026-09-28",
+      "dataAsOf": "2026-10-02",
       "sources": [
         "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards",
         "https://creditcards.chase.com/cash-back-credit-cards/amazon",
@@ -1861,7 +1895,11 @@
         "https://www.doctorofcredit.com/chase-amazon-prime-visa-200-signup-bonus-with-no-spend-required-june-11-july-9/",
         "https://upgradedpoints.com/credit-cards/reviews/amazon-prime-visa-card/benefits/",
         "https://www.bankrate.com/credit-cards/reviews/amazon-prime-rewards-visa-signature-benefits-guide/",
-        "https://www.joinkudos.com/blog/prime-visa-bonus-up-to-9-back-through-sept-30-2026-targeted"
+        "https://www.joinkudos.com/blog/prime-visa-bonus-up-to-9-back-through-sept-30-2026-targeted",
+        "https://www.chase.com/digital/resources/terms-of-use/cobrand-doordash",
+        "https://media.chase.com/news/chase-extends-partnership-with-doordash",
+        "https://upgradedpoints.com/credit-cards/chase-cards-doordash-perks/",
+        "https://press.aboutamazon.com/2026/9/prime-big-deal-days-is-back-october-6-7-kicking-off-the-season-with-two-days-of-exclusive-savings-for-prime-members"
       ],
       "shortName": "Prime Visa",
       "color": "#0891b2"
@@ -1948,10 +1986,11 @@
             "flights"
           ],
           "enrollmentRequired": true,
-          "howToUse": "Existing cardmembers must complete a one-time activation via the Chase offer link/email or by phone (new applicants are auto-registered at card activation). Pay the airline directly (airline website, app, counter): tickets, award taxes/fees, bag fees and paid upgrades were reported by cardholders to count; United TravelBank loads reported to work. Purchases through travel agencies/online travel sites and Chase Travel do not qualify. Only $50 per half-year window regardless of spend above $250. Chase may reverse the credit if the account is closed within 90 days of receiving it. This is a promotional benefit, not a permanent card feature.",
+          "howToUse": "Existing cardmembers must complete a one-time activation via the Chase offer link/email (reported as chase.com/mybonus/marriott-airline-credit) or by phone (new applicants are auto-registered at card activation). Pay the airline directly (airline website, app, counter): tickets, award taxes/fees, bag fees and paid upgrades were reported by cardholders to count; United TravelBank loads reported to work. Purchases through travel agencies/online travel sites and Chase Travel do not qualify. Only $50 per half-year window regardless of spend above $250. Chase may reverse the credit if the account is closed within 90 days of receiving it. This is a promotional benefit, not a permanent card feature. Some secondary write-ups (Oct 2026) describe the credit as running through 6/30/2027 for all cardholders; per the offer terms seen so far that end date applies to the new-cardmember cohort, while existing cardmembers' offer ends 12/31/2026 - check your own offer terms.",
           "expiresUnused": true,
           "source": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
-          "endsOn": "2026-12-31"
+          "endsOn": "2026-12-31",
+          "verified": false
         },
         {
           "id": "boundless-doordash-10-quarterly",
@@ -2111,7 +2150,6 @@
       ],
       "acceptance": "Visa Signature. Accepted essentially everywhere Visa is, including Costco warehouses in the U.S. (Costco accepts only Visa credit cards in-store; Costco fuel codes as warehouse club, not gas). No foreign transaction fee, chip and contactless enabled, works in Apple Pay/Google Pay/Samsung Pay. Visa is the most widely accepted network abroad. Digital-wallet or third-party-processor purchases only earn category bonuses if the underlying merchant code is in the category.",
       "recentChanges": [
-        "2025-02-01: DashPass benefit added: 12 months complimentary DashPass on first activation between 02/01/2025 and 12/31/2027, plus $10 off one non-restaurant DoorDash order per quarter through 12/31/2027.",
         "2025-11-10: Marriott announced elite-status soft landings for 2026 (members who miss requalification drop only one tier, status valid through February 2027).",
         "2026-01-07: Limited-time $100 airline credit launched for existing Boundless cardmembers: $50 after $250 spent directly with airlines in each half of 2026 (Jan-Jun and Jul-Dec 2026); one-time activation required; ends 12/31/2026.",
         "2026-01-15: Rewards Program Agreement RPA0513 revised (current version); earning structure unchanged: 6X Marriott, 3X first $6,000 combined gas/grocery/dining, 2X other.",
@@ -2135,7 +2173,7 @@
         "No trip cancellation/interruption insurance and no cell-phone protection; trip delay requires a 12-hour delay (Sapphire cards trigger at 6). Rental coverage is secondary in the U.S.",
         "Application rules: Chase 5/24 applies; you are ineligible for the bonus if you currently hold or received a bonus on the Marriott Bonvoy Bountiful/Boundless (or legacy Premier/Premier Plus) or Bold in the last 24 months, or received a bonus on an Amex Marriott Bonvoy Brilliant, Bevy or Business card within 24 months (90-day rule for those Amex cards). The 24-month clock runs from when the last bonus posted."
       ],
-      "dataAsOf": "2026-09-28",
+      "dataAsOf": "2026-10-02",
       "sources": [
         "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
         "https://static.chasecdn.com/content/dam/card/rulesregulations/en/RPA0513_Web.pdf",
@@ -2188,7 +2226,7 @@
         "id": "bilt-points",
         "name": "Bilt Points",
         "unit": "points",
-        "redemption": "Transfer to 18 airlines at 1:1 (Aer Lingus, Air Canada Aeroplan, Air France-KLM Flying Blue, Alaska/Hawaiian Atmos Rewards, Avianca LifeMiles, British Airways, Cathay Pacific, Emirates, Etihad, Iberia, Japan Airlines, Qatar Privilege Club, Southwest, TAP, Turkish, United, Virgin Atlantic, Virgin Red); hotels: World of Hyatt 1:1, Hilton 1:1, IHG 1:1, Marriott 1:1, Wyndham 1:1 (added Mar 2026), Accor 3:2, I Prefer 1:2 (added Jun 2026); rail: Amtrak Guest Rewards 2:1 (added Sep 2026). American Airlines is NOT a partner (ended Jun 2024). Transfers in 1,000-point increments; minimum 2,000 points for Blue status, 1,000 for Silver+; most instant, allow up to 48h (Southwest up to 72h). Bilt Travel portal ~1.25 cents/point (secondary sources; official page not text-readable); statement credit toward Bilt Card balance (min 1,000 points; ~0.55 cents/point per Frequent Miler); rent/mortgage credit; home down payment ~1.5 cents; student loans ~1 cent; Lyft, fitness, Amazon (~0.7 cents). Points do not expire while account is active; all points are forfeited after 18 months of inactivity (no housing payment, Bilt Card purchase, redemption, or sweepstakes entry) or account closure. Third-party valuations: TPG 2.2 cents (Jan 2026); US Credit Card Guide 1.6 cents (Sep 2026)."
+        "redemption": "Transfer to 18 airlines at 1:1 (Aer Lingus, Air Canada Aeroplan, Air France-KLM Flying Blue, Alaska/Hawaiian Atmos Rewards, Avianca LifeMiles, British Airways, Cathay Pacific, Emirates, Etihad, Iberia, Japan Airlines, Qatar Privilege Club, Southwest, TAP, Turkish, United, Virgin Atlantic, Virgin Red); hotels: World of Hyatt 1:1 through 2026-12-31, then 4:3 (1,000 Bilt -> 750 Hyatt) from 2027-01-01 for all members and cards (announced 2026-10-01), Hilton 1:1, IHG 1:1, Marriott 1:1, Wyndham 1:1 (added 2026-03-25), Accor 3:2, I Prefer 1:2 (added 2026-06-22); rail: Amtrak Guest Rewards 2:1 (added 2026-09-23). American Airlines is NOT a partner (ended Jun 2024). Transfers in 1,000-point increments; minimum 2,000 points for Blue status, 1,000 for Silver+; most instant, allow up to 48h (Southwest up to 72h). Bilt Travel portal ~1.25 cents/point (secondary sources; official page not text-readable); statement credit toward Bilt Card balance (min 1,000 points; ~0.55 cents/point per Frequent Miler); rent/mortgage credit; home down payment ~1.5 cents; student loans ~1 cent; Lyft, fitness, Amazon (~0.7 cents). Points do not expire while account is active; all points are forfeited after 18 months of inactivity (no housing payment, Bilt Card purchase, redemption, or sweepstakes entry) or account closure. Third-party valuations: TPG 2.2 cents (Jan 2026); US Credit Card Guide 1.6 cents (Sep 2026)."
       },
       "housingRewards": {
         "description": "Cardholder must pick ONE Rewards Option in the Bilt app; it applies to the whole account (incl. authorized users). Default if none chosen is Housing-only. Changes submitted during a billing cycle take effect the first day of the next billing cycle; option is locked for the cycle in which it is active. No transaction fee on rent/mortgage/HOA under either option. Housing payments must be made through the Bilt app/website with a linked bank account. Housing payments never earn Bilt Cash under either option.",
@@ -2308,9 +2346,9 @@
           },
           {
             "name": "Grubhub / Seamless",
-            "rule": "$10 promo code by email; one delivery order; expires end of month; no alcohol, catering, pickup",
+            "rule": "$10 Grubhub promo card/code (not a gift card) by email; one delivery order; expires at the end of the calendar month in which it is issued (redeem early in the month and use promptly); no alcohol, catering, pickup",
             "cap": "$10/month ($120/yr)",
-            "source": "Bilt Cash Program Terms 3.1.3"
+            "source": "Bilt Cash Program Terms 3.1.3; Frequent Miler (Grubhub redemptions now expiring promo cards)"
           },
           {
             "name": "Bilt Neighborhood Dining",
@@ -2602,7 +2640,7 @@
         },
         {
           "name": "Rent Day transfer bonuses (monthly, status-tiered)",
-          "details": "Each Rent Day features transfer bonuses to one or more partners, tiered by Bilt status (Oct 2026 example: Hilton 75%/100%/150%/175% for Blue/Silver/Gold/Platinum, up to 200% with a $200 Bilt Cash buy-up; Amtrak 25%-100%, $400 buy-up to 125%; 100,000-point transfer cap per promo). Rent Day also often includes status matches and category bonuses.",
+          "details": "Each Rent Day features transfer bonuses to one or more partners, tiered by Bilt status (Oct 2026 example: Hilton 75%/100%/150%/175% for Blue/Silver/Gold/Platinum, up to 200% with a $200 Bilt Cash buy-up; Amtrak 25%-100%, $400 buy-up to 125%; 100,000-point transfer cap per promo; Oct 2026 also adds a 90-day Hilton status challenge). Rent Day also often includes status matches and category bonuses.",
           "source": "https://onemileatatime.com/guides/bilt-rent-day-promotion/"
         },
         {
@@ -2640,15 +2678,16 @@
         "2026-01-31: Rent Day double points confirmed for all 2.0 cards (Palladium 4X, 1,000 bonus points/month cap) from 2026-03-01 through 2027-01-01; Wells Fargo-to-2.0 transition deadline set to 2026-02-01.",
         "2026-02-07: Bilt 2.0 cards became functional; legacy Wells Fargo Bilt cards stopped earning rewards after this date.",
         "2026-03-01: Bilt Dining Experiences ($50/mo) and comedy experiences Bilt Cash redemptions began.",
-        "2026-03: Wyndham Rewards added as a 1:1 transfer partner.",
+        "2026-03-25: Wyndham Rewards added as a 1:1 transfer partner.",
         "2026-05-02: Spirit Airlines ceased operations; no longer a usable transfer partner.",
-        "2026-06: Preferred Hotels I Prefer added as a transfer partner at 1:2.",
+        "2026-06-22: Preferred Hotels I Prefer added as a transfer partner at 1:2.",
         "2026-07-14: Bilt Rewards Terms & Conditions revised (status tiers unchanged: 50k/125k/200k points or $10k/$25k/$50k spend).",
         "2026-08-18: Bilt Rewards Points Earning Terms revised (Lyft 2X bonus, Bilt Travel +2X hotels/+1X flights, Walgreens, Metropolis parking, fitness).",
         "2026-08-21: Bilt Cash Program Terms revised (adds Priority Pass guest credits, BLADE, Equinox, Blacklane, hotel credit tiers; confirms no cash-out and $100 rollover).",
-        "2026-09: Amtrak Guest Rewards added as a transfer partner at 2:1 (Bilt:Amtrak).",
+        "2026-09-23: Amtrak Guest Rewards added as a transfer partner at 2:1 (Bilt:Amtrak).",
         "2026-09-18: Bilt Rewards Card Offer Terms revised (current governing version; adds Product Change/upgrade-downgrade rules, 7-day Rewards Option selection window).",
-        "Announced/future: Rent Day double points promotion is scheduled to end 2027-01-01 unless extended. Wells Fargo Bilt cards are fully retired."
+        "2026-10-01: Bilt announced World of Hyatt transfers drop from 1:1 to 4:3 (1,000 Bilt points -> 750 Hyatt points) effective 2027-01-01 for all members, all Bilt cards included (Palladium has no carve-out); 1:1 remains through 2026-12-31. Same day: October Rent Day (Hilton up to 200%, Amtrak up to 125% transfer bonuses by status, Bilt Cash buy-ups).",
+        "Announced/future: World of Hyatt transfer ratio becomes 4:3 on 2027-01-01. Rent Day double points promotion is scheduled to end 2027-01-01 unless extended. Wells Fargo Bilt cards are fully retired."
       ],
       "gotchas": [
         "Bilt Neighborhood Dining: at 20,000+ participating restaurants shown in the Bilt app you earn an extra 1x–3x (up to 5x total) when paying with the Palladium; check the app before dinner.",
@@ -2671,9 +2710,10 @@
         "Authorized users cost $95 each; the primary cardholder chooses whether AU-earned points/Bilt Cash go to the primary's or the AU's Bilt account. Under Flexible, an AU unlocking housing points uses the AU's own Bilt Cash balance.",
         "Points are lost after 18 months with no housing payment, Bilt Card purchase, redemption, or sweepstakes entry.",
         "Statement-credit redemption of points is poor value (~0.55 cents); transfers to Hyatt/airlines or the 1.25-cent travel portal are the intended uses.",
-        "Mastercard is not accepted at US Costco warehouses (Visa only in-store)."
+        "Mastercard is not accepted at US Costco warehouses (Visa only in-store).",
+        "Hyatt transfers are 1:1 only through 2026-12-31; from 2027-01-01 they become 4:3 (33% more Bilt points per Hyatt point). Transfer any points earmarked for Hyatt before year-end."
       ],
-      "dataAsOf": "2026-09-28",
+      "dataAsOf": "2026-10-02",
       "sources": [
         "https://www.bilt.com/card/palladium",
         "https://www.bilt.com/card",
@@ -2711,7 +2751,15 @@
         "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/",
         "https://awardwallet.com/news/bilt-rewards/bilt-cash/",
         "https://www.uscreditcardguide.com/bilt-points-review/",
-        "https://yourmileagemayvary.com/2026/03/16/hidden-benefits-bilt-palladium-card-mastercard-world-legend/"
+        "https://yourmileagemayvary.com/2026/03/16/hidden-benefits-bilt-palladium-card-mastercard-world-legend/",
+        "https://thepointsguy.com/news/bilt-hyatt-transfer-devaluation/",
+        "https://upgradedpoints.com/news/bilt-hyatt-transfer-devaluation/",
+        "https://awardwallet.com/news/bilt-rewards/hyatt-transfer-rate-devaluation",
+        "https://www.doctorofcredit.com/bilt-to-cut-hyatt-transfer-rate-from-11-to-43-live-1-1-27/",
+        "https://www.doctorofcredit.com/bilt-rent-day-october-2026-up-to-125-bonus-to-amtrak-up-to-200-bonus-to-hilton/",
+        "https://frequentmiler.com/bilt-rent-day-for-october-2026-transfer-bonuses-for-amtrak-hilton-free-hilton-status-challenge/",
+        "https://frequentmiler.com/bilt-cash-redemptions-for-grubhub-are-now-promo-cards-that-expire-not-gift-cards/",
+        "https://upgradedpoints.com/news/bilt-rewards-adds-amtrak-transfer-partner"
       ],
       "shortName": "Bilt Palladium",
       "color": "#0f766e",
@@ -2732,7 +2780,7 @@
         "id": "wf-rewards",
         "name": "Wells Fargo Rewards",
         "unit": "points",
-        "redemption": "1 point = $0.01 for every cash-style redemption: Redeem for Purchases (statement credit against a specific past purchase; transaction must be $1 or more and you must have enough points to cover the ENTIRE transaction; credit posts in 5-7 business days), Redeem to Account (credit to an eligible Wells Fargo credit card or checking/savings account), Wells Fargo ATM redemption with a WF debit card (secondary sources: $20 minimum, $20 increments), gift cards (e-gift cards from $10; 250+ merchants), Pay with Rewards at PayPal checkout (no points earned on the redeemed portion; PWR sharing preference must be enabled), and Wells Fargo Travel portal bookings (flights, hotels, car rentals at 1 cent/point; cruise bookings through the portal were discontinued June 30, 2026). Secondary sources report a $25 (2,500-point) minimum for general cash redemptions to an account; not confirmed in the official summary terms. Points Transfer (online only, any amount, no minimum, no increment requirement, transfers are final, most post within minutes): 1:1 to Aer Lingus AerClub, Air France-KLM Flying Blue, Avianca LifeMiles, The British Airways Club, Cathay Pacific (Cathay/Asia Miles, added Apr 28 2026), Iberia Club, JetBlue TrueBlue (added Oct 27/Nov 4 2025), Virgin Atlantic Flying Club / Virgin Red (same Virgin Points currency; some sources count them separately); 1:2 to Choice Privileges and Wyndham Rewards (added Apr 15 2026). The standard no-annual-fee Autograph has the SAME transfer partners and ratios as Autograph Journey (Wells Fargo press releases name both cards and say transfers are available on all WF cards that earn rewards points). Points do not expire while the account is open; closing all rewards-eligible WF cards forfeits points (New York residents receive a check). Bonus-category points post 1-2 months after earning; welcome bonus shows as redeemable within 60 days. Since June 2026 rewards accounts are no longer combined across multiple WF cards; gifting points to other cardholders and automatic redemptions end September 25, 2026."
+        "redemption": "1 point = $0.01 for every cash-style redemption: Redeem for Purchases (statement credit against a specific past purchase; transaction must be $1 or more and you must have enough points to cover the ENTIRE transaction; credit posts in 5-7 business days), Redeem to Account (credit to an eligible Wells Fargo credit card or checking/savings account), Wells Fargo ATM redemption with a WF debit card (secondary sources: $20 minimum, $20 increments), gift cards (e-gift cards from $10; 250+ merchants), Pay with Rewards at PayPal checkout (no points earned on the redeemed portion; PWR sharing preference must be enabled), and Wells Fargo Travel portal bookings (flights, hotels, car rentals at 1 cent/point; cruise bookings through the portal were discontinued June 30, 2026). Secondary sources report a $25 (2,500-point) minimum for general cash redemptions to an account; not confirmed in the official summary terms. Points Transfer (online only, any amount, no minimum, no increment requirement, transfers are final, most post within minutes): 1:1 to Aer Lingus AerClub, Air France-KLM Flying Blue, Avianca LifeMiles, The British Airways Club, Cathay Pacific (Cathay/Asia Miles, added Apr 28 2026), Iberia Club, JetBlue TrueBlue (added Oct 27/Nov 4 2025), Virgin Atlantic Flying Club / Virgin Red (same Virgin Points currency; some sources count them separately); 1:2 to Choice Privileges and Wyndham Rewards (added Apr 15 2026). The standard no-annual-fee Autograph has the SAME transfer partners and ratios as Autograph Journey (Wells Fargo press releases name both cards and say transfers are available on all WF cards that earn rewards points). Points do not expire while the account is open; closing all rewards-eligible WF cards forfeits points (New York residents receive a check). Bonus-category points post 1-2 months after earning; welcome bonus shows as redeemable within 60 days. Since June 2026 rewards balances are no longer AUTOMATICALLY combined across multiple WF cards (each card shows its own balance), but you can still manually move rewards between your own WF card accounts (e.g., Active Cash cash rewards into Autograph points before transferring), per Frequent Miler/Miles to Memories reporting of the WF notice; gifting points to other cardholders and automatic redemptions ended September 25, 2026."
       },
       "earning": [
         {
@@ -2944,7 +2992,7 @@
         "2026-02: The Points Guy named the Autograph its 2026 No-Annual-Fee Credit Card of the Year (recognition, not a product change).",
         "2026-04-15: Wyndham Rewards added as a 1:2 transfer partner (second hotel partner). Press release: available on all Wells Fargo cards that earn rewards points, including Autograph and Autograph Journey.",
         "2026-04-28: Cathay Pacific (Cathay/Asia Miles) added as a 1:1 transfer partner. Total now 10 programs (8 airline, 2 hotel), 11 if Virgin Red is counted separately from Virgin Atlantic Flying Club.",
-        "2026-06 (notice dated ~June 7-10, 2026): Wells Fargo Rewards accounts are no longer combined across multiple WF cards (each card keeps its own balance, so Active Cash cash rewards can no longer be pooled with Autograph points for transfers). Travel redemption provider changed to Aspire Lifestyles (AMERICAS) Inc.; cruise bookings through the rewards travel portal discontinued; email address on file required for travel bookings effective June 30, 2026.",
+        "2026-06 (notice dated ~June 7-10, 2026): Wells Fargo Rewards balances are no longer automatically combined across multiple WF cards (each card keeps its own balance); manually moving rewards between your OWN cards (e.g., Active Cash cash rewards into Autograph points) remains possible per Frequent Miler and Miles to Memories (correction 2026-10-02 of earlier wording that said pooling was no longer possible). Travel redemption provider changed to Aspire Lifestyles (AMERICAS) Inc.; cruise bookings through the rewards travel portal discontinued; email address on file required for travel bookings effective June 30, 2026.",
         "2026-09-25: Automatic redemptions and gifting of rewards to other cardholders discontinued.",
         "Welcome offer: 20,000 points after $1,000 in 3 months has been the standard public offer throughout 2025-2026 (no elevated public offer seen; a 30,000-point offer existed in late 2023)."
       ],
@@ -2960,11 +3008,11 @@
         "Roadside Dispatch is not free roadside assistance; you pay a per-call fee (about $79.95 per secondary sources) plus mileage over 5 miles.",
         "Redeem for Purchases requires enough points to cover the ENTIRE selected transaction ($1 minimum); general cash redemptions to an account reportedly have a $25 minimum and ATM redemptions are in $20 increments. Bonus-category points post 1-2 months after the purchase.",
         "Points transfers are online only and irreversible; partner program rules (e.g., Flying Blue dynamic pricing, BA/Iberia/Aer Lingus Avios household rules) apply after transfer. Choice and Wyndham are 1:2, everything else 1:1.",
-        "As of June 2026 rewards from different WF cards are no longer pooled, and as of Sept 25, 2026 you can no longer gift points to another cardholder or set up automatic redemptions.",
+        "As of June 2026 rewards from different WF cards are no longer pooled automatically (you must move them manually between your own cards before transferring), and since Sept 25, 2026 you can no longer gift points to another cardholder or set up automatic redemptions.",
         "My Wells Fargo Deals require activating each deal and paying the merchant directly with the physical/virtual card number; digital wallet or third-party payment may not qualify.",
         "Wells Fargo typically will not pay a welcome bonus if you opened the same card in the last 48 months, and Autograph product changes to/from other WF cards have historically been unavailable."
       ],
-      "dataAsOf": "2026-09-28",
+      "dataAsOf": "2026-10-02",
       "sources": [
         "https://creditcards.wellsfargo.com/cards/autograph-visa-credit-card/",
         "https://www.wellsfargo.com/credit-cards/autograph-visa/terms/?lang=en",
@@ -2994,7 +3042,11 @@
         "https://www.cnbc.com/select/wells-fargo-autograph-card-review/",
         "https://wallethub.com/edu/cc/wells-fargo-autograph-card-benefits/148943",
         "https://wallethub.com/answers/cc/wells-fargo-roadside-assistance-1000409-2140757679/",
-        "https://customerservice.costco.com/app/answers/answer_view/a_id/719/~/what-payment-methods-are-accepted-at-costco"
+        "https://customerservice.costco.com/app/answers/answer_view/a_id/719/~/what-payment-methods-are-accepted-at-costco",
+        "https://www.wellsfargo.com/credit-cards/features/cell-phone-protection/",
+        "https://cardbenefits.wf.com/product/visa_autograph/",
+        "https://frequentmiler.com/wells-fargo-changes-transfers-to-other-users-ending-points-will-no-longer-automatically-be-combined/",
+        "https://milestomemories.com/wells-fargo-ending-rewards-pooling-and-gifting/"
       ],
       "shortName": "WF Autograph",
       "color": "#b91c1c"
@@ -3018,7 +3070,7 @@
           "rate": 3,
           "cap": null,
           "conditions": "Purchases made directly from Apple with Apple Card by any method (Apple Pay, titanium card, or virtual card number). Includes Apple Card Monthly Installments purchases (3% paid up front on the full purchase price).",
-          "notes": "Per Customer Agreement: Apple retail stores, the Apple online store, iTunes, Apple Music and other Apple-owned properties, App Store purchases including in-app purchases and subscriptions. EXCLUDES Apple goods/services bought through third-party retailers or Apple authorized resellers (e.g. Best Buy, Amazon, carriers), and any payment made through a third-party wallet. Not stackable: a purchase at Apple via Apple Pay earns 3%, not 3%+2%."
+          "notes": "Per Customer Agreement: Apple retail stores, the Apple online store, iTunes, Apple Music and other Apple-owned properties, App Store purchases including in-app purchases and subscriptions. EXCLUDES Apple goods/services bought through third-party retailers or Apple authorized resellers (e.g. Best Buy, Amazon, carriers), and any payment made through a third-party wallet. Not stackable: a purchase at Apple via Apple Pay earns 3%, not 3%+2%. Also 3% on Apple Upgrade lease payments made with Apple Card (Apple's Klarna-backed leasing program for iPhone, iPad, Mac and Apple Watch, launched in the US 2026-07-28; it replaced the iPhone Upgrade Program). Apple Card Monthly Installments remain available alongside it."
         },
         {
           "category": "everything",
@@ -3050,7 +3102,7 @@
           "rate": 3,
           "conditions": "US only; must book through the exclusive link booking.com/apple-card (or the link in Wallet > Rewards & Offers), pay in advance directly to Booking.com using an eligible rate type, and pay with Apple Card via Apple Pay.",
           "validThrough": null,
-          "notes": "Eligible: stays paid in full to Booking.com before check-in ('Pay now', 'Pay later' if paid to Booking.com before check-in, 'Pay part now, part later' etc.) and car rentals on 'Pay now' or the 'pay now' portion of 'Pay part now, part later'. NOT eligible: 'Pay at the property', 'Pay when you stay', 'Pay at pickup', 'Partner Offer' rates; flights, flight+hotel packages, cruises, attractions, airport taxis; amounts paid to the property or rental company; corporate/B2B/white-label sites; bookings from a non-US IP address; bookings in the Booking.com app or site without the exclusive link may not qualify. Look for the 'Apple Card Benefits' badge. Additional perk fulfilled by Booking.com: 2% Booking.com Travel Credits on eligible bookings (earned after stay completes, usable only on future Booking.com bookings) and fast-track to Genius Level 2 after one eligible stay/rental. Added 2024-12-09.",
+          "notes": "Eligible: stays paid in full to Booking.com before check-in ('Pay now', 'Pay later' if paid to Booking.com before check-in, 'Pay part now, part later' etc.) and car rentals on 'Pay now' or the 'pay now' portion of 'Pay part now, part later'. NOT eligible: 'Pay at the property', 'Pay when you stay', 'Pay at pickup', 'Partner Offer' rates; flights, flight+hotel packages, cruises, attractions, airport taxis; amounts paid to the property or rental company; corporate/B2B/white-label sites; bookings from a non-US IP address; bookings in the Booking.com app or site without the exclusive link may not qualify. Look for the 'Apple Card Benefits' badge. Additional perk fulfilled by Booking.com: 2% Booking.com Travel Credits on eligible bookings (earned after stay completes, usable only on future Booking.com bookings) and fast-track to Genius Level 2 after one eligible stay/rental. Added 2024-11-19.",
           "via": "apple-pay"
         },
         {
@@ -3058,7 +3110,7 @@
           "rate": 3,
           "conditions": "Apple Card with Apple Pay for EV charging at public ChargePoint stations via the ChargePoint app, contactless readers at the station, or the ChargePoint Wallet pass; and home charger purchases at ChargePoint.com.",
           "validThrough": null,
-          "notes": "Not valid at private charging stations, fleet services, commercial hardware/software, ChargePoint support services (Assure/AssurePro) or third-party hardware. Added 2024-12-09.",
+          "notes": "Not valid at private charging stations, fleet services, commercial hardware/software, ChargePoint support services (Assure/AssurePro) or third-party hardware. Added 2024-11-19.",
           "via": "apple-pay"
         },
         {
@@ -3212,7 +3264,8 @@
       "perks": [
         {
           "name": "Issuer transition: Goldman Sachs → JPMorgan Chase",
-          "details": "Issued by Goldman Sachs Bank USA, Salt Lake City Branch (Member FDIC). On 2026-01-07 Apple, Goldman Sachs and JPMorgan Chase announced Chase will become the issuer; transition expected to take approximately 24 months from announcement (i.e. around early 2028), subject to closing conditions and regulatory approvals. Goldman Sachs continues to issue and service all accounts until the transition completes. As of 2026-09-29 the issuer of record is still Goldman Sachs Bank USA."
+          "details": "Issued by Goldman Sachs Bank USA, Salt Lake City Branch (Member FDIC). On 2026-01-07 Apple, Goldman Sachs and JPMorgan Chase announced Chase will become the issuer; transition expected to take approximately 24 months from announcement (i.e. around early 2028), subject to closing conditions and regulatory approvals. Goldman Sachs continues to issue and service all accounts until the transition completes. As of 2026-10-02 no closing date, regulatory approval or completion has been announced; the issuer of record is still Goldman Sachs Bank USA and the network stays Mastercard. Apple says Daily Cash (up to 3%), no fees, Apple Card Family, Savings access, ACMI and Wallet management continue; card-number changes 'if any' will be communicated as the date approaches.",
+          "source": "https://www.apple.com/newsroom/2026/01/chase-to-become-new-issuer-of-apple-card/ ; https://learn.applecard.apple/transition ; https://www.jpmorganchase.com/ir/news/2026/chase-to-become-new-issuer-of-apple-card"
         },
         {
           "name": "Mastercard Zero Liability Protection",
@@ -3241,7 +3294,7 @@
         },
         {
           "name": "Apple Card Savings (high-yield savings account)",
-          "details": "Goldman Sachs Bank USA, Member FDIC. 3.50% APY as of 2026-09-23 (variable). No fees, no minimum deposit or balance. Maximum balance $1,000,000 (Deposit Account Agreement effective 2026-03-19); FDIC insurance is the standard $250,000 per depositor. Available to Apple Card Owners and Co-Owners only (not Participants); not available in Guam, Northern Mariana Islands or US Minor Outlying Islands. Opening Savings automatically elects ALL future Daily Cash to Savings (changeable any time). Interest compounds daily, credited monthly. Fund from Apple Cash or a linked bank; external withdrawals take 1-3 business days; transfer limits apply to/from Apple Cash. Apple says Savings access continues through the Chase transition with details to follow.",
+          "details": "Goldman Sachs Bank USA, Member FDIC. 3.50% APY as of 2026-09-23 (variable). No fees, no minimum deposit or balance. Maximum balance $1,000,000 (Deposit Account Agreement effective 2026-03-19); FDIC insurance is the standard $250,000 per depositor. Available to Apple Card Owners and Co-Owners only (not Participants); not available in Guam, Northern Mariana Islands or US Minor Outlying Islands. Opening Savings automatically elects ALL future Daily Cash to Savings (changeable any time). Interest compounds daily, credited monthly. Fund from Apple Cash or a linked bank; external withdrawals take 1-3 business days; transfer limits apply to/from Apple Cash. Apple says Savings access continues through the Chase transition with details to follow. The Wall Street Journal reported (Jan 2026, not confirmed by Apple) that JPMorgan plans to launch a new Apple savings account and existing Goldman Savings customers will choose whether to stay at Goldman or open an account with JPMorgan.",
           "source": "https://learn.applecard.apple/savings ; https://support.apple.com/en-us/102163 ; https://www.goldmansachs.com/terms-and-conditions/Deposits-Account-Agreement.pdf"
         },
         {
@@ -3268,22 +3321,22 @@
       ],
       "acceptance": "Mastercard network, accepted worldwide wherever Mastercard is; Apple says Mastercard will remain the network after the Chase transition. Three ways to pay: Apple Pay (2% or 3%), the numberless titanium card (1%), or the virtual card number in Wallet for sites/apps without Apple Pay (1%). NOT usable in Costco US warehouses or Costco gas stations, which accept only Visa credit cards (Costco takes Apple Pay, but the underlying card must be Visa); Costco.com online does accept Mastercard including Apple Card. Card is available only to US residents (Goldman Sachs Bank USA; account managed in Wallet/card.apple.com); Savings not offered in Guam, NMI, US Minor Outlying Islands. The 2% rate depends on Apple Pay acceptance (about 85% of US merchants per Apple); non-contactless terminals and most gas pumps without tap or an app fall to 1%.",
       "recentChanges": [
-        "2024-12-09: Booking.com and ChargePoint added as 3% Daily Cash merchants; new Booking.com 2% Travel Credits + Genius Level 2 perk. Panera Bread removal announced.",
-        "2025-02-01: Panera Bread dropped from 3% to the standard 2% Apple Pay rate (first partner ever removed).",
         "2025-05-08: Uber One 6-month free trial perk launched. Apple notified users that T-Mobile would drop to 2% on 2025-07-01.",
         "2025-05-28: Savings APY cut 3.75% -> 3.65% (earlier: 3.90% -> 3.75% in March 2025).",
         "2025-07-01: T-Mobile removed from the 3% list (partner since 2019-09-19); T-Mobile now earns 2% with Apple Pay.",
         "2025-08-15 to 2025-09-15: Limited-time 5% Daily Cash at Exxon, Mobil and ChargePoint via Apple Pay on up to $500 combined spend ($25 max). Ended.",
         "2025-11-04: Hertz added as a 3% Daily Cash merchant with Hertz-fulfilled rental perks (5%+ off Pay Later, free roadside, free additional driver, $16.95/day LDW).",
+        "2025-11-18 to 2025-12-15: Limited-time 5% Daily Cash at Ace Hardware (through 2025-12-15) and Booking.com (booked and paid by 2025-12-05) via Apple Pay, up to $500 spend each. Ended.",
         "2026-01-07: Apple, Goldman Sachs and JPMorgan Chase announced Chase will become Apple Card's issuer; ~24-month transition (expected around early 2028), subject to regulatory approval; >$20B portfolio. Apple states Daily Cash (up to 3%), no fees, Apple Card Family, Savings access, ACMI and the Mastercard network all continue; card number/physical card changes 'if any' and Savings specifics to be communicated later; credit reports will show Chase after transition. Goldman services accounts until then.",
         "2026-03-19: Savings Deposit Account Agreement revised (effective date); $1,000,000 maximum balance unchanged.",
         "2026-04-23: Savings APY cut 3.65% -> 3.50%.",
-        "2026-06 (June): Savings APY cut 3.50% -> 3.40% (record low).",
+        "2026-06-04: Savings APY cut 3.50% -> 3.40% (record low).",
         "2026-06-15 to 2026-07-15: Limited-time 6% Daily Cash at Nike (stores, Nike.com, Nike apps, Swoosh.com) via Apple Pay on up to $500 spend ($30 max). Ended.",
         "2026-07-01: Variable purchase APR range set at 17.49%-27.74% (Prime 6.75% + 10.74%-20.99%; cap 29.99%).",
+        "2026-07-28: Apple Upgrade (Klarna-backed device leasing) launched in the US, replacing the iPhone Upgrade Program; lease payments made with Apple Card earn 3% Daily Cash. ACMI continues.",
         "2026-08-18 to 2026-09-15: Limited-time 5% Daily Cash at Booking.com, Hertz, ChargePoint, Exxon and Mobil via Apple Pay on up to $750 combined spend ($37.50 max). Ended.",
         "2026-09-22: Savings APY raised 3.40% -> 3.50% (first increase since January 2024).",
-        "Announced/pending: Chase issuer transition ~early 2028; Apple says more details (card numbers, physical cards, Savings) will be shared as the date approaches. No benefit changes have been announced as of 2026-09-29.",
+        "Announced/pending: Chase issuer transition ~early 2028 (no closing date or regulatory approval announced as of 2026-10-02); Apple says more details (card numbers, physical cards, Savings) will be shared as the date approaches. WSJ reported Chase will offer a new Apple savings account with existing Goldman Savings customers able to stay or move (not confirmed by Apple). No benefit changes have been announced as of 2026-10-02.",
         "Not a change but a common misconception: Chevron/Texaco have never been Apple Card 3% partners; the only gas partners are Exxon and Mobil (since 2020-06-29)."
       ],
       "gotchas": [
@@ -3307,7 +3360,7 @@
         "Apple Card is US-only and Wallet/iPhone-centric; the account is managed in the Wallet app or card.apple.com (no standalone bank app).",
         "Issuer will change to Chase around early 2028; expect communications about possible card-number/physical-card changes and Savings arrangements, but nothing has changed yet."
       ],
-      "dataAsOf": "2026-09-28",
+      "dataAsOf": "2026-10-02",
       "sources": [
         "https://www.apple.com/apple-card/",
         "https://support.apple.com/en-us/120400",
@@ -3344,12 +3397,20 @@
         "https://www.macrumors.com/guide/apple-card/",
         "https://appleinsider.com/articles/26/09/23/apple-card-savings-interest-rate-edges-up-to-35",
         "https://9to5mac.com/2025/01/18/apple-card-3-percent-panera-loss/",
-        "https://yourmileagemayvary.com/2024/12/09/apple-card-updates-new-merchants-new-travel-benefit-and-panera-bread-set-to-drop/",
         "https://www.nerdwallet.com/credit-cards/learn/apple-card-3-percent-merchants",
         "https://www.doctorofcredit.com/new-benefit-for-apple-card-6-months-of-uber-one-for-free/",
         "https://hellosafe.com/credit-card-insurance/united-states/apple/mastercard",
         "https://wallethub.com/edu/cc/apple-card-benefits/144591",
-        "https://discussions.apple.com/thread/253497042"
+        "https://discussions.apple.com/thread/253497042",
+        "https://www.macrumors.com/2024/11/19/apple-card-daily-cash-back-more-partners/",
+        "https://9to5mac.com/2025/11/04/apple-card-adds-hertz-as-a-new-3-daily-cash-partner-plus-more-perks/",
+        "https://9to5mac.com/2025/11/18/apple-card-adds-two-new-5-daily-cash-limited-time-merchants/",
+        "https://9to5mac.com/2026/02/12/apple-card-is-moving-to-chase-heres-everything-we-know",
+        "https://9to5mac.com/2026/05/14/apple-cards-transition-to-chase-heres-whats-not-changing-and-might-be/",
+        "https://www.apple.com/newsroom/2026/07/apple-upgrade-launches-in-the-united-states/",
+        "https://www.macrumors.com/2026/07/28/apple-upgrade-program-klarna/",
+        "https://upgradedpoints.com/news/apple-card-chase-new-issuer/",
+        "https://www.macrumors.com/2026/06/04/apple-card-savings-rate-lower/"
       ],
       "shortName": "Apple Card",
       "color": "#9ca3af"
@@ -3491,7 +3552,7 @@
               "Entertainment",
               "Utilities"
             ],
-            "notes": "Restaurants, Entertainment and Utilities (activation opened Sep 1, 2026; activate any time through Dec 31, 2026). Discover fine print (via Doctor of Credit, CNBC Select, NerdWallet): Restaurants: 'Restaurant purchases include those made at merchants classified as full-service restaurants, cafes, cafeterias, fast-food locations, and caterers. Restaurants located inside of or affiliated with another business, such as hotels or retail stores, and establishments classified as a bakery may not qualify.' Entertainment: 'ticket purchases at movie theaters, sports promoters (professional and semi-professional live events), theatrical promoters, concert promoters, amusement parks, tourist attractions, aquariums, zoos, dance halls, record stores, video rental locations, pool halls and bowling alleys. Tickets for or fees at golf courses, country clubs, some collegiate sporting events, charitable events, as well as cable and digital streaming and subscription services, amusement park tickets purchased on third-party sites, and entertainment and resort packages categorized as travel or hotel do not qualify.' Utilities: 'residential electricity, natural gas, and water service ... purchases made over the phone or online for internet, cable, satellite TV, and mobile and landline phone service. Purchases at physical retail stores for internet, cable, satellite, and mobile and landline phone service do not qualify'; payments through third parties (landlord/property-management), home fuel delivery, standalone streaming and vehicle connectivity services do not qualify. First time Entertainment and Utilities have appeared in a Discover calendar.",
+            "notes": "Restaurants, Entertainment and Utilities (activation opened Sep 1, 2026; activate any time through Dec 31, 2026). Discover fine print (via Doctor of Credit, CNBC Select, NerdWallet): Restaurants: 'Restaurant purchases include those made at merchants classified as full-service restaurants, cafes, cafeterias, fast-food locations, and caterers. Restaurants located inside of or affiliated with another business, such as hotels or retail stores, and establishments classified as a bakery may not qualify.' Entertainment: 'ticket purchases at movie theaters, sports promoters (professional and semi-professional live events), theatrical promoters, concert promoters, amusement parks, tourist attractions, aquariums, zoos, dance halls, record stores, video rental locations, pool halls and bowling alleys. Tickets for or fees at golf courses, country clubs, some collegiate sporting events, charitable events, as well as cable and digital streaming and subscription services, amusement park tickets purchased on third-party sites, and entertainment and resort packages categorized as travel or hotel do not qualify.' Utilities: 'residential electricity, natural gas, and water service ... purchases made over the phone or online for internet, cable, satellite TV, and mobile and landline phone service. Purchases at physical retail stores for internet, cable, satellite, and mobile and landline phone service do not qualify'; payments through third parties (landlord/property-management), home fuel delivery, standalone streaming services, some satellite phone and internet service, vehicle connectivity, and accessories or equipment may not qualify. First time Entertainment and Utilities have appeared in a Discover calendar. Video-game stores/digital game platforms are not in Discover's Entertainment MCC list, and memberships such as Uber One are not restaurant purchases; streaming subscriptions are explicitly excluded from both Entertainment and Utilities (hence the canonical exclusions). Still activatable through Dec 31, 2026, but 5% applies only from the activation date. Re-checked 2026-10-02: no change to Q4 categories or terms.",
             "canonical": {
               "categories": [
                 "dining",
@@ -3500,7 +3561,15 @@
                 "phone-plan"
               ],
               "merchants": [],
-              "tags": []
+              "tags": [],
+              "excludeCategories": [
+                "streaming"
+              ],
+              "excludeMerchants": [
+                "GameStop / Steam / PlayStation Store / Nintendo eShop / Xbox",
+                "Twitch",
+                "Uber One"
+              ]
             },
             "rate": 5
           }
@@ -3643,7 +3712,6 @@
       ],
       "acceptance": "US: Discover says it is accepted at 99% of places that take credit cards nationwide (Feb 2026 Nilson Report, cited on the official card page). Key exception is Costco: warehouses and gas stations are Visa-only (since 2016) and Costco.com dropped Discover on Nov 15, 2023, so a Discover card cannot earn the wholesale-club bonus at Costco at all (Sam's Club and BJ's do accept it). Internationally the Discover Global Network (Discover Network, Diners Club International, PULSE and about 30 alliance partners including JCB in Japan, UnionPay in China, RuPay in India, Elo in Brazil, BC Card in Korea, Troy in Turkey, mada in Saudi Arabia, Prosa in Mexico) claims 185+ countries and territories, but practical acceptance is far thinner than Visa/Mastercard outside the US, Japan, China, India and tourist areas of Mexico/Caribbean; it is patchy in Western Europe (better in Germany/Spain/Greece, weak in France/Italy/Ireland), weak in Canada and South America, and largely absent in Africa and Russia. Carry a Visa/Mastercard backup abroad. No foreign transaction fee; conversions use a government or interbank rate chosen by the issuer. The Capital One acquisition (closed May 18, 2025) did not change the network: Discover it cards remain Discover-branded on the Discover Network (Capital One's FAQ: card brand and network unchanged). Separately, Capital One is moving its own debit cards and some Capital One-branded credit cards (Venture, VentureOne, Savor, SavorOne, Quicksilver, QuicksilverOne) onto the Discover Network, which adds volume to the network but does not change where a Discover it card works.",
       "recentChanges": [
-        "2023-11-15: Costco.com stopped accepting Discover (warehouses had been Visa-only since 2016), eliminating the last way to use this card at Costco.",
         "2025-05-18: Capital One completed its acquisition of Discover Financial Services; Discover-branded cards continue and the Discover, PULSE and Diners Club International networks joined Capital One. Cardmember agreement now names Capital One, N.A. as issuer ('Discover, a division of Capital One, N.A.').",
         "2025-07-31: Amazon 'Pay with Rewards' terms for Discover last modified (Discover it, it Chrome, it Miles and Student variants eligible; some digital goods and Subscribe & Save excluded).",
         "2025-11-30/12-01: Q1 2026 categories announced (Grocery Stores, Wholesale Clubs, Select Streaming Services).",
@@ -3655,7 +3723,8 @@
         "2026-07-27: First migration wave to Capital One's platform. For migrated accounts: rewards can no longer be applied to the minimum payment; Pay with Rewards via Apple Pay removed; gift-card minimum rises from $5 to $25 (5%+ added value continues); new option to redeem against recent purchases; automatic statement-credit redemption must be re-enrolled; new Capital One Offers (up to 15%), Capital One Travel 5%, Capital One Entertainment 5%, CreditWise (FICO Score 8) and virtual card numbers; Freeze It becomes Card Lock; authorized users get new card numbers; some payment due dates pushed later (never earlier). Earn rates, 5% calendar, Cashback Match, $0 annual fee, APR, credit limit, account-open date and primary card number unchanged. Accounts on the legacy Discover platform keep the old redemption rules until they migrate.",
         "2026-09-01: Q4 2026 categories announced and activation opened (Restaurants, Entertainment, Utilities); first time Entertainment and Utilities appeared in the calendar.",
         "2026-09 (card page): official page now shows 0% intro APR 15 months then 18.49%-28.49% variable, the 99%-acceptance claim cites the Feb 2026 Nilson Report, and Capital One features (Card Lock, CreditWise, virtual cards) replace Freeze It/FICO Score copy. Cashback Match footnote updated to exclude transfers from 'Discover or Capital One' deposit accounts.",
-        "As of 2026-09-29: No 2027 quarters announced. Q1 2027 categories are expected on or about Dec 1, 2026. Discover's public 5% calendar widget was returning an error ('the rewards calendar is not working at this time') during this research."
+        "2026-09 (late): Capital One emailed Discover it Student cardholders that their accounts move to Capital One's website/app on 2026-10-19; other Discover it Cash Back accounts continue migrating in waves through early 2027 (card stays Discover-branded on the Discover Network; earn rates, 5% calendar and Cashback Match unchanged).",
+        "As of 2026-10-02: No 2027 quarters announced. Q1 2027 categories are expected on or about Dec 1, 2026. No changes to this card announced since 2026-09-28."
       ],
       "gotchas": [
         "Activation is not retroactive. Unlike Chase Freedom, Discover pays 5% only from the day you activate; activate on the 1st (or when the email arrives ~1 month early) every quarter.",
@@ -3673,7 +3742,7 @@
         "Discover acceptance abroad is spotty (especially Western Europe, Canada, South America); no FX fee is irrelevant if the card is declined. Register travel in the app and carry a Visa/Mastercard.",
         "Discover's public calendar page and its stale offers.json cannot be relied on for current categories; use the logged-in activation page (Discover or Capital One app) or the quarterly announcement email."
       ],
-      "dataAsOf": "2026-09-28",
+      "dataAsOf": "2026-10-02",
       "sources": [
         "https://www.discover.com/credit-cards/cash-back/it-card.html",
         "https://www.discover.com/credit-cards/cash-back/cashback-calendar.html",
@@ -3729,7 +3798,11 @@
         "https://clark.com/credit-cards/discover-eliminates-online-privacy-protection/",
         "https://wtop.com/news/2026/04/what-are-discovers-rewards-categories-right-now/",
         "https://thepointsguy.com/credit-cards/discover-more-widely-accepted-than-you-think/",
-        "https://thepointsguy.com/deals/discover-deals-portal-closing-oct/"
+        "https://thepointsguy.com/deals/discover-deals-portal-closing-oct/",
+        "https://www.doctorofcredit.com/discover-it-student-cardholders-to-be-migrated-to-capital-one-on-10-19-26/",
+        "https://www.insideflyer.com/posts/q4-2026-rotating-5-cashback-categories-now-active/",
+        "https://www.nerdwallet.com/credit-cards/news/discover-rewards-credit-cards-moving-to-capital-one",
+        "https://www.cardrates.com/news/discover-cardholders-move-to-capital-one-what-to-know/"
       ],
       "shortName": "Discover it",
       "color": "#ea580c"
